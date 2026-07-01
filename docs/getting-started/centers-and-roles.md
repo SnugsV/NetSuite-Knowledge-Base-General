@@ -136,6 +136,9 @@ A company uses NetSuite for sales and inventory. Three users have different expe
 - [User Interface Overview](user-interface.md)
 - [Personalization](personalization.md)
 - [Glossary](glossary.md)
+- [Roles](../administration/roles.md)
+- [Permissions](../administration/permissions.md)
+- [Users](../administration/users.md)
 
 ## Oracle References
 
