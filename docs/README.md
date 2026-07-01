@@ -53,15 +53,15 @@ Scripting, APIs, and automation.
 | Module | Status | Description |
 |---|---|---|
 | [Getting Started](getting-started/) | In Progress | Beginner learning path |
-| Administration | Empty | Users, roles, permissions, setup |
+|| [Administration](../administration/) | Complete | Users, roles, permissions, setup, forms, authentication, security |
 | Accounting | Empty | Financial modules |
 | CRM | Empty | Customer management |
-| [Inventory](../inventory/) | Started | Items, locations, transfers |
+|| [Inventory](../inventory/) | In Progress | Fundamentals complete; operations planned |
 | Manufacturing | Empty | Production and assembly |
 | Purchasing | Empty | Vendor and procurement |
 | Sales | Empty | Orders and revenue |
 | Reporting | Empty | Financial and operational reports |
-| [Saved Searches](../saved-searches/) | Started | Search-driven reporting |
+|| [Saved Searches](../saved-searches/) | Complete | Search-driven reporting, criteria, formulas, joins, performance |
 | SuiteAnalytics | Empty | Analytics workbench |
 | [SuiteScript](../suitescript/) | Started | JavaScript customization |
 | [SuiteTalk](../suitetalk/) | Started | REST and SOAP APIs |
