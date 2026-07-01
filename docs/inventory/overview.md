@@ -1,62 +1,50 @@
 ---
 title: Inventory Overview
-department: NetSuite
 module: Inventory
+difficulty: Beginner
+estimated_time: 5 minutes
 status: Draft
-version: 0.1
-created: 2026-07-01
-tags: [inventory, items, locations, transfers, adjustments]
-source_type: Oracle Documentation Summary
+last_reviewed:
 ---
 
 # Inventory Overview
 
-## AI Summary
+## Quick Summary
 
-NetSuite inventory management helps companies track item quantities, locations, transfers, adjustments, and replenishment activity. The exact features available depend on enabled account features, roles, permissions, and whether the account uses modules such as Multi-Location Inventory, Advanced Inventory, WMS, or Manufacturing.
+NetSuite inventory management helps companies track item quantities, locations, transfers, adjustments, and replenishment activity. This module covers the foundational concepts, item records, locations, and transactions that make up NetSuite's inventory system.
 
-## Purpose
+## Difficulty
 
-Use this section to understand the general inventory concepts that appear throughout NetSuite, including items, locations, transfers, transfer orders, adjustments, bins, and replenishment.
+Beginner
+
+## Estimated Time
+
+5 minutes
+
+## Overview
+
+Inventory management in NetSuite connects item records, locations, transactions, valuation, and reporting into a single system. The exact features available depend on the account's configuration — whether features like Multi-Location Inventory, Advanced Inventory, WMS, or Manufacturing are enabled.
 
 ## Key Concepts
 
-- **Item Records:** The master records for products, parts, materials, and other inventory-related objects.
-- **Locations:** Places where inventory is stored, consumed, sold, or transferred.
-- **Inventory Transfer:** A direct quantity movement between locations.
-- **Transfer Order:** A tracked inventory movement that can show stages such as pending, shipped, received, or in transit.
-- **Inventory Adjustment:** A transaction used to increase or decrease quantity, often for corrections, counts, damage, or shrinkage.
-- **Bins:** Storage areas within a warehouse location, if bin management is enabled.
+- **Item Records** — The master records for products, parts, materials, and other inventory-related objects
+- **Locations** — Places where inventory is stored, consumed, sold, or transferred
+- **Inventory Transfer** — A direct quantity movement between locations
+- **Transfer Order** — A tracked inventory movement with stages (pending, shipped, received, in transit)
+- **Inventory Adjustment** — A transaction used to increase or decrease quantity for corrections, counts, damage, or shrinkage
+- **Bins** — Storage areas within a warehouse location (requires bin management)
 
-## Practical Usage
+## Related Articles
 
-Inventory tools are commonly used to answer questions such as:
+- [What Is Inventory Management?](what-is-inventory.md)
+- [Item Records](item-records.md)
+- [Item Types](item-types.md)
+- [Inventory Concepts](inventory-concepts.md)
+- [Inventory Glossary](inventory-glossary.md)
+- [Getting Started: Lists and Records](../getting-started/lists-and-records.md)
 
-- How much stock is available?
-- Where is inventory located?
-- What quantity is committed to open orders?
-- What items need replenishment?
-- What inventory has moved between locations?
-- What adjustments were made and why?
+## Oracle References
 
-## Common Mistakes
-
-- Confusing an inventory transfer with a transfer order.
-- Moving inventory without confirming whether shipment tracking is needed.
-- Using adjustments when a transfer would be more appropriate.
-- Not checking role permissions before assuming a user can view or create inventory transactions.
-
-## Related Topics
-
-- Inventory Transfers
-- Transfer Orders
-- Inventory Adjustments
-- Item Records
-- Bin Management
-- Saved Searches for Inventory
-
-## Official References
-
-- Oracle NetSuite: Basic Inventory Management
-- Oracle NetSuite: Transferring Inventory
-- Oracle NetSuite: Inventory Transfer Orders
+- [Oracle NetSuite: Basic Inventory Management](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/)
+- [Oracle NetSuite: Transferring Inventory](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/)
+- [Oracle NetSuite: Inventory Transfer Orders](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/)
