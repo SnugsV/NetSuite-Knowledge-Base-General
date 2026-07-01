@@ -28,6 +28,27 @@ All notable changes to this repository will be documented here.
 - Updated repository structure diagram in README
 - Updated PROJECT_STATUS.md with framework completion
 
+## [2.2.0] - 2026-07-01 — Repository Navigation & Architecture Cleanup
+
+### Added
+
+- PLATFORM_ARCHITECTURE.md — six-layer architecture overview for new contributors and AI agents
+
+### Changed
+
+- PROJECT_STATUS.md — rewritten to reflect v2.2.0 state: 8 complete ERP modules, 6 AI framework layers, Pacejet integration
+- docs/README.md — fixed module statuses (18 entries updated), corrected relative links, added administrator and operational learning paths
+- BACKLOG.md — added Release 2.2 entry, marked Sprint 0.4 as complete
+- SESSION_REPORT.md — added license recommendation and PR #18/#19 resolution
+
+### License
+
+- License recommendation documented (MIT or CC-BY-4.0). No license file added — requires approval.
+
+### PR Resolution
+
+- PR #18/#19: Determined that PR #19 (Pacejet Intelligence Pack implementation) fully supersedes PR #18 (planning). Recommendation: close PR #18 after PR #19 merge.
+
 ## [0.2.2] - 2026-07-01 — Governance & Framework Finalization
 
 ### Added

@@ -82,6 +82,26 @@ Entire repository current state after Sprint 0.1 cleanup. Reviewed all governanc
 4. **Add CI/CD** — Start with a simple Markdown lint check on PRs
 5. **Create README placeholders** for empty modules only if they have a clear purpose (not just folder labels)
 
+## License Recommendation
+
+**LICENSE.md does not exist.** Recommend one of:
+
+| License | Use Case |
+|---|---|
+| **MIT** | Broad reuse — code examples can be freely used |
+| **CC-BY-4.0** | Documentation-focused — requires attribution |
+| **CC-BY-NC-4.0** | Non-commercial only — restricts commercial use |
+
+Recommended: **CC-BY-4.0** for a documentation-focused project, or **MIT** if code examples are the primary deliverable. No license has been added automatically — requires approval.
+
+## PR #18 / PR #19 Resolution
+
+PR #18 (release/2.1-pacejet-planning) is the Pacejet architecture release plan. PR #19 (release/2.1-pacejet-intelligence) is the actual implementation of that plan across all six layers.
+
+**Determination**: PR #19 fully supersedes PR #18. All useful planning content was incorporated into the implementation. RELEASE_PLAN_2.1.md can be preserved as a standalone planning artifact.
+
+**Recommendation**: Close PR #18 after PR #19 is merged. No content would be lost — the plan's structure was followed for the implementation.
+
 ## Blockers
 
 - No LICENSE.md — project should not go public without one
