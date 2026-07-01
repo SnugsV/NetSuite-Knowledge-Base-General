@@ -39,9 +39,20 @@ Repository structure, governance, templates, project tracking, and cleanup of up
 - Governance consolidation
 - Template unification
 
-## Sprint 0.4 — Saved Searches and Reporting
+### Release 2.2 — Repository Navigation & Architecture Cleanup
 
-**Status: Planned**
+**Status: Complete**
+
+- [x] Updated PROJECT_STATUS.md to current platform state (v2.2.0)
+- [x] Updated docs/README.md — fixed module statuses and relative links
+- [x] Created PLATFORM_ARCHITECTURE.md — six-layer architecture overview
+- [x] Documented PR #18/#19 resolution (PR #19 supersedes PR #18)
+- [x] License recommendation documented (MIT or CC-BY-4.0)
+- [x] Updated CHANGELOG.md and SESSION_REPORT.md
+
+### Sprint 0.4 — Saved Searches
+
+**Status: Complete**
 
 - Saved search criteria and results
 - Formulas in saved searches
