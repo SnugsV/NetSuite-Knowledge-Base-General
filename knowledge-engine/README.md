@@ -45,3 +45,9 @@ Future prompts should be as simple as:
 - **Cross-linked** — Framework documents reference each other
 - **Minimal prompts** — The framework eliminates the need for lengthy instructions
 - **Version-controlled** — All standards evolve through pull requests, not conversation
+
+## AI Skills
+
+The latest evolution of the repository: [ai-skills/](ai-skills/) — structured reasoning guides that teach an AI how to perform specific tasks. Each skill includes decision trees, step-by-step reasoning, validation checklists, and escalation rules.
+
+See [ai-skills/README.md](ai-skills/README.md) for available skills.
