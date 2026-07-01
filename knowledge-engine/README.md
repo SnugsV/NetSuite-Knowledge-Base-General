@@ -45,3 +45,15 @@ Future prompts should be as simple as:
 - **Cross-linked** — Framework documents reference each other
 - **Minimal prompts** — The framework eliminates the need for lengthy instructions
 - **Version-controlled** — All standards evolve through pull requests, not conversation
+
+## Framework Extensions
+
+The framework has been extended with specialized modules:
+
+| Directory | Purpose |
+|---|---|
+| [support-intelligence/](support-intelligence/) | AI reasoning patterns for troubleshooting |
+| [customer-context/](customer-context/) | Customer environment discovery |
+| [ai-skills/](ai-skills/) | Executable AI Skills for specific tasks |
+| [solution-architect/](solution-architect/) | Capability selection and routing |
+| [customer-metadata/](customer-metadata/) | Metadata requirements per solution type |
