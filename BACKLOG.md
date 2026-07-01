@@ -2,21 +2,27 @@
 
 ## Sprint 0.1 — Foundation
 
-**Status: In Progress**
+**Status: Complete**
 
 Repository structure, governance, templates, project tracking, and cleanup of upload artifacts.
 
 ## Sprint 0.2 — Getting Started
 
-**Status: Planned**
+**Status: Complete**
 
-- NetSuite user interface overview
-- Navigation
-- Centers and roles
-- Dashboards
-- Global search
-- Personalization
-- Glossary
+- [x] Foundation improvements (placeholder removal, project tracking upgrades)
+- [x] Documentation homepage (docs/README.md)
+- [x] What Is NetSuite? (improved)
+- [x] NetSuite Editions
+- [x] User interface overview
+- [x] Navigation
+- [x] Centers and roles
+- [x] Dashboards
+- [x] Global search
+- [x] Lists and records
+- [x] Personalization
+- [x] Keyboard shortcuts
+- [x] Glossary
 
 ## Sprint 0.3 — Administration
 
@@ -29,6 +35,8 @@ Repository structure, governance, templates, project tracking, and cleanup of up
 - Authentication and access
 - Audit trail basics
 - Feature enablement
+- Governance consolidation
+- Template unification
 
 ## Sprint 0.4 — Saved Searches and Reporting
 
