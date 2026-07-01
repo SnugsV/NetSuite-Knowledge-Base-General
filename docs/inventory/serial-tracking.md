@@ -150,7 +150,7 @@ A medical device manufacturer implements serial tracking for all implantable dev
 
 - [Lot Tracking](lot-tracking.md)
 - [Bin Management](bin-management.md)
-- [Fulfilling Orders](../fulfilling-orders.md)
+- [Fulfilling Orders](fulfilling-orders.md)
 - [Returns Processing](../returns-processing.md)
 - [Warranty Management](../warranty/README.md) (future module)
 

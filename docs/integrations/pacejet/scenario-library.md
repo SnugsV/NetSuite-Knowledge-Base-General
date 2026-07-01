@@ -384,7 +384,7 @@ Return Authorization created
 - [Label Generation](label-generation.md)
 - [Carrier Integrations](carrier-integrations.md)
 - [Pacejet Troubleshooting Case Library](troubleshooting-case-library.md)
-- [Pacejet Support Intelligence](../../../knowledge-engine/support-intelligence/pacejet-support.md)
+- [Pacejet Support Intelligence](../../knowledge-engine/support-intelligence/pacejet-support.md)
 
 ## Oracle References
 

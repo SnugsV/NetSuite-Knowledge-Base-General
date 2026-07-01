@@ -150,7 +150,7 @@ With landed cost: The chairs are valued at $70. COGS is $70. True margin on a $1
 ## Related Articles
 
 - [Costing Methods](costing-methods.md)
-- [Receiving Inventory](../receiving-inventory.md)
+- [Receiving Inventory](receiving-inventory.md)
 - [Inventory Concepts](../inventory-concepts.md)
 - [Multi-Location Strategy](multi-location-strategy.md)
 

@@ -161,7 +161,7 @@ The distributor chooses **Average Cost** for simplicity and reasonable financial
 
 ## Related Articles
 
-- [Inventory Concepts](../inventory-concepts.md)
+- [Inventory Concepts](inventory-concepts.md)
 - [Landed Cost](landed-cost.md)
 - [Multi-Location Strategy](multi-location-strategy.md)
 - [Inventory Best Practices](inventory-best-practices.md)

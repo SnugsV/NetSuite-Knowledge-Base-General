@@ -141,8 +141,8 @@ A furniture retailer sells 5,000 products but only stocks 500 of the best-sellin
 
 ## Related Articles
 
-- [Fulfilling Orders](../fulfilling-orders.md)
-- [Receiving Inventory](../receiving-inventory.md)
+- [Fulfilling Orders](fulfilling-orders.md)
+- [Receiving Inventory](receiving-inventory.md)
 - [Item Types](../item-types.md)
 - [Purchase Orders](../purchasing/README.md) (future module)
 

@@ -137,9 +137,9 @@ A national distributor with 3 warehouses (Northeast, Midwest, Southwest) serves 
 ## Related Articles
 
 - [Inventory Locations](../inventory-locations.md)
-- [Transfer Orders](../transfer-orders.md)
+- [Transfer Orders](transfer-orders.md)
 - [Replenishment](../replenishment.md)
-- [Cycle Counting](../cycle-counting.md)
+- [Cycle Counting](cycle-counting.md)
 - [Costing Methods](costing-methods.md)
 - [Warehouse Management](../warehouse/README.md) (future module)
 

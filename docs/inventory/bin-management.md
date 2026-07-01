@@ -133,8 +133,8 @@ A distributor with 50,000 SKUs and a 200,000 sq ft warehouse implements bin mana
 ## Related Articles
 
 - [Inventory Locations](../inventory-locations.md)
-- [Cycle Counting](../cycle-counting.md)
-- [Fulfilling Orders](../fulfilling-orders.md)
+- [Cycle Counting](cycle-counting.md)
+- [Fulfilling Orders](fulfilling-orders.md)
 - [Warehouse Management](../warehouse/README.md) (future module)
 
 ## Oracle References

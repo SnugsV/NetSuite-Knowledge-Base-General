@@ -360,9 +360,9 @@ Escalate if batch processing fails consistently, or if the batch size needs to b
 - [Scenario Library](scenario-library.md)
 - [Core Shipping Workflow](shipping-workflow.md)
 - [Rate Shopping](rate-shopping.md)
-- [Pacejet Support Intelligence](../../../knowledge-engine/support-intelligence/pacejet-support.md)
-- [Pacejet Rate Troubleshooter](../../../knowledge-engine/ai-skills/pacejet-rate-troubleshooter.md)
-- [Pacejet Label Troubleshooter](../../../knowledge-engine/ai-skills/pacejet-label-troubleshooter.md)
+- [Pacejet Support Intelligence](../../knowledge-engine/support-intelligence/pacejet-support.md)
+- [Pacejet Rate Troubleshooter](../../knowledge-engine/ai-skills/pacejet-rate-troubleshooter.md)
+- [Pacejet Label Troubleshooter](../../knowledge-engine/ai-skills/pacejet-label-troubleshooter.md)
 
 ## Oracle References
 

@@ -67,7 +67,7 @@ When LLMs receive documentation as context (e.g., in a prompt), they benefit fro
 Cross-links between articles form a knowledge graph. AI systems can traverse this graph to find related content.
 
 - Every article links to 3-5 related articles
-- Links use descriptive text: "[Inventory Transfers](../inventory/inventory-transfers.md)"
+- Links use descriptive text: "[Inventory Transfers](../docs/inventory/inventory-transfers.md)"
 - Links go both directions when possible (if A links to B, B should link to A)
 
 ## Search Engine Optimization

@@ -109,7 +109,7 @@ Advanced
 - [Advanced Inventory Design](advanced-inventory-design.md)
 - [Multi-Location Strategy](multi-location-strategy.md)
 - [Costing Methods](costing-methods.md)
-- [Cycle Counting](../cycle-counting.md)
+- [Cycle Counting](cycle-counting.md)
 - [Replenishment](../replenishment.md)
 - [Common Inventory Mistakes](../common-mistakes.md) (future)
 - All 0.5A and 0.5B articles

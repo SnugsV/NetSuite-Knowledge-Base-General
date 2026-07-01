@@ -34,17 +34,17 @@ New to NetSuite? Start here and follow in order.
 
 Ready to go deeper? Explore operational modules.
 
-- [Inventory Overview](../inventory/overview.md)
-- [Inventory Transfers](../inventory/inventory-transfers.md)
-- [Saved Searches Overview](../saved-searches/overview.md)
-- [Creating Saved Searches](../saved-searches/creating-saved-searches.md)
+- [Inventory Overview](inventory/overview.md)
+- [Inventory Transfers](inventory/inventory-transfers.md)
+- [Saved Searches Overview](saved-searches/overview.md)
+- [Creating Saved Searches](saved-searches/creating-saved-searches.md)
 
 ### Advanced Path
 
 Scripting, APIs, and automation.
 
-- [SuiteScript Overview](../suitescript/overview.md)
-- [SuiteTalk REST Overview](../suitetalk/rest-overview.md)
+- [SuiteScript Overview](suitescript/overview.md)
+- [SuiteTalk REST Overview](suitetalk/rest-overview.md)
 
 ---
 

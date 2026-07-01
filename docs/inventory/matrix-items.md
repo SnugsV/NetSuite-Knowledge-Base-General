@@ -146,9 +146,9 @@ An apparel company launches a new fleece jacket in 4 sizes (S, M, L, XL) and 6 c
 
 ## Related Articles
 
-- [Item Types](../item-types.md)
-- [Item Records](../item-records.md)
-- [Inventory Concepts](../inventory-concepts.md)
+- [Item Types](item-types.md)
+- [Item Records](item-records.md)
+- [Inventory Concepts](inventory-concepts.md)
 - [Pricing](../sales/pricing.md) (future module)
 
 ## Oracle References

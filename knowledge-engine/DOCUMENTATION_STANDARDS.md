@@ -50,7 +50,7 @@ Every article must link to related content. Cross-linking turns individual artic
 ### Rules
 
 - Add a "Related Articles" section at the bottom of every article
-- Use relative paths: `[Navigation](navigation.md)` or `[Inventory Overview](../inventory/overview.md)`
+- Use relative paths: `[Navigation](../navigation.md)` or `[Inventory Overview](../docs/inventory/overview.md)`
 - Each article should link to at least 3-5 related articles
 - Link to articles in other modules where relevant (e.g., a SuiteScript article linking to Saved Searches)
 - Avoid duplicate links within the same article
@@ -58,10 +58,10 @@ Every article must link to related content. Cross-linking turns individual artic
 
 ### Cross-Link Target Types
 
-- **Within module**: `[Navigation](navigation.md)` — same directory
-- **Between modules**: `[Saved Searches](../saved-searches/overview.md)` — parent directory
+- **Within module**: `[Navigation](../navigation.md)` — same directory
+- **Between modules**: `[Saved Searches](../docs/saved-searches/overview.md)` — parent directory
 - **To root docs**: `[License](../../LICENSE.md)` — two levels up
-- **To framework**: `[Standards](../../knowledge-engine/MASTER_PROJECT_PROMPT.md)` — framework references
+- **To framework**: `[Standards](MASTER_PROJECT_PROMPT.md)` — framework references
 
 ## Oracle References
 

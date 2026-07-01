@@ -150,7 +150,7 @@ A food manufacturer implements lot tracking for all raw ingredients.
 - [Serial Tracking](serial-tracking.md)
 - [Bin Management](bin-management.md)
 - [Receiving Inventory](../receiving-inventory.md)
-- [Cycle Counting](../cycle-counting.md)
+- [Cycle Counting](cycle-counting.md)
 - [Quality Management](../quality/README.md) (future module)
 
 ## Oracle References
