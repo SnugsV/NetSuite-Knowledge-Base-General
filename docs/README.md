@@ -30,28 +30,21 @@ New to NetSuite? Start here and follow in order.
 10. [Keyboard Shortcuts](getting-started/keyboard-shortcuts.md)
 11. [Glossary](getting-started/glossary.md)
 
-### Administrator Path
+### Intermediate Path
 
-1. [Administration Overview](administration/administration-overview.md)
-2. [Users](administration/users.md)
-3. [Roles](administration/roles.md)
-4. [Permissions](administration/permissions.md)
-5. [Company Setup](administration/company-setup.md)
-6. [Authentication](administration/authentication.md)
+Ready to go deeper? Explore operational modules.
 
-### Operational Path
-
-1. [Inventory: What Is Inventory?](inventory/what-is-inventory.md)
-2. [Purchasing: What Is Procurement?](purchasing/what-is-procurement.md)
-3. [Sales: What Is Order-to-Cash?](sales/what-is-order-to-cash.md)
-4. [Manufacturing: What Is Manufacturing?](manufacturing/what-is-manufacturing.md)
-5. [Accounting: What Is Record-to-Report?](accounting/what-is-record-to-report.md)
+- [Inventory Overview](../inventory/overview.md)
+- [Inventory Transfers](../inventory/inventory-transfers.md)
+- [Saved Searches Overview](../saved-searches/overview.md)
+- [Creating Saved Searches](../saved-searches/creating-saved-searches.md)
 
 ### Advanced Path
 
-1. [Saved Searches: What Is a Saved Search?](saved-searches/what-is-a-saved-search.md)
-2. [Saved Searches: Formulas](saved-searches/formulas.md)
-3. [Saved Searches: Joins](saved-searches/joins-and-related-records.md)
+Scripting, APIs, and automation.
+
+- [SuiteScript Overview](../suitescript/overview.md)
+- [SuiteTalk REST Overview](../suitetalk/rest-overview.md)
 
 ---
 
@@ -59,21 +52,21 @@ New to NetSuite? Start here and follow in order.
 
 | Module | Status | Description |
 |---|---|---|
-| [Getting Started](getting-started/) | Complete | Beginner learning path |
-| [Administration](administration/) | Complete | Users, roles, permissions, setup |
-| [Inventory](inventory/) | Complete | Items, locations, transfers, operations, advanced |
-| [Purchasing](purchasing/) | Complete | Procure-to-Pay lifecycle |
-| [Sales](sales/) | Complete | Order-to-Cash lifecycle |
-| [Manufacturing](manufacturing/) | Complete | Plan-to-Produce lifecycle |
-| [Accounting](accounting/) | Complete | Record-to-Report lifecycle |
-| [Saved Searches](saved-searches/) | Complete | Search-driven reporting |
-| [Integrations](integrations/) | Started | Ecosystem integrations (Pacejet) |
-| Reporting | Empty | Financial and operational reports |
-| SuiteAnalytics | Empty | Analytics workbench |
-| SuiteScript | Started | JavaScript customization |
-| SuiteTalk | Started | REST and SOAP APIs |
-| Workflows | Empty | Approvals and automation |
+| [Getting Started](getting-started/) | In Progress | Beginner learning path |
+|| [Administration](../administration/) | Complete | Users, roles, permissions, setup, forms, authentication, security |
+| Accounting | Empty | Financial modules |
 | CRM | Empty | Customer management |
+|| [Inventory](../inventory/) | In Progress | Fundamentals complete; operations planned |
+| Manufacturing | Empty | Production and assembly |
+| Purchasing | Empty | Vendor and procurement |
+| Sales | Empty | Orders and revenue |
+| Reporting | Empty | Financial and operational reports |
+|| [Saved Searches](../saved-searches/) | Complete | Search-driven reporting, criteria, formulas, joins, performance |
+| SuiteAnalytics | Empty | Analytics workbench |
+| [SuiteScript](../suitescript/) | Started | JavaScript customization |
+| [SuiteTalk](../suitetalk/) | Started | REST and SOAP APIs |
+| Workflows | Empty | Approvals and automation |
+| Integrations | Empty | External system connections |
 | Release Notes | Empty | Version tracking |
 | Troubleshooting | Empty | Common issues and resolutions |
 
@@ -81,27 +74,35 @@ New to NetSuite? Start here and follow in order.
 
 ## Recommended Reading Order
 
-1. Complete the **Getting Started** path
-2. Follow your area of interest: **Administration**, **Inventory**, **Sales**, **Purchasing**
-3. Explore **Manufacturing** or **Accounting** for deeper ERP understanding
-4. Master **Saved Searches** for reporting
-5. Reference the **Glossary** and **Best Practices** articles
+1. Complete the **Getting Started** path (above)
+2. Follow your area of interest: **Administration**, **Inventory**, **Saved Searches**, or **SuiteScript**
+3. Expand into **Reporting**, **Workflows**, and **Integrations** as needed
+4. Reference the **Glossary** and **Keyboard Shortcuts** as you work
 
 ---
 
-## Related Resources
+## Contribution Notes
 
-- [Knowledge Engineering Framework](../knowledge-engine/README.md) — AI reasoning patterns
-- [HERMES_OPERATING_PROCEDURE.md](../HERMES_OPERATING_PROCEDURE.md) — Agent workflow
+This documentation is a community project. See [CONTRIBUTING.md](../CONTRIBUTING.md) and the [governance](../governance/) documents for writing standards, style guides, and review process.
+
+Before writing, review:
+
+- [Style Guide](../governance/STYLE_GUIDE.md)
+- [Writing Guidelines](../governance/WRITING_GUIDELINES.md)
+- [AI Documentation Guidelines](../governance/AI_GUIDELINES.md)
+- [Review Process](../governance/REVIEW_PROCESS.md)
 
 ---
 
 ## Future Modules
 
+Documentation is planned for these modules in upcoming sprints:
+
 - SuiteAnalytics Workbooks
 - Workflows and Approvals
 - Multi-Book Accounting
 - OneWorld and Subsidiaries
+- SuiteCommerce
 - WMS (Warehouse Management System)
 - SuiteCloud Developer Framework (SDF)
 
@@ -109,4 +110,4 @@ New to NetSuite? Start here and follow in order.
 
 ## License
 
-No license has been selected yet. See [PROJECT_STATUS.md](../PROJECT_STATUS.md) for recommendations.
+Content is available for community use. See [LICENSE.md](../LICENSE.md) for details.

@@ -4,85 +4,77 @@
 
 | Field | Value |
 |---|---|
-| **Current Version** | 2.2.0 |
-| **Current Milestone** | Repository Navigation & Architecture Cleanup |
-| **Current Sprint** | Release 2.2 — Cleanup and alignment |
-| **Overall Completion** | ERP curriculum: 8 complete modules (~150 articles); AI Framework: 6 layers complete |
-| **Repository Health** | 7.5 / 10 |
-| **Open PRs** | 16 (all content PRs awaiting merge) |
-| **Known Risks** | 16 open PRs; no LICENSE.md; no CI/CD; PR #18 superseded by PR #19 |
+| **Current Version** | 0.3.0 |
+| **Current Milestone** | Administration Module |
+| **Current Sprint** | Sprint 0.3 — Administration |
+| **Overall Completion** | ~30% (8 of ~35 planned modules started or complete) |
+| **Repository Health** | 8.0 / 10 |
+| **Open Issues** | 0 |
+| **Known Risks** | No LICENSE.md; no CI/CD; template and governance consolidation pending |
 
-## Completed Work
+## Completed Tasks
 
-### ERP Curriculum — 8 Modules (~150 articles)
+### Sprint 0.1 — Foundation (Complete)
+- [x] Initial repository structure, README, Roadmap
+- [x] Contribution guide, Style guide, Writing guidelines, Review process, AI guidelines
+- [x] Article, FAQ, and troubleshooting templates
+- [x] Source tracking files
+- [x] Flattened nested wrapper folders from ZIP uploads
+- [x] Project charter, status, backlog, session report
+- [x] GitHub PR and issue templates
+- [x] GitHub auth configured (SSH + gh CLI)
+- [x] HERMES_OPERATING_PROCEDURE.md
 
-| Module | Articles | PR |
-|---|---|---|
-| Getting Started | 13 | #1 (merged) |
-| Administration | 18 | #4 |
-| Saved Searches | 23 | #5 |
-| Inventory (3 phases) | 29 | #6-#8 |
-| Purchasing | 12 | #9 |
-| Sales | 12 | #10 |
-| Manufacturing | 14 | #11 |
-| Accounting | 16 | #12 |
-
-### AI Framework — 6 Layers (~45 documents)
-
-| Layer | Documents | PR |
-|---|---|---|
-| Support Intelligence | 10 | #13 |
-| Customer Context | 10 | #14 |
-| AI Skills | 2 | #15 |
-| Solution Architect | 5 | #16 |
-| Customer Metadata | 7 | #17 |
-| Pacejet Intelligence Pack | 12 | #19 |
-
-### Platform Documentation
-
-| Document | Status |
-|---|---|
-| PLATFORM_ARCHITECTURE.md | Created (PR — this release) |
-| HERMES_OPERATING_PROCEDURE.md | On main |
-| Framework core (14 documents) | On main |
+### Sprint 0.2 — Getting Started + Framework (Complete)
+- [x] Removed placeholder stub files
+- [x] Expanded PROJECT_CHARTER.md with comprehensive standards
+- [x] Created docs/README.md documentation homepage
+- [x] 11 getting-started articles (complete beginner path)
+- [x] Knowledge Engineering Framework (14 documents in knowledge-engine/)
+- [x] Updated README.md to reference framework
+- [x] GitHub workflow fully operational
 
 ## Remaining Tasks
 
-- [ ] Merge 16 open PRs (critical)
-- [ ] Close PR #18 (superseded by PR #19)
-- [ ] Add LICENSE.md (recommend MIT or CC-BY-4.0)
-- [ ] Consolidate governance documents
-- [ ] Fix relative links in docs/README.md
-- [ ] Configure CI/CD for Markdown validation
-- [ ] Build Integration Packs for Avalara, Celigo, etc.
+- [ ] Add LICENSE.md
+- [ ] Consolidate governance documents (contribution-guide.md → CONTRIBUTING.md)
+- [ ] Unify template formats
+- [ ] Begin Sprint 0.3 — Administration
 
 ## Known Issues
 
-| Issue | Impact |
-|---|---|
-| 16 of 19 PRs open | Platform content exists only on feature branches |
-| No LICENSE.md | Cannot publish publicly |
-| docs/README.md links broken | Relative paths use `../` instead of direct `module/` from docs/ |
-| No CI/CD | No automated validation |
+- No LICENSE.md — project should not go public without one
+- No CI/CD or automation configured
+- `contribution-guide.md` in governance/ partially duplicates CONTRIBUTING.md at root level
+- `document-template.md` and `ARTICLE_TEMPLATE.md` are similar but not unified
+
+## Next Milestone
+
+**Sprint 0.3 — Administration**: Users, roles, permissions, company setup, forms, authentication, and audit trail documentation.
+
+## Upcoming Priorities
+
+1. Consolidate governance documents
+2. Unify template formats
+3. Add LICENSE.md (MIT or CC-BY recommended)
+4. Begin Sprint 0.3 — Administration
+
+## Recent Changes
+
+- Built Knowledge Engineering Framework: 14 documents in knowledge-engine/ directory
+- Updated README.md with framework reference
+- Updated repository structure in README
 
 ## Repository Health Score
 
-**7.5 / 10**
+**8.0 / 10**
 
 | Criterion | Score | Notes |
 |---|---|---|
-| Structure | 9 | Six-layer architecture is clean |
-| Governance | 8 | Framework core stable |
-| Content (ERP) | 8 | 8 complete modules |
-| Content (AI) | 6 | Framework exists on branches |
-| Extensibility | 9 | Pacejet validates template |
-| Automation | 2 | No CI/CD |
-| PR Hygiene | 4 | 16 open PRs |
-
-## Next Priorities
-
-1. Review and merge open PRs
-2. Close PR #18
-3. Add LICENSE.md
-4. Begin Integration Packs (Avalara, Celigo)
-5. Configure CI/CD
+| Structure | 9 | Clean multi-module doc structure, framework directory added |
+| Governance | 8.5 | Framework strengthens standards; consolidation still needed |
+| Templates | 8 | Article, FAQ, troubleshooting templates available |
+| Content | 6.5 | Getting-started module complete; 6 modules started |
+| Project Tracking | 8.5 | Charter, status, backlog, session reports increasingly detailed |
+| Automation | 2 | No CI/CD, Pages, or linting configured yet |
+| Readability | 9.5 | Consistent Markdown, front matter, strong cross-linking |

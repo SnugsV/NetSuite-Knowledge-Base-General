@@ -25,19 +25,26 @@ Repository structure, governance, templates, project tracking, and cleanup of up
 - [x] Glossary
 - [x] Knowledge Engineering Framework (14 documents in knowledge-engine/)
 
-## Sprint 0.3 — Administration
+## Sprint 0.3 — Administration (Complete)
 
-**Status: Planned**
-
-- Users and roles
-- Permissions
-- Company preferences and setup
-- Forms and custom fields
-- Authentication and access
-- Audit trail basics
-- Feature enablement
-- Governance consolidation
-- Template unification
+- [x] Administration Overview
+- [x] Company Setup
+- [x] Company Preferences
+- [x] Enabled Features
+- [x] Users
+- [x] Roles
+- [x] Permissions
+- [x] Centers
+- [x] Forms
+- [x] Custom Forms
+- [x] Authentication
+- [x] Two-Factor Authentication
+- [x] Single Sign-On
+- [x] System Notes
+- [x] Audit Trail
+- [x] Sandbox and Release Preview
+- [x] Security Best Practices
+- [x] Administration Glossary
 
 ### Release 2.2 — Repository Navigation & Architecture Cleanup
 
