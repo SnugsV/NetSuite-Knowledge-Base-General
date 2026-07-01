@@ -4,10 +4,10 @@
 
 | Field | Value |
 |---|---|
-| **Current Version** | 0.2.1 |
-| **Current Milestone** | Foundation Refinement & Getting Started |
-| **Current Sprint** | Sprint 0.2 — Getting Started |
-| **Overall Completion** | ~20% (6 of ~35 planned modules started or complete) |
+| **Current Version** | 0.3.0 |
+| **Current Milestone** | Administration Module |
+| **Current Sprint** | Sprint 0.3 — Administration |
+| **Overall Completion** | ~30% (8 of ~35 planned modules started or complete) |
 | **Repository Health** | 8.0 / 10 |
 | **Open Issues** | 0 |
 | **Known Risks** | No LICENSE.md; no CI/CD; template and governance consolidation pending |

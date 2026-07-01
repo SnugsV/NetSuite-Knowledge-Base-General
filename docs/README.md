@@ -53,7 +53,7 @@ Scripting, APIs, and automation.
 | Module | Status | Description |
 |---|---|---|
 | [Getting Started](getting-started/) | In Progress | Beginner learning path |
-| Administration | Empty | Users, roles, permissions, setup |
+|| [Administration](../administration/) | Complete | Users, roles, permissions, setup, forms, authentication, security |
 | Accounting | Empty | Financial modules |
 | CRM | Empty | Customer management |
 | [Inventory](../inventory/) | Started | Items, locations, transfers |
