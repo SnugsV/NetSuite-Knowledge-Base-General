@@ -45,3 +45,14 @@ Future prompts should be as simple as:
 - **Cross-linked** — Framework documents reference each other
 - **Minimal prompts** — The framework eliminates the need for lengthy instructions
 - **Version-controlled** — All standards evolve through pull requests, not conversation
+
+## Framework Extensions
+
+The framework has been extended with three additional modules:
+
+| Directory | Purpose |
+|---|---|
+| [support-intelligence/](support-intelligence/) | AI reasoning patterns for troubleshooting 8 ERP domains |
+| [customer-context/](customer-context/) | Customer environment discovery — company profile, configuration, customizations |
+| [ai-skills/](ai-skills/) | Executable AI Skills — structured reasoning for specific tasks (Saved Search Builder) |
+| [solution-architect/](solution-architect/) | Architectural decision-making — matching business problems to NetSuite capabilities |
