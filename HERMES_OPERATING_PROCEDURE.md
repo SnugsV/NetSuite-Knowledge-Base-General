@@ -134,14 +134,31 @@ At the end of every session:
 6. Commit and push
 7. Open PR
 
-## Authentication Setup (One-Time)
+## Authentication (Completed)
 
-To enable push and PR creation:
+Authentication is configured and working:
 
-1. Generate a GitHub PAT (classic with `repo` scope, or fine-grained with content+PRs permissions)
-2. Run: `gh auth login --with-token < ~/github-token`
-3. Or generate SSH key: `gh auth login` (interactive, browser-based)
-4. Verify: `gh auth status`
+- **SSH key**: Installed at `/opt/data/.ssh/id_ed25519` and registered on GitHub (user `SnugsV`)
+- **Git remote**: Uses SSH (`git@github.com:SnugsV/NetSuite-Knowledge-Base-General.git`)
+- **gh CLI 2.64.0**: Authenticated via PAT at `/opt/data/home/.local/bin/gh`
+- **Auth stored in**: `/opt/data/home/.config/gh/hosts.yml`
+
+To verify at any time:
+
+```bash
+ssh -T git@github.com          # Should say "Hi SnugsV! ..."
+gh auth status                 # Should show "✓ Logged in"
+```
+
+## PR Creation
+
+```bash
+gh pr create \
+  --base main \
+  --head <branch> \
+  --title "Sprint X.Y — Title" \
+  --body "Summary of changes, files added/modified, health score"
+```
 
 ## Known Constraints
 
