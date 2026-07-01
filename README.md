@@ -28,15 +28,31 @@ This repository complements Oracle's official documentation by providing origina
 - Clear references to official Oracle documentation
 - Version-controlled community knowledge
 
-|## Repository Structure
+## Repository Structure
 
 ```text
-/docs                 Main knowledge base articles by module
-/templates            Reusable article and guide templates
-/governance           Writing, review, and AI documentation standards
-/sources              Official Oracle documentation reference index
-/assets               Diagrams, images, icons, and supporting files
+/                         Root project tracking and governance files
+knowledge-engine/         AI Knowledge Engineering Framework (permanent operating system)
+docs/                     Main knowledge base articles by module
+templates/                Reusable article and guide templates
+governance/               Writing, review, and AI documentation standards
+sources/                  Official Oracle documentation reference index
+assets/                   Diagrams, images, icons, and supporting files
 ```
+
+## Knowledge Engineering Framework
+
+The [knowledge-engine/](knowledge-engine/README.md) directory contains the complete AI Knowledge Engineering Framework — the permanent operating system for all work on this repository. It eliminates the need for long prompts by moving all project knowledge into version-controlled documentation.
+
+**Key documents:**
+
+- [MASTER_PROJECT_PROMPT.md](knowledge-engine/MASTER_PROJECT_PROMPT.md) — Single reference for all future prompts
+- [OPERATING_PROCEDURE.md](knowledge-engine/OPERATING_PROCEDURE.md) — Hermes startup sequence
+- [DOCUMENTATION_STANDARDS.md](knowledge-engine/DOCUMENTATION_STANDARDS.md) — Article and metadata standards
+- [REVIEW_CHECKLIST.md](knowledge-engine/REVIEW_CHECKLIST.md) — PR review checklist
+- [PROMPT_LIBRARY.md](knowledge-engine/PROMPT_LIBRARY.md) — Example prompts for common tasks
+
+Future prompts should be as simple as: "Read the Knowledge Engineering Framework and build Release X."
 
 ## Learning Paths
 

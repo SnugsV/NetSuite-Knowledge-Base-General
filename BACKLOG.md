@@ -23,6 +23,7 @@ Repository structure, governance, templates, project tracking, and cleanup of up
 - [x] Personalization
 - [x] Keyboard shortcuts
 - [x] Glossary
+- [x] Knowledge Engineering Framework (14 documents in knowledge-engine/)
 
 ## Sprint 0.3 — Administration
 
