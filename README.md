@@ -28,12 +28,13 @@ This repository complements Oracle's official documentation by providing origina
 - Clear references to official Oracle documentation
 - Version-controlled community knowledge
 
-## Repository Structure
+|## Repository Structure
 
 ```text
-/docs                 Main knowledge base articles
+/docs                 Main knowledge base articles by module
 /templates            Reusable article and guide templates
 /governance           Writing, review, and AI documentation standards
+/sources              Official Oracle documentation reference index
 /assets               Diagrams, images, icons, and supporting files
 ```
 
@@ -67,6 +68,17 @@ A strong article includes:
 - FAQs
 - Related articles
 - Oracle references
+
+## Company-Specific Overlays
+
+This general repository can later be paired with private company-specific repositories. For example:
+
+```text
+NetSuite-Knowledge-Base-General
+NetSuite-Knowledge-Base-HBS-Private
+```
+
+The general repository explains how NetSuite works. The private repository explains how a specific company uses NetSuite — including internal SOPs, custom fields, saved searches, and screenshots. This keeps general knowledge shareable while protecting proprietary information.
 
 ## Disclaimer
 
