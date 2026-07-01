@@ -61,7 +61,7 @@ Scripting, APIs, and automation.
 | Purchasing | Empty | Vendor and procurement |
 | Sales | Empty | Orders and revenue |
 | Reporting | Empty | Financial and operational reports |
-| [Saved Searches](../saved-searches/) | Started | Search-driven reporting |
+|| [Saved Searches](../saved-searches/) | Complete | Search-driven reporting, criteria, formulas, joins, performance |
 | SuiteAnalytics | Empty | Analytics workbench |
 | [SuiteScript](../suitescript/) | Started | JavaScript customization |
 | [SuiteTalk](../suitetalk/) | Started | REST and SOAP APIs |
