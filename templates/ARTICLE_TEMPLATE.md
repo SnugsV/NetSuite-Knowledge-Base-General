@@ -1,17 +1,17 @@
 ---
-title: 
-module: 
+title:
+module:
 difficulty: Beginner | Intermediate | Advanced
-estimated_time: 
+estimated_time:
 status: Draft
-last_reviewed: 
+last_reviewed:
 ---
 
 # Article Title
 
 ## Quick Summary
 
-Briefly explain the topic in one to three sentences.
+1-3 sentences explaining the topic.
 
 ## Difficulty
 
@@ -19,52 +19,44 @@ Beginner, Intermediate, or Advanced.
 
 ## Estimated Time
 
-How long it usually takes to understand or complete the task.
+Expected reading or completion time.
 
 ## Prerequisites
 
-- Required permissions
-- Related records
-- Related setup
+Required knowledge, permissions, or setup steps.
 
 ## Overview
 
-Explain what the feature or process is.
+What this topic is about.
 
 ## Why It Matters
 
-Explain the business problem it solves.
+The business problem it solves.
 
-## When to Use It
+## Core Concepts
 
-List common scenarios.
+Key ideas explained in plain language.
 
 ## Step-by-Step
 
-1. First step
-2. Second step
-3. Third step
+Procedural instructions, if applicable.
 
 ## Best Practices
 
-- Practice one
-- Practice two
+Recommended approaches.
 
 ## Common Mistakes
 
-- Mistake one
-- Mistake two
+What people get wrong.
 
-## Frequently Asked Questions
+## FAQ
 
-### Question?
-
-Answer.
+Frequently asked questions (optional).
 
 ## Related Articles
 
-- [Related Article](../path/article.md)
+- [Article Name](../path/article.md)
 
 ## Oracle References
 
-- Official Oracle documentation link
+- Authoritative Oracle documentation link
