@@ -56,7 +56,7 @@ Scripting, APIs, and automation.
 | Administration | Empty | Users, roles, permissions, setup |
 | Accounting | Empty | Financial modules |
 | CRM | Empty | Customer management |
-| [Inventory](../inventory/) | Started | Items, locations, transfers |
+|| [Inventory](../inventory/) | In Progress | Fundamentals complete; operations planned |
 | Manufacturing | Empty | Production and assembly |
 | Purchasing | Empty | Vendor and procurement |
 | Sales | Empty | Orders and revenue |
