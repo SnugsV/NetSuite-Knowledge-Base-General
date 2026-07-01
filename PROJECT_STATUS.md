@@ -4,9 +4,9 @@
 
 | Field | Value |
 |---|---|
-| **Current Version** | 0.2.1 |
-| **Current Milestone** | Foundation Refinement & Getting Started |
-| **Current Sprint** | Sprint 0.2 — Getting Started |
+| **Current Version** | 0.2.2 |
+| **Current Milestone** | Governance & Framework Finalization |
+| **Current Sprint** | Sprint 0.2.2 — Framework Finalization |
 | **Overall Completion** | ~20% (6 of ~35 planned modules started or complete) |
 | **Repository Health** | 8.0 / 10 |
 | **Open Issues** | 0 |

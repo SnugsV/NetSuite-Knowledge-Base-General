@@ -27,3 +27,5 @@ Explain how to avoid the issue in the future.
 ## Related Articles
 
 - [Related Article](../path/article.md)
+
+> **Note**: Use [ARTICLE_TEMPLATE.md](ARTICLE_TEMPLATE.md) as the canonical template for all articles.

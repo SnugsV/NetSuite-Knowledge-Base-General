@@ -28,6 +28,26 @@ All notable changes to this repository will be documented here.
 - Updated repository structure diagram in README
 - Updated PROJECT_STATUS.md with framework completion
 
+## [0.2.2] - 2026-07-01 — Governance & Framework Finalization
+
+### Added
+
+- ADR-0001 through ADR-0005 in knowledge-engine/decisions/:
+  - Documentation Structure, Article Format, Cross-Link Strategy, Content Lifecycle, AI Collaboration Model
+- FRAMEWORK_REVIEW.md — Comprehensive 8-phase review of all framework documents
+- FRAMEWORK_FREEZE_RECOMMENDATION.md — Conditional freeze recommendation with blocker resolution path
+
+### Changed
+
+- Finalized ARTICLE_TEMPLATE.md — standardized canonical template matching DOCUMENTATION_STANDARDS.md
+- Deprecated document-template.md — content merged into canonical template
+
+### Frozen
+
+The following framework documents are now considered frozen (change requires ADR):
+DOCUMENTATION_STANDARDS.md, WRITING_STANDARDS.md, AI_STANDARDS.md, QUALITY_STANDARDS.md,
+PROJECT_MEMORY.md, PROJECT_LIFECYCLE.md, DECISION_FRAMEWORK.md
+
 ## [0.2.0] - 2026-07-01 — Foundation Refinement & Getting Started
 
 ### Added
