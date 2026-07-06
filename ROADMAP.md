@@ -1,70 +1,73 @@
 # Roadmap
 
-## v0.1 — Foundation
+This roadmap describes future direction only. Completed release history belongs in `CHANGELOG.md`, and active work items belong in `BACKLOG.md`.
 
-Goal: establish the structure, standards, and contribution process for the repository.
+## Current Focus — Phase 1 Repository Health
 
-- [x] Repository structure
-- [x] README
-- [x] Roadmap
-- [x] Contribution guide
-- [x] Style guide
-- [x] AI documentation guidelines
-- [x] Article templates
-- [ ] First complete Getting Started module
+Goal: make the repository internally consistent after rapid growth across ERP curriculum, AI framework layers, and integration intelligence.
 
-## v0.2 — Getting Started
+- [x] Create maintenance branch
+- [x] Update `PROJECT_STATUS.md`
+- [x] Refresh `SESSION_REPORT.md`
+- [ ] Repair `docs/README.md` navigation and module index
+- [ ] Review `CHANGELOG.md` version ordering and consistency
+- [ ] Review stale architecture and PR-status language
+- [ ] Choose and add a repository license
 
-- What is NetSuite?
-- NetSuite user interface overview
-- Navigation
-- Centers and roles
-- Dashboards
-- Global search
-- Personalization
-- Glossary
+## Phase 2 — Documentation Quality Audit
 
-## v0.3 — Administration
+Goal: measure article quality and identify gaps before adding more content.
 
-- Users
-- Roles
-- Permissions
-- Preferences
-- Forms
-- Authentication
-- Audit trail basics
+- [ ] Audit Markdown formatting across documentation
+- [ ] Validate YAML front matter coverage
+- [ ] Identify broken or questionable relative links
+- [ ] Identify duplicate or overlapping articles
+- [ ] Review Oracle reference coverage
+- [ ] Score module completeness
+- [ ] Score AI-readiness and retrieval quality
+- [ ] Produce a repository health report
 
-## v0.4 — Saved Searches and Reporting
+## Phase 3 — Governance and Stewardship
 
-- Saved search fundamentals
-- Criteria and results
-- Formulas
-- Summary searches
-- Reports
-- SuiteAnalytics workbooks
-- KPIs and dashboards
+Goal: make long-term maintenance clear for humans and AI agents.
 
-## v0.5 — Inventory and Operations
+- [ ] Add `LICENSE.md` after license selection
+- [ ] Create or update maintainer guidance
+- [ ] Clarify release cadence
+- [ ] Consolidate duplicate governance guidance
+- [ ] Review contribution workflow
+- [ ] Create a recurring maintenance checklist
+- [ ] Define documentation quality gates
 
-- Item records
-- Locations
-- Transfers
-- Adjustments
-- Bins
-- Cycle counts
-- Purchasing and receiving
-- Fulfillment
+## Phase 4 — Automation
 
-## v0.6 — Development and Integrations
+Goal: reduce manual maintenance effort and prevent drift.
 
-- SuiteScript overview
-- SuiteScript 2.x concepts
-- SuiteTalk REST
-- SOAP web services
-- RESTlets
-- Records Browser
-- Authentication patterns
+- [ ] Add Markdown linting
+- [ ] Add broken-link checking
+- [ ] Add front matter validation
+- [ ] Add GitHub Actions for documentation checks
+- [ ] Evaluate GitHub Pages or MkDocs publishing
+- [ ] Add automated repository health reporting
 
-## v1.0 — Community Knowledge Base
+## Phase 5 — Platform Expansion
 
-Goal: a broad, polished, AI-friendly public NetSuite knowledge base with strong learning paths and cross-linking.
+Goal: continue evolving the project from a documentation repository into a NetSuite Intelligence Platform.
+
+- [ ] Expand integration intelligence beyond Pacejet
+- [ ] Add additional AI skills for common NetSuite support workflows
+- [ ] Add customer-context patterns for more ERP domains
+- [ ] Add scenario libraries for high-frequency support issues
+- [ ] Add validation benchmarks for new skills and modules
+- [ ] Improve cross-layer routing between curriculum, support intelligence, metadata, and skills
+
+## Long-Term Vision
+
+Build a broad, polished, AI-friendly NetSuite Intelligence Platform that supports:
+
+- NetSuite administrators learning core functionality
+- Business users understanding ERP workflows
+- Consultants diagnosing and designing solutions
+- Developers building SuiteScript and integration solutions
+- AI assistants retrieving reliable, structured NetSuite knowledge
+- Future company-specific overlays that keep private process knowledge separate from public general guidance
