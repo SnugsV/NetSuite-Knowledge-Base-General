@@ -1,4 +1,4 @@
-# NetSuite Knowledge Base — Documentation
+# NetSuite Knowledge Base - Documentation
 
 Welcome to the NetSuite Knowledge Base documentation site. This is the central index for all articles organized by module.
 
@@ -8,7 +8,7 @@ Welcome to the NetSuite Knowledge Base documentation site. This is the central i
 
 This documentation repository provides original, educational content for anyone learning, administering, developing for, or integrating with NetSuite. Every article is written to be useful for both human readers and AI assistants.
 
-Content here **complements** Oracle's official documentation. It does not replace it.
+Content here complements Oracle's official documentation. It does not replace it.
 
 ---
 
@@ -30,21 +30,48 @@ New to NetSuite? Start here and follow in order.
 10. [Keyboard Shortcuts](getting-started/keyboard-shortcuts.md)
 11. [Glossary](getting-started/glossary.md)
 
-### Intermediate Path
+### Administrator Path
 
-Ready to go deeper? Explore operational modules.
+Administering a NetSuite account? Work through the configuration, access, and security sequence.
 
-- [Inventory Overview](inventory/overview.md)
-- [Inventory Transfers](inventory/inventory-transfers.md)
-- [Saved Searches Overview](saved-searches/overview.md)
-- [Creating Saved Searches](saved-searches/creating-saved-searches.md)
+1. [Administration](administration/)
+2. [Company Setup](administration/company-setup.md)
+3. [Company Preferences](administration/company-preferences.md)
+4. [Enabled Features](administration/enabled-features.md)
+5. [Users](administration/users.md)
+6. [Roles](administration/roles.md)
+7. [Permissions](administration/permissions.md)
+8. [Authentication](administration/authentication.md)
+9. [Security Best Practices](administration/security-best-practices.md)
+
+### Operational Path
+
+Managing business operations? Start with inventory, purchasing, sales, manufacturing, and accounting.
+
+- [Inventory](inventory/)
+- [Purchasing](purchasing/)
+- [Sales](sales/)
+- [Manufacturing](manufacturing/)
+- [Accounting](accounting/)
+
+### Reporting and Analytics Path
+
+Building visibility into business activity? Start with saved searches and reporting concepts.
+
+- [Saved Searches](saved-searches/)
+- SuiteAnalytics Workbooks
+- Financial Reports
+- Operational Reports
+- KPIs and Dashboards
 
 ### Advanced Path
 
-Scripting, APIs, and automation.
+Scripting, APIs, automation, integrations, and AI-assisted solution design.
 
-- [SuiteScript Overview](suitescript/overview.md)
-- [SuiteTalk REST Overview](suitetalk/rest-overview.md)
+- [SuiteScript](suitescript/)
+- [SuiteTalk](suitetalk/)
+- [Integrations](integrations/)
+- Knowledge Engineering Framework: [../knowledge-engine/](../knowledge-engine/)
 
 ---
 
@@ -52,32 +79,36 @@ Scripting, APIs, and automation.
 
 | Module | Status | Description |
 |---|---|---|
-| [Getting Started](getting-started/) | In Progress | Beginner learning path |
-|| [Administration](../administration/) | Complete | Users, roles, permissions, setup, forms, authentication, security |
-| Accounting | Empty | Financial modules |
-| CRM | Empty | Customer management |
-|| [Inventory](../inventory/) | In Progress | Fundamentals complete; operations planned |
-| Manufacturing | Empty | Production and assembly |
-| Purchasing | Empty | Vendor and procurement |
-| Sales | Empty | Orders and revenue |
-| Reporting | Empty | Financial and operational reports |
-|| [Saved Searches](../saved-searches/) | Complete | Search-driven reporting, criteria, formulas, joins, performance |
-| SuiteAnalytics | Empty | Analytics workbench |
-| [SuiteScript](../suitescript/) | Started | JavaScript customization |
-| [SuiteTalk](../suitetalk/) | Started | REST and SOAP APIs |
-| Workflows | Empty | Approvals and automation |
-| Integrations | Empty | External system connections |
-| Release Notes | Empty | Version tracking |
-| Troubleshooting | Empty | Common issues and resolutions |
+| [Getting Started](getting-started/) | Complete | Beginner learning path for NetSuite concepts, navigation, records, dashboards, and glossary terms. |
+| [Administration](administration/) | Complete | Users, roles, permissions, setup, forms, authentication, audit trail, and security. |
+| [Saved Searches](saved-searches/) | Complete | Search-driven reporting, criteria, results, formulas, summaries, KPIs, dashboards, and CSV import/export. |
+| [Inventory](inventory/) | Complete | Items, locations, transfers, adjustments, bins, cycle counts, receiving, and fulfillment. |
+| [Purchasing](purchasing/) | Complete | Vendor, procurement, purchasing, receiving, and procure-to-pay process guidance. |
+| [Sales](sales/) | Complete | Customer, order, fulfillment, invoicing, and order-to-cash process guidance. |
+| [Manufacturing](manufacturing/) | Complete | Planning, production, assemblies, work orders, and plan-to-produce process guidance. |
+| [Accounting](accounting/) | Complete | Record-to-report concepts, transactions, general ledger flow, and financial process guidance. |
+| [Integrations](integrations/) | Started | External system connections and ecosystem integration intelligence. |
+| [SuiteScript](suitescript/) | Started | JavaScript customization and SuiteScript concepts. |
+| [SuiteTalk](suitetalk/) | Started | REST, SOAP, authentication, and API integration concepts. |
+| Reporting | Planned | Financial reports, operational reports, custom reporting, and analytics guidance. |
+| SuiteAnalytics | Planned | Workbooks, datasets, analytics, dashboards, and advanced reporting. |
+| CRM | Planned | Leads, prospects, customers, opportunities, and customer lifecycle management. |
+| Workflows | Planned | Approvals, automation, workflow actions, and business process controls. |
+| OneWorld | Planned | Subsidiaries, intercompany processes, and global account structure. |
+| SuiteCommerce | Future | Commerce and web store integrations. |
+| WMS | Future | Warehouse management concepts and NetSuite WMS guidance. |
+| Fixed Assets | Future | Asset tracking, depreciation, and fixed asset lifecycle guidance. |
+| Revenue Recognition | Future | Revenue arrangements, rules, and recognition processes. |
 
 ---
 
 ## Recommended Reading Order
 
-1. Complete the **Getting Started** path (above)
-2. Follow your area of interest: **Administration**, **Inventory**, **Saved Searches**, or **SuiteScript**
-3. Expand into **Reporting**, **Workflows**, and **Integrations** as needed
-4. Reference the **Glossary** and **Keyboard Shortcuts** as you work
+1. Complete the Getting Started path.
+2. Continue into Administration to understand account setup, roles, permissions, and security.
+3. Follow the operational modules: Inventory, Purchasing, Sales, Manufacturing, and Accounting.
+4. Use Saved Searches and Reporting to build visibility into business activity.
+5. Move into SuiteScript, SuiteTalk, Integrations, and the Knowledge Engineering Framework for advanced work.
 
 ---
 
@@ -91,12 +122,13 @@ Before writing, review:
 - [Writing Guidelines](../governance/WRITING_GUIDELINES.md)
 - [AI Documentation Guidelines](../governance/AI_GUIDELINES.md)
 - [Review Process](../governance/REVIEW_PROCESS.md)
+- [Knowledge Engineering Framework](../knowledge-engine/README.md)
 
 ---
 
 ## Future Modules
 
-Documentation is planned for these modules in upcoming sprints:
+Documentation is planned or expandable for these areas:
 
 - SuiteAnalytics Workbooks
 - Workflows and Approvals
@@ -105,9 +137,11 @@ Documentation is planned for these modules in upcoming sprints:
 - SuiteCommerce
 - WMS (Warehouse Management System)
 - SuiteCloud Developer Framework (SDF)
+- Fixed Assets
+- Revenue Recognition
 
 ---
 
 ## License
 
-Content is available for community use. See [LICENSE.md](../LICENSE.md) for details.
+A repository license has not been selected yet. See `PROJECT_STATUS.md` and `SESSION_REPORT.md` for the current license decision status.
