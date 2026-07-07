@@ -72,6 +72,34 @@ Sales Orders
 
 The most important Transactions article for AI reasoning is [Transaction Lifecycle](transactions/TRANSACTION_LIFECYCLE.md), because it teaches the assistant how to compare records across order, billing, payment, and correction stages.
 
+### Connector Troubleshooting
+
+The Connector Troubleshooting cluster explains how to investigate Avalara symptoms from a NetSuite-centered perspective.
+
+Start here:
+
+1. [Common Avalara Error Patterns](troubleshooting/COMMON_AVALARA_ERROR_PATTERNS.md)
+2. [Tax Did Not Calculate](troubleshooting/TAX_DID_NOT_CALCULATE.md)
+3. [Tax Calculated Unexpectedly](troubleshooting/TAX_CALCULATED_UNEXPECTEDLY.md)
+4. [Address Validation Issues](troubleshooting/ADDRESS_VALIDATION_ISSUES.md)
+5. [Item Taxability Mismatch](troubleshooting/ITEM_TAXABILITY_MISMATCH.md)
+6. [Exemption Not Applied](troubleshooting/EXEMPTION_NOT_APPLIED.md)
+7. [Order and Invoice Tax Mismatch](troubleshooting/ORDER_INVOICE_TAX_MISMATCH.md)
+
+Recommended learning path:
+
+```text
+Common Avalara Error Patterns
+  -> Tax Did Not Calculate
+  -> Tax Calculated Unexpectedly
+  -> Address Validation Issues
+  -> Item Taxability Mismatch
+  -> Exemption Not Applied
+  -> Order and Invoice Tax Mismatch
+```
+
+The most important Connector Troubleshooting article for AI reasoning is [Common Avalara Error Patterns](troubleshooting/COMMON_AVALARA_ERROR_PATTERNS.md), because it teaches the assistant to classify the observable symptom before choosing a more specific troubleshooting path.
+
 ## Exemption Management Relationship Map
 
 ```mermaid
@@ -117,6 +145,39 @@ flowchart LR
 
 This lifecycle map is a generic reasoning model. It is not a company-specific process map.
 
+## Connector Troubleshooting Map
+
+```mermaid
+flowchart TD
+    Symptom[Observable Avalara Symptom]
+    Pattern[Common Error Pattern]
+    NoTax[Tax Did Not Calculate]
+    Unexpected[Tax Calculated Unexpectedly]
+    Address[Address Validation Issue]
+    Item[Item Taxability Mismatch]
+    Exemption[Exemption Not Applied]
+    Mismatch[Order Invoice Tax Mismatch]
+    Evidence[Record Evidence]
+    Escalation[Internal Review if Needed]
+
+    Symptom --> Pattern
+    Pattern --> NoTax
+    Pattern --> Unexpected
+    Pattern --> Address
+    Pattern --> Item
+    Pattern --> Exemption
+    Pattern --> Mismatch
+    NoTax --> Evidence
+    Unexpected --> Evidence
+    Address --> Evidence
+    Item --> Evidence
+    Exemption --> Evidence
+    Mismatch --> Evidence
+    Evidence --> Escalation
+```
+
+This map teaches the assistant to route from symptom to diagnostic path before recommending escalation.
+
 ## Cross-Cluster Reasoning Map
 
 ```mermaid
@@ -124,6 +185,7 @@ flowchart TD
     Question[Employee Tax Question]
     Exemptions[Exemption Management]
     Transactions[Transactions]
+    Connector[Connector Troubleshooting]
     Customer[Customer]
     Address[Address]
     Item[Item]
@@ -134,11 +196,13 @@ flowchart TD
 
     Question --> Exemptions
     Question --> Transactions
+    Question --> Connector
     Exemptions --> Customer
     Exemptions --> Certificate
     Exemptions --> Item
     Transactions --> Address
     Transactions --> Lifecycle
+    Connector --> Troubleshooting
     Customer --> Troubleshooting
     Address --> Troubleshooting
     Item --> Troubleshooting
@@ -179,25 +243,21 @@ flowchart TD
 |---|---:|---:|---:|---:|---:|
 | Exemption Management | 100% | 100% | 100% | 100% | 90% |
 | Transactions | 100% | 100% | 80% | 80% | 100% |
+| Connector Troubleshooting | 100% | 90% | 100% | 80% | 95% |
 | Returns | 0% | 0% | 0% | 0% | 0% |
 | Compliance | 0% | 0% | 0% | 0% | 0% |
-| Connector Troubleshooting | 0% | 0% | 0% | 0% | 0% |
 
 Coverage percentages are directional, not formal validation scores. They represent whether the cluster can currently support useful AI-assisted reasoning.
 
-## Suggested Next Cluster: Connector Troubleshooting
+## Suggested Next Cluster: Returns
 
-After completing the initial Exemption Management and Transactions clusters, the next recommended cluster is Connector Troubleshooting.
+After completing the initial Exemption Management, Transactions, and Connector Troubleshooting clusters, the next recommended Avalara cluster is Returns.
 
-Planned connector troubleshooting articles:
+Planned Returns articles:
 
-- Tax did not calculate
-- Tax calculated unexpectedly
-- Avalara connection or response issue
-- Address validation issue
-- Item or product taxability mismatch
-- Exemption certificate not applied
-- Order and invoice tax mismatch
+- Return lifecycle
+- Refund tax reasoning
+- Return troubleshooting
 
 ## AI Retrieval Guidance
 
@@ -237,8 +297,29 @@ The assistant should usually retrieve:
 2. the specific transaction article,
 3. and any related exemption article if customer, certificate, or item taxability is involved.
 
+### Connector troubleshooting retrieval signals
+
+- Avalara error
+- AvaTax error
+- connector error
+- response error
+- tax did not calculate
+- tax calculated unexpectedly
+- address validation failed
+- exemption not applied
+- item taxability mismatch
+- order invoice tax mismatch
+
+The assistant should usually retrieve:
+
+1. [Common Avalara Error Patterns](troubleshooting/COMMON_AVALARA_ERROR_PATTERNS.md),
+2. the specific symptom article,
+3. [Transaction Lifecycle](transactions/TRANSACTION_LIFECYCLE.md) when timing or downstream records are involved,
+4. and related exemption or item articles when the symptom involves customer, certificate, or item context.
+
 ## Public Sources
 
+- https://developer.avalara.com/avatax/errors/
 - https://developer.avalara.com/products/avatax/
 - https://knowledge.avalara.com/
 
