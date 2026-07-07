@@ -18,7 +18,7 @@ This section may include:
 - record relationship explanations
 - AI reasoning guidance
 
-This section must not include company-specific tax setup, private examples, internal mappings, screenshots, or proprietary process details.
+This section must not include company-specific tax setup, private examples, internal mappings, screenshots, proprietary process details, company nexus decisions, filing calendars, audit strategy, customer-specific examples, or internal tax positions.
 
 Private implementation knowledge belongs in a private repository.
 
@@ -100,6 +100,49 @@ Common Avalara Error Patterns
 
 The most important Connector Troubleshooting article for AI reasoning is [Common Avalara Error Patterns](troubleshooting/COMMON_AVALARA_ERROR_PATTERNS.md), because it teaches the assistant to classify the observable symptom before choosing a more specific troubleshooting path.
 
+### Returns
+
+The Returns cluster explains how returns, refunds, credit memos, and correction records relate back to original transaction tax results.
+
+Start here:
+
+1. [Return Lifecycle](returns/RETURN_LIFECYCLE.md)
+2. [Refund Tax Reasoning](returns/REFUND_TAX_REASONING.md)
+3. [Return Troubleshooting](returns/RETURN_TROUBLESHOOTING.md)
+
+Recommended learning path:
+
+```text
+Return Lifecycle
+  -> Refund Tax Reasoning
+  -> Return Troubleshooting
+  -> Transaction Lifecycle
+```
+
+The most important Returns article for AI reasoning is [Return Lifecycle](returns/RETURN_LIFECYCLE.md), because it teaches the assistant to compare return-related records against the original invoice or cash sale before explaining refund tax.
+
+### Compliance
+
+The Compliance cluster explains high-level public-safe compliance concepts without making company-specific filing, nexus, audit, registration, remittance, or legal decisions.
+
+Start here:
+
+1. [Filing Concepts](compliance/FILING_CONCEPTS.md)
+2. [Public Nexus Overview](compliance/PUBLIC_NEXUS_OVERVIEW.md)
+3. [Audit Concepts](compliance/AUDIT_CONCEPTS.md)
+4. [Compliance FAQ](compliance/COMPLIANCE_FAQ.md)
+
+Recommended learning path:
+
+```text
+Filing Concepts
+  -> Public Nexus Overview
+  -> Audit Concepts
+  -> Compliance FAQ
+```
+
+The most important Compliance article for AI reasoning is [Compliance FAQ](compliance/COMPLIANCE_FAQ.md), because it teaches the assistant to classify questions as conceptual, transaction-specific, or company-specific before answering.
+
 ## Exemption Management Relationship Map
 
 ```mermaid
@@ -134,13 +177,16 @@ flowchart LR
     INV[Invoice]
     CS[Cash Sale]
     CM[Credit Memo]
-    Review[Review or Correction]
+    RA[Return Authorization]
+    Filing[Compliance Review]
 
     SO --> INV
     SO --> CS
     INV --> CM
-    CS --> Review
-    CM --> Review
+    CS --> CM
+    INV --> RA
+    CS --> RA
+    CM --> Filing
 ```
 
 This lifecycle map is a generic reasoning model. It is not a company-specific process map.
@@ -178,6 +224,61 @@ flowchart TD
 
 This map teaches the assistant to route from symptom to diagnostic path before recommending escalation.
 
+## Returns Reasoning Map
+
+```mermaid
+flowchart TD
+    ReturnQuestion[Return or Refund Question]
+    Original[Original Invoice or Cash Sale]
+    ReturnRecord[Return Authorization or Credit Memo]
+    Lines[Returned Lines and Quantities]
+    Charges[Shipping Handling or Charge Lines]
+    Timing[Calculation Timing]
+    Refund[Refund Tax Reasoning]
+    Explain[Evidence-Based Explanation]
+    Escalate[Internal Review if Needed]
+
+    ReturnQuestion --> Original
+    ReturnQuestion --> ReturnRecord
+    Original --> Lines
+    ReturnRecord --> Lines
+    Lines --> Charges
+    Charges --> Timing
+    Timing --> Refund
+    Refund --> Explain
+    Refund --> Escalate
+```
+
+This map teaches the assistant that return tax questions should be reviewed against the original transaction and line-level refund context.
+
+## Compliance Reasoning Map
+
+```mermaid
+flowchart TD
+    ComplianceQuestion[Compliance Question]
+    Conceptual[Conceptual Explanation]
+    TransactionSpecific[Transaction Evidence]
+    CompanySpecific[Company Specific Decision]
+    Filing[Filing Concepts]
+    Nexus[Public Nexus Overview]
+    Audit[Audit Concepts]
+    FAQ[Compliance FAQ]
+    Internal[Internal Tax Accounting or Legal Review]
+
+    ComplianceQuestion --> Conceptual
+    ComplianceQuestion --> TransactionSpecific
+    ComplianceQuestion --> CompanySpecific
+    Conceptual --> Filing
+    Conceptual --> Nexus
+    Conceptual --> Audit
+    Conceptual --> FAQ
+    TransactionSpecific --> Filing
+    TransactionSpecific --> Audit
+    CompanySpecific --> Internal
+```
+
+This map teaches the assistant to distinguish public-safe concept explanations from company-specific compliance decisions.
+
 ## Cross-Cluster Reasoning Map
 
 ```mermaid
@@ -186,29 +287,39 @@ flowchart TD
     Exemptions[Exemption Management]
     Transactions[Transactions]
     Connector[Connector Troubleshooting]
+    Returns[Returns]
+    Compliance[Compliance]
     Customer[Customer]
     Address[Address]
     Item[Item]
     Certificate[Certificate Context]
     Lifecycle[Transaction Lifecycle]
     Troubleshooting[Troubleshooting Path]
+    Evidence[Evidence-Based Explanation]
+    Internal[Internal Review]
     Answer[Consultant-Style Answer]
 
     Question --> Exemptions
     Question --> Transactions
     Question --> Connector
+    Question --> Returns
+    Question --> Compliance
     Exemptions --> Customer
     Exemptions --> Certificate
     Exemptions --> Item
     Transactions --> Address
     Transactions --> Lifecycle
     Connector --> Troubleshooting
+    Returns --> Lifecycle
+    Compliance --> Evidence
     Customer --> Troubleshooting
     Address --> Troubleshooting
     Item --> Troubleshooting
     Certificate --> Troubleshooting
     Lifecycle --> Troubleshooting
-    Troubleshooting --> Answer
+    Troubleshooting --> Evidence
+    Evidence --> Answer
+    Evidence --> Internal
 ```
 
 ## Exemption Troubleshooting Flow
@@ -244,20 +355,23 @@ flowchart TD
 | Exemption Management | 100% | 100% | 100% | 100% | 90% |
 | Transactions | 100% | 100% | 80% | 80% | 100% |
 | Connector Troubleshooting | 100% | 90% | 100% | 80% | 95% |
-| Returns | 0% | 0% | 0% | 0% | 0% |
-| Compliance | 0% | 0% | 0% | 0% | 0% |
+| Returns | 100% | 90% | 100% | 80% | 95% |
+| Compliance | 100% | 80% | 80% | 90% | 95% |
 
 Coverage percentages are directional, not formal validation scores. They represent whether the cluster can currently support useful AI-assisted reasoning.
 
-## Suggested Next Cluster: Returns
+## Suggested Next Work
 
-After completing the initial Exemption Management, Transactions, and Connector Troubleshooting clusters, the next recommended Avalara cluster is Returns.
+Avalara is now close to consultant-grade v1 coverage.
 
-Planned Returns articles:
+Recommended remaining polish before moving to Pacejet:
 
-- Return lifecycle
-- Refund tax reasoning
-- Return troubleshooting
+- Review article-to-article links for consistency.
+- Add targeted cross-links from older exemption and transaction articles into Returns and Compliance where helpful.
+- Add benchmark employee questions for Avalara GPT evaluation.
+- Confirm naming conventions and metadata consistency across the Avalara section.
+
+After this polish pass, the next recommended platform is Pacejet, followed by SPS Commerce.
 
 ## AI Retrieval Guidance
 
@@ -317,11 +431,55 @@ The assistant should usually retrieve:
 3. [Transaction Lifecycle](transactions/TRANSACTION_LIFECYCLE.md) when timing or downstream records are involved,
 4. and related exemption or item articles when the symptom involves customer, certificate, or item context.
 
+### Return-related retrieval signals
+
+- return tax
+- refund tax
+- credit memo tax
+- partial refund
+- returned item tax
+- tax refund did not match
+- customer did not get tax back
+- tax on return
+
+The assistant should usually retrieve:
+
+1. [Return Lifecycle](returns/RETURN_LIFECYCLE.md),
+2. [Refund Tax Reasoning](returns/REFUND_TAX_REASONING.md),
+3. [Return Troubleshooting](returns/RETURN_TROUBLESHOOTING.md),
+4. [Credit Memos](transactions/CREDIT_MEMOS.md),
+5. and [Transaction Lifecycle](transactions/TRANSACTION_LIFECYCLE.md).
+
+### Compliance-related retrieval signals
+
+- filing
+- sales tax returns
+- tax period
+- nexus
+- economic nexus
+- audit
+- audit readiness
+- compliance review
+- registration
+- remittance
+- tax obligation
+
+The assistant should usually retrieve:
+
+1. [Compliance FAQ](compliance/COMPLIANCE_FAQ.md),
+2. the specific compliance concept article,
+3. [Transaction Lifecycle](transactions/TRANSACTION_LIFECYCLE.md) when a transaction is involved,
+4. [Return Lifecycle](returns/RETURN_LIFECYCLE.md) when credits or refunds are involved,
+5. and relevant exemption or troubleshooting articles when the compliance question starts with a tax-result issue.
+
+Company-specific filing, nexus, audit, registration, remittance, tax-position, or legal questions must be routed to private documentation or internal review.
+
 ## Public Sources
 
 - https://developer.avalara.com/avatax/errors/
 - https://developer.avalara.com/products/avatax/
 - https://knowledge.avalara.com/
+- https://www.avalara.com/us/en/learn/guides/state-by-state-guide-economic-nexus-laws.html
 
 ## Related Framework Documents
 
