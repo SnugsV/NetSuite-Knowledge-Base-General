@@ -18,18 +18,7 @@ This section may include:
 - record relationship explanations
 - AI reasoning guidance
 
-This section must not include:
-
-- company-specific tax configuration
-- private exemption decisions
-- internal NetSuite custom fields
-- saved searches
-- workflows
-- SuiteScripts
-- integration mappings
-- customer-specific examples
-- screenshots from private systems
-- proprietary process details
+This section must not include company-specific tax setup, private examples, internal mappings, screenshots, or proprietary process details.
 
 Private implementation knowledge belongs in a private repository.
 
@@ -59,6 +48,30 @@ Exemption Certificates
   -> Common Exemption Scenarios
 ```
 
+### Transactions
+
+The Transactions cluster explains how NetSuite transaction stages affect Avalara tax reasoning.
+
+Start here:
+
+1. [Sales Orders](transactions/SALES_ORDERS.md)
+2. [Invoices](transactions/INVOICES.md)
+3. [Cash Sales](transactions/CASH_SALES.md)
+4. [Credit Memos](transactions/CREDIT_MEMOS.md)
+5. [Transaction Lifecycle](transactions/TRANSACTION_LIFECYCLE.md)
+
+Recommended learning path:
+
+```text
+Sales Orders
+  -> Invoices
+  -> Cash Sales
+  -> Credit Memos
+  -> Transaction Lifecycle
+```
+
+The most important Transactions article for AI reasoning is [Transaction Lifecycle](transactions/TRANSACTION_LIFECYCLE.md), because it teaches the assistant how to compare records across order, billing, payment, and correction stages.
+
 ## Exemption Management Relationship Map
 
 ```mermaid
@@ -85,6 +98,55 @@ flowchart TD
     Avalara --> Result
 ```
 
+## Transaction Lifecycle Map
+
+```mermaid
+flowchart LR
+    SO[Sales Order]
+    INV[Invoice]
+    CS[Cash Sale]
+    CM[Credit Memo]
+    Review[Review or Correction]
+
+    SO --> INV
+    SO --> CS
+    INV --> CM
+    CS --> Review
+    CM --> Review
+```
+
+This lifecycle map is a generic reasoning model. It is not a company-specific process map.
+
+## Cross-Cluster Reasoning Map
+
+```mermaid
+flowchart TD
+    Question[Employee Tax Question]
+    Exemptions[Exemption Management]
+    Transactions[Transactions]
+    Customer[Customer]
+    Address[Address]
+    Item[Item]
+    Certificate[Certificate Context]
+    Lifecycle[Transaction Lifecycle]
+    Troubleshooting[Troubleshooting Path]
+    Answer[Consultant-Style Answer]
+
+    Question --> Exemptions
+    Question --> Transactions
+    Exemptions --> Customer
+    Exemptions --> Certificate
+    Exemptions --> Item
+    Transactions --> Address
+    Transactions --> Lifecycle
+    Customer --> Troubleshooting
+    Address --> Troubleshooting
+    Item --> Troubleshooting
+    Certificate --> Troubleshooting
+    Lifecycle --> Troubleshooting
+    Troubleshooting --> Answer
+```
+
 ## Exemption Troubleshooting Flow
 
 ```mermaid
@@ -97,8 +159,8 @@ flowchart TD
     Item[Review item or line]
     Date[Review transaction date and calculation timing]
     Compare[Compare with similar transaction]
-    Internal[Internal verification needed]
     Explain[Explain likely cause and evidence]
+    Internal[Internal verification needed]
 
     Start --> Txn
     Txn --> Customer
@@ -115,33 +177,33 @@ flowchart TD
 
 | Cluster | Foundation | Integration | Troubleshooting | Reference | Reasoning |
 |---|---:|---:|---:|---:|---:|
-| Exemption Management | 100% | 100% | 100% | 100% | 80% |
-| Transactions | 0% | 0% | 0% | 0% | 0% |
+| Exemption Management | 100% | 100% | 100% | 100% | 90% |
+| Transactions | 100% | 100% | 80% | 80% | 100% |
 | Returns | 0% | 0% | 0% | 0% | 0% |
 | Compliance | 0% | 0% | 0% | 0% | 0% |
 | Connector Troubleshooting | 0% | 0% | 0% | 0% | 0% |
 
 Coverage percentages are directional, not formal validation scores. They represent whether the cluster can currently support useful AI-assisted reasoning.
 
-## Suggested Next Cluster: Transactions
+## Suggested Next Cluster: Connector Troubleshooting
 
-After Exemption Management, the next recommended cluster is Transactions.
+After completing the initial Exemption Management and Transactions clusters, the next recommended cluster is Connector Troubleshooting.
 
-Planned transaction articles:
+Planned connector troubleshooting articles:
 
-- Sales Orders
-- Invoices
-- Cash Sales
-- Credit Memos
-- Transaction Lifecycle
-- Why Did Avalara Calculate Tax?
-- Why Did Tax Change Between Order and Invoice?
+- Tax did not calculate
+- Tax calculated unexpectedly
+- Avalara connection or response issue
+- Address validation issue
+- Item or product taxability mismatch
+- Exemption certificate not applied
+- Order and invoice tax mismatch
 
 ## AI Retrieval Guidance
 
-When a user asks an exemption question, retrieve the Exemption Management cluster before answering.
+When a user asks an Avalara question, retrieve based on the question type.
 
-Strong retrieval signals include:
+### Exemption-related retrieval signals
 
 - customer tax exempt
 - exemption certificate
@@ -150,14 +212,30 @@ Strong retrieval signals include:
 - tax calculated for exempt customer
 - item taxability
 - same customer different tax result
-- same item different tax result
 - Avalara exemption issue
 
 The assistant should usually retrieve:
 
 1. the scenario or troubleshooting article,
 2. the specific concept article,
-3. and the related record relationship context.
+3. and the related transaction article.
+
+### Transaction-related retrieval signals
+
+- sales order tax
+- invoice tax
+- cash sale tax
+- credit memo tax
+- tax changed between order and invoice
+- tax changed after invoicing
+- tax correction
+- why did tax change
+
+The assistant should usually retrieve:
+
+1. [Transaction Lifecycle](transactions/TRANSACTION_LIFECYCLE.md),
+2. the specific transaction article,
+3. and any related exemption article if customer, certificate, or item taxability is involved.
 
 ## Public Sources
 
@@ -168,4 +246,5 @@ The assistant should usually retrieve:
 
 - [AI Knowledge Metadata](../../../knowledge-engine/AI_KNOWLEDGE_METADATA.md)
 - [ERP Intelligence Knowledge Model](../../../knowledge-engine/KNOWLEDGE_MODEL.md)
+- [ERP Intelligence Knowledge Graph](../../../knowledge-engine/KNOWLEDGE_GRAPH.md)
 - [Knowledge Cluster Article Template](../../../templates/KNOWLEDGE_CLUSTER_TEMPLATE.md)
