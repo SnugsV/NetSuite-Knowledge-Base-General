@@ -6,16 +6,28 @@ This file records release history only. Current status belongs in `PROJECT_STATU
 
 ## [Unreleased]
 
+### Added
+
+- Added `docs/integrations/README.md` as the integration knowledge hub index.
+- Started SPS Commerce integration intelligence foundation.
+- Added SPS Commerce fundamentals for EDI overview, trading partner concepts, and EDI document types.
+- Added SPS Commerce retrieval and sprint progress support files.
+
 ### Changed
 
 - Updated project tracking documents for Phase 1 repository health cleanup.
-- Aligned `PROJECT_STATUS.md`, `SESSION_REPORT.md`, and `ROADMAP.md` around the current maintenance model.
+- Refreshed the root README for public AI reasoning scope.
+- Refreshed `docs/README.md` navigation and AI retrieval guidance.
+- Updated `docs/integrations/BENCHMARKS.md` to link the Pacejet benchmark set and SPS Commerce foundation.
+- Refreshed `docs/integrations/README.md` with current and future integration hubs.
+- Updated `BACKLOG.md` to better reflect current ERP curriculum and integration intelligence status.
 
 ### Pending
 
-- Repair `docs/README.md` navigation and module index formatting.
 - Review stale architecture and PR-status language.
-- Select and add a repository license.
+- Review roadmap alignment with current integration intelligence direction.
+- Create or update a clear known-gaps tracker.
+- Review changelog version ordering and release grouping before the next tagged release.
 
 ## [4.0.0] - 2026-07-01 - AI Validation & Benchmark Framework
 
