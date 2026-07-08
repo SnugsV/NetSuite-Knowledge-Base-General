@@ -14,6 +14,12 @@ Each integration section should help humans and AI assistants reason through cro
 | Pacejet | Active foundation | [Pacejet Knowledge Hub](pacejet/README.md) |
 | SPS Commerce | Foundation started | [SPS Commerce Knowledge Hub](sps-commerce/README.md) |
 
+## Future Integration Hubs
+
+- Celigo
+- Shopify
+- RF-SMART
+
 ## Evaluation
 
 Integration benchmark guidance is tracked here:
