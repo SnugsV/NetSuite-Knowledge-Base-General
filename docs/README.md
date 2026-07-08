@@ -1,12 +1,14 @@
-# NetSuite Knowledge Base - Documentation
+# NetSuite Intelligence Platform - Documentation Index
 
-Welcome to the NetSuite Knowledge Base documentation site. This is the central index for all articles organized by module.
+Welcome to the NetSuite Intelligence Platform documentation index. This is the central navigation page for public-safe NetSuite learning, reasoning, integration, and AI retrieval content.
 
 ---
 
 ## Purpose
 
-This documentation repository provides original, educational content for anyone learning, administering, developing for, or integrating with NetSuite. Every article is written to be useful for both human readers and AI assistants.
+This documentation repository provides original, educational content for anyone learning, administering, developing for, or integrating with NetSuite.
+
+Every article should be useful for both human readers and AI assistants. The goal is to support consultant-style reasoning, semantic search, RAG, knowledge graphs, troubleshooting, and benchmark evaluation.
 
 Content here complements Oracle's official documentation. It does not replace it.
 
@@ -64,6 +66,16 @@ Building visibility into business activity? Start with saved searches and report
 - Operational Reports
 - KPIs and Dashboards
 
+### Integration Intelligence Path
+
+Working with NetSuite ecosystem platforms? Start with the integration hub, then move into the relevant platform section.
+
+- [Integration Knowledge Hubs](integrations/)
+- [Integration Benchmark Index](integrations/BENCHMARKS.md)
+- [Avalara](integrations/avalara/)
+- [Pacejet](integrations/pacejet/)
+- [SPS Commerce](integrations/sps-commerce/)
+
 ### Advanced Path
 
 Scripting, APIs, automation, integrations, and AI-assisted solution design.
@@ -87,7 +99,7 @@ Scripting, APIs, automation, integrations, and AI-assisted solution design.
 | [Sales](sales/) | Complete | Customer, order, fulfillment, invoicing, and order-to-cash process guidance. |
 | [Manufacturing](manufacturing/) | Complete | Planning, production, assemblies, work orders, and plan-to-produce process guidance. |
 | [Accounting](accounting/) | Complete | Record-to-report concepts, transactions, general ledger flow, and financial process guidance. |
-| [Integrations](integrations/) | Started | External system connections and ecosystem integration intelligence. |
+| [Integrations](integrations/) | Active | Public-safe integration intelligence, lifecycle reasoning, troubleshooting, benchmarks, and retrieval guidance. |
 | [SuiteScript](suitescript/) | Started | JavaScript customization and SuiteScript concepts. |
 | [SuiteTalk](suitetalk/) | Started | REST, SOAP, authentication, and API integration concepts. |
 | Reporting | Planned | Financial reports, operational reports, custom reporting, and analytics guidance. |
@@ -109,6 +121,18 @@ Scripting, APIs, automation, integrations, and AI-assisted solution design.
 3. Follow the operational modules: Inventory, Purchasing, Sales, Manufacturing, and Accounting.
 4. Use Saved Searches and Reporting to build visibility into business activity.
 5. Move into SuiteScript, SuiteTalk, Integrations, and the Knowledge Engineering Framework for advanced work.
+
+---
+
+## AI Retrieval Guidance
+
+When using this repository as an AI knowledge source:
+
+1. Identify the user's NetSuite area, record type, or integration.
+2. Retrieve the relevant module index or integration hub before selecting a specific article.
+3. Compare related records before drawing conclusions.
+4. Separate general public knowledge from private implementation details.
+5. Escalate when the answer depends on account-specific configuration, customer examples, credentials, pricing, scripts, workflows, custom fields, saved searches, or proprietary procedures.
 
 ---
 
