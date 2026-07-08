@@ -16,6 +16,8 @@ related_records:
 related_articles:
   - avalara/AVALARA_BENCHMARK_QUESTIONS.md
   - avalara/README.md
+  - pacejet/PACEJET_BENCHMARK_QUESTIONS.md
+  - pacejet/README.md
 keywords:
   - benchmark questions
   - GPT evaluation
@@ -24,10 +26,11 @@ keywords:
   - NetSuite ecosystem testing
   - retrieval evaluation
 difficulty: Consultant
-last_verified: 2026-07-07
+last_verified: 2026-07-08
 public_sources:
   - https://developer.avalara.com/products/avatax/
   - https://knowledge.avalara.com/
+  - https://www.pacejet.com/
 reasoning_prerequisites:
   - Benchmark files should test reasoning quality, retrieval behavior, escalation behavior, and public-safe boundaries.
   - Each integration should eventually have its own benchmark question set.
@@ -35,7 +38,7 @@ reasoning_prerequisites:
 employee_questions_answered:
   - How do we evaluate whether a GPT is using this repository correctly?
   - Where are the benchmark question sets for each integration?
-  - What should future Pacejet, SPS Commerce, Celigo, Shopify, and RF-SMART benchmarks include?
+  - What should future SPS Commerce, Celigo, Shopify, and RF-SMART benchmarks include?
 ---
 
 # Integration Benchmark Index
@@ -53,7 +56,7 @@ This file is not a test of memorization. It is a test of reasoning quality.
 | Platform | Benchmark File | Status | Purpose |
 |---|---|---|---|
 | Avalara | [Avalara Benchmark Questions](avalara/AVALARA_BENCHMARK_QUESTIONS.md) | v1 added | Tests exemption, transaction lifecycle, connector troubleshooting, returns, compliance, and escalation reasoning. |
-| Pacejet | Planned | Not started | Should test shipping lifecycle, rate shopping, carrier selection, packaging, labels, and shipment troubleshooting. |
+| Pacejet | [Pacejet Benchmark Questions](pacejet/PACEJET_BENCHMARK_QUESTIONS.md) | v1 added | Tests shipping lifecycle, rate shopping, carrier selection, packaging, labels, shipment updates, tracking, and public-safe escalation. |
 | SPS Commerce | Planned | Not started | Should test EDI document lifecycle, purchase orders, ASNs, invoices, retailer workflows, and error resolution. |
 | Celigo | Planned | Not started | Should test integration flow reasoning, sync direction, failures, mapping concepts, and operational escalation. |
 | Shopify | Planned | Not started | Should test ecommerce order lifecycle, payments, fulfillment, tax, refunds, and NetSuite relationship reasoning. |
@@ -141,7 +144,7 @@ Use: [Avalara Benchmark Questions](avalara/AVALARA_BENCHMARK_QUESTIONS.md)
 
 ### Pacejet
 
-Future Pacejet benchmarks should test:
+Pacejet benchmarks should test:
 
 - shipment lifecycle reasoning
 - carrier selection and rate shopping concepts
@@ -149,7 +152,10 @@ Future Pacejet benchmarks should test:
 - label generation troubleshooting
 - freight versus parcel reasoning
 - fulfillment and shipping-stage comparisons
+- shipment update and tracking status reasoning
 - escalation for private carrier setup or account-specific shipping rules
+
+Use: [Pacejet Benchmark Questions](pacejet/PACEJET_BENCHMARK_QUESTIONS.md)
 
 ### SPS Commerce
 
