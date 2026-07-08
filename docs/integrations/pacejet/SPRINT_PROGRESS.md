@@ -29,16 +29,18 @@ A first troubleshooting seed article has also been added.
 
 - troubleshooting/RATE_NOT_RETURNED_OVERVIEW.md
 
-## Recommended Next Work
+## Connector Note
 
-Continue troubleshooting with small overview articles, then expand each topic in follow-up micro-edits.
+Several follow-up troubleshooting drafts were blocked by the GitHub connector safety layer. Continue this area with very small edits and short overview files.
+
+## Recommended Next Work
 
 Recommended next topics:
 
-- address validation issue overview
-- label output issue overview
+- address validation overview
+- label output overview
 - shipment update overview
-- package measurement issue overview
+- package measurement overview
 - freight quote overview
 - tracking status overview
 
