@@ -18,6 +18,7 @@ related_articles:
   - avalara/README.md
   - pacejet/PACEJET_BENCHMARK_QUESTIONS.md
   - pacejet/README.md
+  - sps-commerce/README.md
 keywords:
   - benchmark questions
   - GPT evaluation
@@ -57,7 +58,7 @@ This file is not a test of memorization. It is a test of reasoning quality.
 |---|---|---|---|
 | Avalara | [Avalara Benchmark Questions](avalara/AVALARA_BENCHMARK_QUESTIONS.md) | v1 added | Tests exemption, transaction lifecycle, connector troubleshooting, returns, compliance, and escalation reasoning. |
 | Pacejet | [Pacejet Benchmark Questions](pacejet/PACEJET_BENCHMARK_QUESTIONS.md) | v1 added | Tests shipping lifecycle, rate shopping, carrier selection, packaging, labels, shipment updates, tracking, and public-safe escalation. |
-| SPS Commerce | Planned | Not started | Should test EDI document lifecycle, purchase orders, ASNs, invoices, retailer workflows, and error resolution. |
+| SPS Commerce | [SPS Commerce Knowledge Hub](sps-commerce/README.md) | Foundation started | Should test EDI document lifecycle, purchase orders, ASNs, invoices, retailer workflows, and error resolution. |
 | Celigo | Planned | Not started | Should test integration flow reasoning, sync direction, failures, mapping concepts, and operational escalation. |
 | Shopify | Planned | Not started | Should test ecommerce order lifecycle, payments, fulfillment, tax, refunds, and NetSuite relationship reasoning. |
 | RF-SMART | Planned | Not started | Should test warehouse scanning, inventory movement, fulfillment, receiving, and operational record relationships. |
@@ -167,6 +168,8 @@ Future SPS Commerce benchmarks should test:
 - mapping and validation error triage
 - document status interpretation
 - escalation for private maps, retailer-specific rules, and customer-specific workflows
+
+Use current foundation: [SPS Commerce Knowledge Hub](sps-commerce/README.md)
 
 ### Celigo
 
