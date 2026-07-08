@@ -4,9 +4,9 @@
 
 This section organizes public-safe Pacejet knowledge for the NetSuite Intelligence Platform.
 
-The goal is not to reproduce Pacejet or Descartes documentation. The goal is to help readers and AI assistants reason through common NetSuite and Pacejet shipping questions using connected concepts, record relationships, shipment lifecycle context, operational workflows, and troubleshooting paths.
+The goal is not to reproduce Pacejet or Descartes documentation. The goal is to help humans and AI assistants reason through NetSuite and Pacejet shipping questions using connected concepts, record relationships, shipment lifecycle context, rate-shopping logic, packing evidence, label outputs, tracking context, and troubleshooting paths.
 
-Pacejet should be treated as a shipping intelligence domain connected to NetSuite transaction, fulfillment, customer, address, item, carrier, package, label, and shipment data.
+Pacejet should be treated as a shipping intelligence domain connected to NetSuite transaction, fulfillment, customer, address, item, carrier, service, package, label, shipment, and tracking data.
 
 ## Public-Safe Scope
 
@@ -18,50 +18,51 @@ This section may include:
 - generic shipping and fulfillment concepts
 - public-safe troubleshooting guidance
 - shipment lifecycle explanations
-- carrier, package, label, and address relationship models
+- carrier, service, package, label, address, tracking, and shipment relationship models
+- benchmark questions for AI evaluation
 - AI retrieval guidance
 
 This section must not include company-specific shipping rules, carrier account numbers, negotiated rates, private carrier credentials, custom fields, saved searches, workflows, SuiteScripts, warehouse SOPs, customer examples, screenshots, pricing logic, package rules, internal shipping policies, or proprietary process details.
 
-Private implementation knowledge belongs in a private repository.
+Private implementation knowledge belongs in a private repository or internal knowledge source.
 
 ## Knowledge Clusters
 
 ### Shipping Fundamentals
 
-The Shipping Fundamentals cluster should explain the core concepts an assistant needs before troubleshooting Pacejet or NetSuite shipping questions.
+The Shipping Fundamentals cluster explains the core concepts an assistant needs before troubleshooting Pacejet or NetSuite shipping questions.
 
-Planned articles:
+Completed articles:
 
-1. Shipping Overview
-2. Parcel vs. LTL Freight
-3. Carrier Services
-4. Shipment Data Model
-5. Address Validation Concepts
+1. [Shipping Overview](fundamentals/SHIPPING_OVERVIEW.md)
+2. [Parcel vs LTL Freight](fundamentals/PARCEL_VS_LTL_FREIGHT.md)
+3. [Shipment Data Model](fundamentals/SHIPMENT_DATA_MODEL.md)
+4. [Address Validation Concepts](fundamentals/ADDRESS_VALIDATION_CONCEPTS.md)
+5. [Carrier Services](fundamentals/CARRIER_SERVICES.md)
 
-Recommended learning path:
+Recommended retrieval path:
 
 ```text
 Shipping Overview
-  -> Parcel vs. LTL Freight
-  -> Carrier Services
   -> Shipment Data Model
+  -> Parcel vs LTL Freight
+  -> Carrier Services
   -> Address Validation Concepts
 ```
 
 ### Shipment Lifecycle
 
-The Shipment Lifecycle cluster should explain how shipping-related questions move from order or fulfillment context into packing, rating, labeling, shipping, tracking, and review.
+The Shipment Lifecycle cluster explains how shipping-related questions move from order or fulfillment context into packing, rating, carrier/service selection, labels, shipment creation, tracking, and review.
 
-Planned articles:
+Completed articles:
 
-1. Shipment Lifecycle
-2. Fulfillment and Shipment Relationship
-3. Package and Pallet Reasoning
-4. Labels and Paperwork
-5. Tracking and Carrier Performance
+1. [Shipment Lifecycle](lifecycle/SHIPMENT_LIFECYCLE.md)
+2. [Fulfillment and Shipment Relationship](lifecycle/FULFILLMENT_AND_SHIPMENT_RELATIONSHIP.md)
+3. [Package and Pallet Reasoning](lifecycle/PACKAGE_AND_PALLET_REASONING.md)
+4. [Labels and Paperwork](lifecycle/LABELS_AND_PAPERWORK.md)
+5. [Tracking and Carrier Performance](lifecycle/TRACKING_AND_CARRIER_PERFORMANCE.md)
 
-Recommended learning path:
+Recommended retrieval path:
 
 ```text
 Shipment Lifecycle
@@ -73,31 +74,73 @@ Shipment Lifecycle
 
 ### Rate Shopping and Carrier Selection
 
-The Rate Shopping and Carrier Selection cluster should explain how cost, service level, transit time, carrier availability, package data, address context, and rules can affect carrier decisions.
+The Rate Shopping and Carrier Selection cluster explains how shipment context, cost, service level, transit time, carrier availability, package data, address context, and rules can affect carrier and service outcomes.
 
-Planned articles:
+Completed articles:
 
-1. Rate Shopping Concepts
-2. Carrier Selection Reasoning
-3. Shipping Rules Concepts
-4. Freight Quote Reasoning
-5. Service Level Comparison
+1. [Rate Shopping Concepts](rate-shopping/RATE_SHOPPING_CONCEPTS.md)
+2. [Carrier Selection](rate-shopping/CARRIER_SELECTION.md)
+3. [Service Level Comparison](rate-shopping/SERVICE_LEVEL_COMPARISON.md)
+4. [Option Comparison](rate-shopping/OPTION_COMPARISON.md)
+5. [Rule Concepts](rate-shopping/RULE_CONCEPTS.md)
 
-Recommended learning path:
+Recommended retrieval path:
 
 ```text
 Rate Shopping Concepts
-  -> Carrier Selection Reasoning
-  -> Shipping Rules Concepts
-  -> Freight Quote Reasoning
+  -> Carrier Selection
   -> Service Level Comparison
+  -> Option Comparison
+  -> Rule Concepts
+```
+
+### Troubleshooting
+
+The Troubleshooting cluster explains how support cases should be investigated from observable shipping symptoms.
+
+Completed seed articles:
+
+1. [Rate Not Returned Overview](troubleshooting/RATE_NOT_RETURNED_OVERVIEW.md)
+2. [Address Validation Issue Overview](troubleshooting/ADDRESS_VALIDATION_ISSUE_OVERVIEW.md)
+3. [Label Output Issue Overview](troubleshooting/LABEL_OUTPUT_ISSUE_OVERVIEW.md)
+4. [Shipment Update Issue Overview](troubleshooting/SHIPMENT_UPDATE_ISSUE_OVERVIEW.md)
+5. [Package Measurement Issue Overview](troubleshooting/PACKAGE_MEASUREMENT_ISSUE_OVERVIEW.md)
+6. [Freight Quote Overview](troubleshooting/FREIGHT_QUOTE_OVERVIEW.md)
+7. [Tracking Status Issue Overview](troubleshooting/TRACKING_STATUS_ISSUE_OVERVIEW.md)
+
+Recommended retrieval path:
+
+```text
+Common Shipping Symptom
+  -> Shipment Lifecycle
+  -> Shipment Data Model
+  -> Symptom-Specific Troubleshooting Seed
+  -> Related Lifecycle or Rate-Shopping Article
+```
+
+### Evaluation
+
+The Evaluation cluster tests whether an AI assistant can use the Pacejet knowledge base like a consultant.
+
+Completed articles:
+
+1. [Pacejet Benchmark Questions](PACEJET_BENCHMARK_QUESTIONS.md)
+2. [Troubleshooting Progress Addendum](TROUBLESHOOTING_PROGRESS_ADDENDUM.md)
+
+Recommended retrieval path:
+
+```text
+Benchmark Question
+  -> Expected Retrieval
+  -> Expected Reasoning
+  -> Public-Safe Boundary Review
 ```
 
 ### Packing and Labels
 
-The Packing and Labels cluster should explain how package data, dimensions, weights, scan-packing, paperwork, and label output affect fulfillment accuracy.
+The Packing and Labels cluster is the next recommended expansion area.
 
-Planned articles:
+Planned seed articles:
 
 1. Packing Concepts
 2. Predictive Packing
@@ -105,45 +148,11 @@ Planned articles:
 4. Label Generation
 5. Shipping Paperwork
 
-Recommended learning path:
-
-```text
-Packing Concepts
-  -> Predictive Packing
-  -> Scan-Packing Reasoning
-  -> Label Generation
-  -> Shipping Paperwork
-```
-
-### Troubleshooting
-
-The Troubleshooting cluster should explain how support cases are investigated from observable shipping symptoms.
-
-Planned articles:
-
-1. Shipping Rate Not Returned
-2. Unexpected Carrier or Service
-3. Address Validation Issue
-4. Label Did Not Print
-5. Shipment Did Not Update NetSuite
-6. Package Weight or Dimension Issue
-7. Freight Quote Mismatch
-8. Tracking or Carrier Status Issue
-
-Recommended learning path:
-
-```text
-Common Shipping Symptoms
-  -> Rate Not Returned
-  -> Unexpected Carrier or Service
-  -> Address Validation Issue
-  -> Label Did Not Print
-  -> Shipment Did Not Update NetSuite
-```
+These articles should build on the existing shipment lifecycle, package and pallet reasoning, labels and paperwork, and troubleshooting seed articles.
 
 ## Public Research Summary
 
-Descartes Pacejet publicly describes Pacejet as ERP-integrated multi-carrier shipping software for freight, parcel, and wholesale shipments. Public materials describe capabilities such as rate shopping, predictive packing, scan-packing, labels and paperwork, shipping rules, reporting and analytics, export shipping, custom views and searches, custom shipping data, address validation, carrier performance, and integrations/APIs.
+Public Pacejet materials describe ERP-integrated multi-carrier shipping software for freight, parcel, and wholesale shipments. Public materials describe capabilities such as rate shopping, predictive packing, scan-packing, labels and paperwork, shipping rules, reporting and analytics, export shipping, custom views and searches, custom shipping data, address validation, carrier performance, and integrations/APIs.
 
 For this repository, those capabilities should be translated into NetSuite-centered reasoning models, not copied as product documentation.
 
@@ -204,18 +213,18 @@ flowchart TD
     Label --> Tracking
 ```
 
-This map teaches the assistant that shipping outcomes are produced from related transaction, address, item, package, carrier, service, and label context.
+This map teaches the assistant that shipping outcomes are produced from related transaction, address, item, package, carrier, service, label, and tracking context.
 
 ## Cross-Cluster Reasoning Map
 
 ```mermaid
 flowchart TD
-    Question[Employee Shipping Question]
+    Question[Shipping Question]
     Fundamentals[Shipping Fundamentals]
     Lifecycle[Shipment Lifecycle]
     RateShopping[Rate Shopping and Carrier Selection]
-    Packing[Packing and Labels]
     Troubleshooting[Troubleshooting]
+    Benchmarks[Benchmark Questions]
     Evidence[Shipping Evidence]
     Internal[Internal Review]
     Answer[Consultant-Style Answer]
@@ -223,123 +232,50 @@ flowchart TD
     Question --> Fundamentals
     Question --> Lifecycle
     Question --> RateShopping
-    Question --> Packing
     Question --> Troubleshooting
+    Question --> Benchmarks
     Fundamentals --> Evidence
     Lifecycle --> Evidence
     RateShopping --> Evidence
-    Packing --> Evidence
     Troubleshooting --> Evidence
     Evidence --> Answer
     Evidence --> Internal
 ```
 
+## AI Retrieval Guidance
+
+When answering a Pacejet question, an AI assistant should:
+
+1. Identify the visible symptom or question type.
+2. Identify the lifecycle stage involved.
+3. Retrieve the relevant fundamentals, lifecycle, rate-shopping, or troubleshooting article.
+4. Compare record evidence before suggesting likely explanations.
+5. Separate public concepts from private setup, rules, procedures, or configuration.
+6. Escalate when private carrier setup, warehouse process, account-specific configuration, pricing, credentials, custom fields, saved searches, workflows, scripts, or proprietary logic are required.
+
 ## Coverage Status
 
 | Cluster | Foundation | Integration | Troubleshooting | Reference | Reasoning |
 |---|---:|---:|---:|---:|---:|
-| Shipping Fundamentals | 10% | 10% | 0% | 0% | 10% |
-| Shipment Lifecycle | 10% | 10% | 0% | 0% | 10% |
-| Rate Shopping and Carrier Selection | 10% | 10% | 0% | 0% | 10% |
-| Packing and Labels | 10% | 10% | 0% | 0% | 10% |
-| Troubleshooting | 0% | 0% | 0% | 0% | 0% |
+| Shipping Fundamentals | 80% | 40% | 20% | 30% | 80% |
+| Shipment Lifecycle | 80% | 50% | 50% | 30% | 80% |
+| Rate Shopping and Carrier Selection | 70% | 50% | 50% | 25% | 70% |
+| Troubleshooting | 70% | 40% | 70% | 20% | 70% |
+| Evaluation | 60% | 40% | 60% | 20% | 70% |
+| Packing and Labels | 20% | 20% | 30% | 10% | 30% |
 
 Coverage percentages are directional, not formal validation scores. They represent whether the cluster can currently support useful AI-assisted reasoning.
 
-## Suggested Next Cluster: Shipping Fundamentals
+## Suggested Next Cluster
 
-The first recommended Pacejet cluster is Shipping Fundamentals.
+The next recommended Pacejet cluster is Packing and Labels.
 
 Start with:
 
-1. SHIPPING_OVERVIEW.md
-2. PARCEL_VS_LTL_FREIGHT.md
-3. SHIPMENT_DATA_MODEL.md
-4. ADDRESS_VALIDATION_CONCEPTS.md
+1. PACKING_CONCEPTS.md
+2. PREDICTIVE_PACKING.md
+3. SCAN_PACKING_REASONING.md
+4. LABEL_GENERATION.md
+5. SHIPPING_PAPERWORK.md
 
-This will establish the concepts needed before writing rate shopping, packing, label, and troubleshooting articles.
-
-## AI Retrieval Guidance
-
-When a user asks a Pacejet question, retrieve based on the question type.
-
-### Shipping lifecycle retrieval signals
-
-- shipment lifecycle
-- item fulfillment shipping
-- order shipped
-- shipment created
-- tracking number
-- shipment status
-- shipping workflow
-
-The assistant should usually retrieve:
-
-1. the shipment lifecycle article,
-2. the specific process article,
-3. and the troubleshooting article if the question includes an unexpected result.
-
-### Rate and carrier retrieval signals
-
-- rate shopping
-- shipping rate
-- freight quote
-- carrier selection
-- service level
-- cheapest carrier
-- transit time
-- unexpected carrier
-
-The assistant should usually retrieve:
-
-1. the rate shopping article,
-2. the carrier selection article,
-3. and package, address, and rules articles when relevant.
-
-### Packing and label retrieval signals
-
-- package weight
-- dimensions
-- pallet
-- scan pack
-- label did not print
-- paperwork
-- shipping label
-- packing slip
-
-The assistant should usually retrieve:
-
-1. the packing concepts article,
-2. the label generation article,
-3. and the specific troubleshooting article.
-
-### Troubleshooting retrieval signals
-
-- no rate returned
-- label error
-- address validation failed
-- shipment did not update
-- wrong carrier
-- freight quote mismatch
-- tracking issue
-- package dimensions wrong
-
-The assistant should usually retrieve:
-
-1. the common shipping symptom article,
-2. the specific troubleshooting article,
-3. and the relevant lifecycle, rate, packing, address, or label article.
-
-Private carrier setup, negotiated rates, shipping rules, account credentials, warehouse SOPs, custom fields, saved searches, workflows, SuiteScripts, and customer-specific examples must be routed to private documentation or internal review.
-
-## Public Sources
-
-- https://www.pacejet.com/
-- https://pacejet.help.descartesservices.com/
-
-## Related Framework Documents
-
-- [AI Knowledge Metadata](../../../knowledge-engine/AI_KNOWLEDGE_METADATA.md)
-- [ERP Intelligence Knowledge Model](../../../knowledge-engine/KNOWLEDGE_MODEL.md)
-- [ERP Intelligence Knowledge Graph](../../../knowledge-engine/KNOWLEDGE_GRAPH.md)
-- [Knowledge Cluster Article Template](../../../templates/KNOWLEDGE_CLUSTER_TEMPLATE.md)
+These articles should stay conceptual, public-safe, and linked to existing lifecycle, troubleshooting, and shipment data articles.
