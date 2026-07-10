@@ -6,8 +6,8 @@
 |---|---|
 | **Current Version** | 4.0.0 |
 | **Current Milestone** | Cross-Vendor Advanced Maintenance |
-| **Current Sprint** | Link Validation and Escalation Matrix Planning |
-| **Overall Completion** | Broad ERP curriculum, AI framework, advanced troubleshooting foundations, and cross-vendor support guidance are established |
+| **Current Sprint** | Link Validation and Quick Reference Planning |
+| **Overall Completion** | Broad ERP curriculum, AI framework, advanced troubleshooting foundations, cross-vendor support guidance, and self-service support checks are established |
 | **Repository Health** | 8.8 / 10 |
 | **Open Issues** | Review in GitHub before each maintenance session |
 | **Known Risks** | No CI/CD/link checking; tracking files need routine maintenance; documentation links need repeatable validation |
@@ -87,6 +87,7 @@
 ### Cross-Vendor Support
 - [x] Cross-vendor support index
 - [x] NetSuite-centered integration map
+- [x] Self-service before escalation guide
 - [x] Cross-vendor integration incident intake checklist
 - [x] Release and update review workflow
 - [x] Screenshot and log redaction checklist
@@ -139,12 +140,12 @@ Phase 1 cleanup is mostly complete, with link validation and release-order revie
 
 **Cross-Vendor Advanced Maintenance**
 
-Build remaining support material that helps AI assistants handle ownership and escalation across NetSuite, Avalara, Pacejet, SPS Commerce, connectors, carriers, tax ownership, and trading partners.
+Harden the support layer with link validation, quick-reference decision paths, and continued public-safety review.
 
 ## Upcoming Priorities
 
-1. Add cross-vendor escalation path matrix for NetSuite, vendor, connector, carrier, tax, and trading-partner ownership.
-2. Validate remaining documentation links with a repeatable tool.
+1. Validate remaining documentation links with a repeatable tool.
+2. Add frontline quick-reference decision tree for common NetSuite/Avalara/Pacejet/SPS symptoms.
 3. Review changelog release ordering before the next tag.
 4. Continue periodic public-safety audits.
 
@@ -173,7 +174,7 @@ Build remaining support material that helps AI assistants handle ownership and e
 - Added advanced Avalara troubleshooting index and eight advanced Avalara articles.
 - Added Advanced Pacejet troubleshooting index and six advanced Pacejet articles.
 - Added SPS Commerce integration module, advanced troubleshooting index, and six advanced SPS Commerce articles.
-- Added Cross-Vendor Support with integration map, incident intake checklist, release/update review workflow, and screenshot/log redaction checklist.
+- Added Cross-Vendor Support with integration map, self-service guide, incident intake checklist, release/update review workflow, and screenshot/log redaction checklist.
 
 ## Repository Health Score
 
@@ -190,4 +191,4 @@ Detailed scoring now lives in `REPOSITORY_HEALTH.md`. The summary below is retai
 | Project Tracking | 8.6 | Tracking files exist and are being realigned around clearer responsibilities |
 | Automation | 2 | No CI/CD, Pages, linting, or link checking yet |
 | Readability | 9 | Markdown style is generally clear and AI-friendly |
-| AI Readiness | 9.7 | Strong framework orientation, metadata standards, reasoning layers, advanced diagnostic patterns, and cross-system incident intake guidance |
+| AI Readiness | 9.7 | Strong framework orientation, metadata standards, reasoning layers, advanced diagnostic patterns, and cross-system self-service intake guidance |
