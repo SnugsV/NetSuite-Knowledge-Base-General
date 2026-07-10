@@ -6,9 +6,9 @@
 |---|---|
 | **Current Version** | 4.0.0 |
 | **Current Milestone** | Advanced Vendor Content Expansion |
-| **Current Sprint** | Advanced Avalara Planning |
-| **Overall Completion** | Broad ERP curriculum, AI framework, and advanced NetSuite troubleshooting foundation are established; next focus is advanced Avalara content |
-| **Repository Health** | 8.3 / 10 |
+| **Current Sprint** | Advanced SPS Commerce Planning |
+| **Overall Completion** | Broad ERP curriculum, AI framework, advanced NetSuite troubleshooting, and advanced Avalara troubleshooting foundations are established; next focus is SPS Commerce |
+| **Repository Health** | 8.4 / 10 |
 | **Open Issues** | Review in GitHub before each maintenance session |
 | **Known Risks** | No CI/CD/link checking; tracking files need routine maintenance; documentation links need repeatable validation |
 
@@ -53,6 +53,15 @@
 - [x] Transaction lifecycle troubleshooting
 - [x] SuiteScript troubleshooting deep dive
 - [x] SuiteAnalytics and reporting troubleshooting
+
+### Advanced Avalara Content
+- [x] Advanced Avalara troubleshooting index
+- [x] Tax calculation troubleshooting
+- [x] Address validation and geolocation edge cases
+- [x] NetSuite transaction tax flow with Avalara
+- [x] Exemption certificate troubleshooting
+- [x] Nexus, jurisdiction, and taxability diagnostics
+- [x] Connector sync failure and log review
 
 ### AI Knowledge Platform Layers
 - [x] Support Intelligence Framework
@@ -100,18 +109,18 @@ Phase 1 cleanup is mostly complete, with link validation and release-order revie
 
 ## Next Milestone
 
-**Advanced Avalara Content Expansion**
+**Advanced SPS Commerce Content Expansion**
 
-Build deeper advanced documentation for Avalara tax calculation troubleshooting, address validation, NetSuite transaction tax flow, exemption certificates, nexus and jurisdiction diagnosis, connector sync failures, and log review.
+Build deeper advanced documentation for EDI document lifecycle troubleshooting, PO acknowledgments and change orders, ASN/shipment notice issues, invoice mismatch diagnostics, NetSuite/SPS mapping issues, and connector or portal error triage.
 
 ## Upcoming Priorities
 
-1. Add Avalara tax calculation troubleshooting.
-2. Add Avalara address validation and geolocation edge cases.
-3. Add NetSuite transaction tax flow with Avalara.
-4. Add exemption certificate troubleshooting.
-5. Add nexus, jurisdiction, and taxability diagnostic patterns.
-6. Add Avalara connector sync failure and log-review guidance.
+1. Add SPS Commerce EDI document lifecycle troubleshooting.
+2. Add purchase order acknowledgment and change-order diagnostics.
+3. Add ASN and shipment notice troubleshooting.
+4. Add invoice/810 mismatch diagnostics.
+5. Add NetSuite and SPS data-mapping diagnostics.
+6. Add connector or portal error triage guidance.
 7. Validate remaining documentation links with a repeatable tool.
 8. Continue periodic public-safety audits.
 
@@ -137,10 +146,12 @@ Build deeper advanced documentation for Avalara tax calculation troubleshooting,
 - Added advanced saved search diagnostics and permissions/role-difference diagnostics.
 - Added SuiteFlow automation patterns, SuiteTalk REST/SOAP troubleshooting, transaction lifecycle troubleshooting, SuiteScript troubleshooting deep dive, and SuiteAnalytics/reporting troubleshooting.
 - Added Advanced Avalara content priorities to the backlog and project status.
+- Added advanced Avalara troubleshooting index and six advanced Avalara articles.
+- Added Advanced SPS Commerce content priorities to the backlog and project status.
 
 ## Repository Health Score
 
-**8.3 / 10**
+**8.4 / 10**
 
 Detailed scoring now lives in `REPOSITORY_HEALTH.md`. The summary below is retained as a quick project status snapshot.
 
@@ -149,8 +160,8 @@ Detailed scoring now lives in `REPOSITORY_HEALTH.md`. The summary below is retai
 | Structure | 9 | Strong module and framework architecture |
 | Governance | 9 | Maintainer guide, license, tracking boundaries, known gaps, AI-agent guide, public-safe review guidance, and repository health scorecard are now defined |
 | Templates | 8.5 | Canonical article template exists; deprecated template is clearly marked |
-| Content | 8.7 | Multiple ERP learning paths, AI framework layers, and advanced NetSuite troubleshooting content are present |
-| Project Tracking | 8 | Tracking files exist and are being realigned around clearer responsibilities |
+| Content | 8.8 | Multiple ERP learning paths, AI framework layers, advanced NetSuite troubleshooting, and advanced Avalara troubleshooting content are present |
+| Project Tracking | 8.2 | Tracking files exist and are being realigned around clearer responsibilities |
 | Automation | 2 | No CI/CD, Pages, linting, or link checking yet |
 | Readability | 9 | Markdown style is generally clear and AI-friendly |
-| AI Readiness | 9.2 | Strong framework orientation, metadata standards, reasoning layers, and advanced diagnostic patterns |
+| AI Readiness | 9.3 | Strong framework orientation, metadata standards, reasoning layers, and advanced diagnostic patterns |
