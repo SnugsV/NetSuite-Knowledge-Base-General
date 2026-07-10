@@ -27,21 +27,28 @@ Shipping is the final step in the Order-to-Cash lifecycle. Without a shipping in
 
 ## The Shipping Lifecycle
 
-```
+```text
 Item Fulfillment created in NetSuite
-       ↓
+       |
+       v
 Shipment data sent to Pacejet
-       ↓
+       |
+       v
 Pacejet queries enabled carriers for rates
-       ↓
+       |
+       v
 Carrier selected (auto or manual)
-       ↓
+       |
+       v
 Label generated
-       ↓
+       |
+       v
 Tracking number returned to NetSuite
-       ↓
+       |
+       v
 Fulfillment updated with tracking
-       ↓
+       |
+       v
 Customer notified
 ```
 
@@ -49,8 +56,8 @@ Customer notified
 
 | Component | Function |
 |---|---|
-| **Pacejet Shipping** | Core platform — rate shopping, label generation, carrier management |
-| **Pacejet Connector** | NetSuite bundle — SuiteScript integration between NetSuite and Pacejet |
+| **Pacejet Shipping** | Core platform - rate shopping, label generation, carrier management |
+| **Pacejet Connector** | NetSuite bundle - SuiteScript integration between NetSuite and Pacejet |
 | **Advanced Shipping Data (ASD)** | Extended shipping fields on NetSuite records |
 | **Pacejet Label Connector** | Custom label design and generation (BarTender integration) |
 | **Pacejet API** | REST API for custom integrations |
@@ -82,7 +89,7 @@ Customer notified
 - [Shipping Workflow](shipping-workflow.md)
 - [Rate Shopping](rate-shopping.md)
 - [Carrier Integrations](carrier-integrations.md)
-- [Sales: Order Fulfillment](../sales/order-fulfillment.md)
+- [Sales: Order Fulfillment](../../sales/order-fulfillment.md)
 
 ## Oracle References
 
