@@ -123,7 +123,7 @@ Suggested GPT response pattern:
 5. Recommend escalation if connector configuration determines the final behavior.
 
 ## Public-Safe Boundary
-Do not include Holland Bar Stool-specific address sourcing rules, custom fields, workflows, connector settings, scripts, screenshots, tax setup, or private operating procedures.
+Do not include company-specific address sourcing rules, custom fields, workflows, connector settings, scripts, screenshots, tax setup, or private operating procedures.
 
 Company-specific address selection behavior belongs in a private enterprise repository.
 
