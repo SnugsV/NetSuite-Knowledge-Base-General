@@ -46,7 +46,7 @@ This document should be updated during maintenance sprints that materially chang
 | Navigation | 8.0 | Strong top-level structure; documentation index still needs formatting and link review. |
 | Cross Linking | 7.5 | Many learning paths are linked, but a repository-wide cross-link audit has not been completed. |
 | Metadata | 8.0 | Canonical article expectations exist; older content may need metadata review. |
-| Governance | 9.0 | Maintainer guidance, tracking file boundaries, roadmap, backlog, changelog, and status files are defined. |
+| Governance | 9.0 | Maintainer guidance, tracking file boundaries, roadmap, backlog, changelog, known gaps, and status files are defined. |
 | Public Safety | 9.0 | Public/private boundary is clearly documented; ongoing review is still required. |
 | AI Readiness | 9.0 | Strong reasoning frameworks, AI agent guidance, and knowledge-engine architecture are present. |
 | Release Hygiene | 8.5 | Changelog and release history exist; unreleased section should stay current during maintenance work. |
@@ -57,7 +57,7 @@ This document should be updated during maintenance sprints that materially chang
 
 **8.2 / 10**
 
-The repository is structurally strong and already functions as more than a basic documentation library. The biggest gap is automation. The next most important gaps are documentation index cleanup, cross-link review, metadata consistency, and routine article quality scoring.
+The repository is structurally strong and already functions as more than a basic documentation library. The biggest gap is automation. The next most important gaps are documentation index cleanup, cross-link review, metadata consistency, public-safety audit discipline, and routine article quality scoring.
 
 ## Maintenance Sprint Review Checklist
 
@@ -136,6 +136,7 @@ Examples:
 - Roadmap
 - Backlog
 - Changelog
+- Known gaps
 - Session report
 - Review process
 - Public/private rules
@@ -190,6 +191,7 @@ Examples:
 - `BACKLOG.md` tracks actionable work
 - `CHANGELOG.md` records release history
 - `SESSION_REPORT.md` records maintenance activity
+- `KNOWN_GAPS.md` tracks missing, stale, weak, or incomplete areas
 
 ### Automation
 
@@ -210,7 +212,7 @@ Examples:
 2. Add repository link checking.
 3. Repair documentation index formatting and links.
 4. Audit article metadata consistency.
-5. Add `KNOWN_GAPS.md` to separate incomplete work from current status.
+5. Continue periodic public-safety audits for generic examples and private-boundary guidance.
 6. Consider a generated repository health dashboard after scoring stabilizes.
 
 ## Update Procedure
