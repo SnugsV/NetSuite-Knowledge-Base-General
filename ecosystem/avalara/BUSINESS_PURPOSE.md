@@ -80,7 +80,7 @@ When a user asks an Avalara question, the GPT should first determine whether the
 The GPT should avoid giving company-specific tax advice and should recommend escalation to a tax or system administrator when a question depends on private configuration or legal/tax policy.
 
 ## Public-Safe Boundary
-Do not include Holland Bar Stool tax rules, nexus decisions, customer-specific exemptions, custom fields, workflows, scripts, screenshots, internal approval steps, or private operating procedures.
+Do not include company-specific tax rules, nexus decisions, customer-specific exemptions, custom fields, workflows, scripts, screenshots, internal approval steps, or private operating procedures.
 
 Company-specific Avalara knowledge belongs in a private enterprise repository.
 
