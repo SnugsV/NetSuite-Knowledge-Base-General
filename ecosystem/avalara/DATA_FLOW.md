@@ -206,7 +206,7 @@ When answering Avalara tax calculation questions, the GPT should reason through 
 8. What tax result or error is visible in NetSuite?
 
 ## Public-Safe Boundary
-Do not include Holland Bar Stool-specific connector setup, tax rules, nexus decisions, custom fields, workflows, scripts, screenshots, or private operating procedures.
+Do not include company-specific connector setup, tax rules, nexus decisions, custom fields, workflows, scripts, screenshots, or private operating procedures.
 
 Company-specific Avalara data flow belongs in a private enterprise repository.
 
