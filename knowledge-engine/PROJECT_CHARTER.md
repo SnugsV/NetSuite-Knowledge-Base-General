@@ -61,4 +61,4 @@ Start simple, then add complexity. Build learning paths from foundational concep
 ## Related Documents
 
 - [MASTER_PROJECT_PROMPT.md](MASTER_PROJECT_PROMPT.md) — Full project operating instructions
-- [OPERATING_PROCEDURE.md](OPERATING_PROCEDURE.md) — Hermes startup sequence
+- [OPERATING_PROCEDURE.md](OPERATING_PROCEDURE.md) — Repository maintenance procedure
