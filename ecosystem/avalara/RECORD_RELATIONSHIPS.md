@@ -210,7 +210,7 @@ Avalara questions should usually be answered by considering the relationship bet
 If the question depends on private tax setup, nexus decisions, custom fields, scripts, or workflows, the GPT should recommend escalation to a system administrator or tax owner.
 
 ## Public-Safe Boundary
-Do not include Holland Bar Stool tax setup, nexus decisions, customer-specific exemption rules, custom fields, workflows, scripts, screenshots, or private operating procedures.
+Do not include company-specific tax setup, nexus decisions, customer-specific exemption rules, custom fields, workflows, scripts, screenshots, or private operating procedures.
 
 Company-specific record behavior belongs in a private enterprise repository.
 
