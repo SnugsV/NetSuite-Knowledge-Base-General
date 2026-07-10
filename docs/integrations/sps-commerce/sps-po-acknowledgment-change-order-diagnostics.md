@@ -17,6 +17,10 @@ Keep examples generic. Do not publish partner names tied to private requirements
 5. Did the partner send a change after the order was fulfilled, billed, or closed?
 6. Is the issue rejected by SPS, the partner, or NetSuite?
 
+## Bulk Processing Context
+
+When multiple orders need EDI 855 acknowledgments, use the [Bulk Purchase Order Acknowledgment Workflow](sps-bulk-po-acknowledgment-workflow.md) for the processing path. Use this diagnostic article when an order is missing from the batch list, should not be acknowledged yet, fails during processing, or appears acknowledged in one system but not another.
+
 ## Diagnostic Layers
 
 ### Layer 1: Inbound Purchase Order
@@ -126,6 +130,7 @@ When a user asks about SPS PO acknowledgments or changes, the assistant should:
 
 ## Related Articles
 
+- [Bulk Purchase Order Acknowledgment Workflow](sps-bulk-po-acknowledgment-workflow.md)
 - [EDI Document Lifecycle Troubleshooting](sps-edi-document-lifecycle-troubleshooting.md)
 - [NetSuite and SPS Data Mapping Diagnostics](sps-netsuite-data-mapping-diagnostics.md)
 - [Connector or Portal Error Triage](sps-connector-portal-error-triage.md)
