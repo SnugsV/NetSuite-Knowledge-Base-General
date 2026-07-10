@@ -49,7 +49,7 @@ For AI-agent startup guidance, see [AGENTS.md](AGENTS.md).
 **Key documents:**
 
 - [MASTER_PROJECT_PROMPT.md](knowledge-engine/MASTER_PROJECT_PROMPT.md) — Single reference for all future prompts
-- [OPERATING_PROCEDURE.md](knowledge-engine/OPERATING_PROCEDURE.md) — Hermes startup sequence
+- [OPERATING_PROCEDURE.md](knowledge-engine/OPERATING_PROCEDURE.md) — Repository maintenance procedure
 - [DOCUMENTATION_STANDARDS.md](knowledge-engine/DOCUMENTATION_STANDARDS.md) — Article and metadata standards
 - [REVIEW_CHECKLIST.md](knowledge-engine/REVIEW_CHECKLIST.md) — PR review checklist
 - [PROMPT_LIBRARY.md](knowledge-engine/PROMPT_LIBRARY.md) — Example prompts for common tasks
