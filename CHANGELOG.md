@@ -33,6 +33,7 @@ This file records release history only. Current status belongs in `PROJECT_STATU
 - Added `docs/integrations/sps-commerce/README.md` as the SPS Commerce integration module index.
 - Added `docs/integrations/sps-commerce/advanced-troubleshooting.md` as the advanced SPS Commerce index.
 - Added advanced SPS Commerce articles for EDI document lifecycle, PO acknowledgments/change orders, ASNs, invoice/810 mismatches, NetSuite/SPS mapping, and connector/portal error triage.
+- Added generalized SPS bulk EDI workflow articles for EDI 855 purchase order acknowledgments and EDI 856 advance ship notices.
 - Added `docs/cross-vendor-support/` with a NetSuite-centered integration map, incident intake checklist, release/update review workflow, screenshot/log redaction checklist, and self-service before escalation guide.
 - Added an Advanced Pacejet content queue to the backlog.
 - Added an Advanced SPS Commerce content queue to the backlog.
@@ -54,6 +55,7 @@ This file records release history only. Current status belongs in `PROJECT_STATU
 - Expanded the advanced troubleshooting index to include the full advanced NetSuite foundation batch.
 - Expanded the advanced Avalara index to include returns/filing readiness and item classification guidance.
 - Expanded the Pacejet README with an advanced troubleshooting path.
+- Expanded the SPS Commerce learning path and advanced troubleshooting index with bulk 855 and 856 workflow guidance.
 - Linked Cross-Vendor Support from the main documentation index.
 - Updated Cross-Vendor Support to emphasize self-service checks before escalation.
 
