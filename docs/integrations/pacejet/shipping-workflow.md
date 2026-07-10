@@ -44,9 +44,9 @@ Pacejet queries all enabled carriers for rates based on the shipment data. Rates
 ### Step 4: Carrier Selection
 
 The carrier can be selected:
-- **Manually** — User picks from available rates in the Pacejet UI
-- **Automatically** — Rules select the lowest cost, fastest, or preferred carrier
-- **By trading partner** — Customer-specific carrier agreements override defaults
+- **Manually** - User picks from available rates in the Pacejet UI
+- **Automatically** - Rules select the lowest cost, fastest, or preferred carrier
+- **By trading partner** - Customer-specific carrier agreements override defaults
 
 ### Step 5: Label Generation
 
@@ -90,7 +90,7 @@ A distributor fulfills 200 orders per day:
 - [What Is Pacejet?](what-is-pacejet.md)
 - [Rate Shopping](rate-shopping.md)
 - [Label Generation](label-generation.md)
-- [Sales: Order Fulfillment](../sales/order-fulfillment.md)
+- [Sales: Order Fulfillment](../../sales/order-fulfillment.md)
 
 ## Oracle References
 
