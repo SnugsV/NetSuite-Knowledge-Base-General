@@ -9,9 +9,10 @@ NetSuite is usually the operational hub. Avalara, Pacejet, and SPS Commerce each
 ## Learning Order
 
 1. [NetSuite-Centered Integration Map](netsuite-centered-integration-map.md) - Understand how NetSuite data flows into Avalara, Pacejet, and SPS Commerce.
-2. [Cross-Vendor Incident Intake Checklist](integration-incident-intake-checklist.md) - Gather clean troubleshooting context before proposing fixes.
-3. [Release and Update Review Workflow](release-update-review-workflow.md) - Review vendor releases, connector changes, and monthly updates without losing history.
-4. [Screenshot and Log Redaction Checklist](screenshot-log-redaction-checklist.md) - Keep support examples public-safe before adding them to documentation or AI references.
+2. [Self-Service Before Escalation Guide](self-service-before-escalation-guide.md) - Check safe, user-accessible facts before escalating to administrators or vendors.
+3. [Cross-Vendor Incident Intake Checklist](integration-incident-intake-checklist.md) - Gather clean troubleshooting context before proposing fixes.
+4. [Release and Update Review Workflow](release-update-review-workflow.md) - Review vendor releases, connector changes, and monthly updates without losing history.
+5. [Screenshot and Log Redaction Checklist](screenshot-log-redaction-checklist.md) - Keep support examples public-safe before adding them to documentation or AI references.
 
 ## What This Section Is For
 
@@ -20,6 +21,7 @@ Use this section when:
 - A NetSuite transaction behaves differently after a vendor sync, tax calculation, shipment, or EDI document.
 - A screenshot or error could belong to more than one system.
 - A user is unsure whether the issue is NetSuite, Avalara, Pacejet, SPS Commerce, a connector, a workflow, or a script.
+- A team member needs safe checks they can perform before escalating.
 - A vendor release or connector update may have changed behavior.
 - A support example needs to be sanitized before it becomes documentation.
 
