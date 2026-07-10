@@ -18,6 +18,12 @@ This file records release history only. Current status belongs in `PROJECT_STATU
 - Added customer credit automation pattern covering saved search visibility, workflow review, payment-stage review, and scripted credit-application design considerations.
 - Added advanced saved search diagnostics for missing rows, duplicates, wrong totals, formulas, joins, summaries, and role-specific search behavior.
 - Added permissions and role-difference diagnostics for access, visibility, forms, data restrictions, workflows, scripts, and integration roles.
+- Added advanced SuiteFlow automation patterns for reminders, approvals, blocking, routing, field governance, and escalation.
+- Added SuiteTalk REST and SOAP troubleshooting for authentication, permissions, payloads, transforms, lifecycle state, and response interpretation.
+- Added transaction lifecycle troubleshooting for sales, purchasing, inventory, accounting, AR, and AP process issues.
+- Added SuiteScript troubleshooting deep dive covering script types, deployments, execution context, permissions, governance, logs, and automation overlap.
+- Added SuiteAnalytics and reporting troubleshooting for reports, workbooks, datasets, dashboards, KPIs, calculations, permissions, and performance.
+- Added an Advanced Avalara content queue to the backlog.
 
 ### Changed
 
@@ -32,6 +38,7 @@ This file records release history only. Current status belongs in `PROJECT_STATU
 - Deprecated the environment-specific Hermes operating procedure in favor of neutral AI-agent guidance.
 - Fixed the most visible Pacejet documentation and support-intelligence relative links.
 - Linked vendor update history from the main README.
+- Expanded the advanced troubleshooting index to include the full advanced NetSuite foundation batch.
 
 ### Pending
 
