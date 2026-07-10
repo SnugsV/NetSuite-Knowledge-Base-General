@@ -66,8 +66,9 @@ Building visibility into business activity? Start with saved searches and report
 
 ### Advanced Path
 
-Scripting, APIs, automation, integrations, and AI-assisted solution design.
+Scripting, APIs, automation, integrations, advanced troubleshooting, and AI-assisted solution design.
 
+- [Advanced Troubleshooting](advanced-troubleshooting/)
 - [SuiteScript](suitescript/)
 - [SuiteTalk](suitetalk/)
 - [Integrations](integrations/)
@@ -87,6 +88,7 @@ Scripting, APIs, automation, integrations, and AI-assisted solution design.
 | [Sales](sales/) | Complete | Customer, order, fulfillment, invoicing, and order-to-cash process guidance. |
 | [Manufacturing](manufacturing/) | Complete | Planning, production, assemblies, work orders, and plan-to-produce process guidance. |
 | [Accounting](accounting/) | Complete | Record-to-report concepts, transactions, general ledger flow, and financial process guidance. |
+| [Advanced Troubleshooting](advanced-troubleshooting/) | Started | Advanced diagnostic frameworks for screenshots, NetSuite errors, scripts, workflows, and integrations. |
 | [Integrations](integrations/) | Started | External system connections and ecosystem integration intelligence. |
 | [SuiteScript](suitescript/) | Started | JavaScript customization and SuiteScript concepts. |
 | [SuiteTalk](suitetalk/) | Started | REST, SOAP, authentication, and API integration concepts. |
@@ -108,7 +110,7 @@ Scripting, APIs, automation, integrations, and AI-assisted solution design.
 2. Continue into Administration to understand account setup, roles, permissions, and security.
 3. Follow the operational modules: Inventory, Purchasing, Sales, Manufacturing, and Accounting.
 4. Use Saved Searches and Reporting to build visibility into business activity.
-5. Move into SuiteScript, SuiteTalk, Integrations, and the Knowledge Engineering Framework for advanced work.
+5. Move into Advanced Troubleshooting, SuiteScript, SuiteTalk, Integrations, and the Knowledge Engineering Framework for advanced work.
 
 ---
 
