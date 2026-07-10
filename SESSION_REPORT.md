@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Bring repository tracking and navigation files back into alignment after multiple content and framework releases. This session focuses on maintenance accuracy, governance consistency, and repository health tracking, not new NetSuite educational content.
+Bring repository tracking, navigation, and integration index files back into alignment after multiple content and framework releases. This session focuses on maintenance accuracy, governance consistency, integration discoverability, and repository health tracking.
 
 ## Reviewed
 
@@ -12,6 +12,10 @@ Bring repository tracking and navigation files back into alignment after multipl
 - BACKLOG.md
 - CHANGELOG.md
 - docs/README.md
+- docs/integrations/README.md
+- docs/integrations/BENCHMARKS.md
+- docs/integrations/pacejet/README.md
+- docs/integrations/sps-commerce/README.md
 - PLATFORM_ARCHITECTURE.md
 - LICENSE.md
 - MAINTAINER.md
@@ -22,33 +26,43 @@ Bring repository tracking and navigation files back into alignment after multipl
 
 | File | Change |
 |---|---|
-| PROJECT_STATUS.md | Updated stale sprint and version language, current milestone, completed work, known risks, maintenance checklist, and repository health scoring. |
+| README.md | Refreshed positioning around the public NetSuite Intelligence Platform and AI reasoning scope. |
+| PROJECT_STATUS.md | Earlier maintenance pass updated stale sprint and version language, current milestone, completed work, known risks, maintenance checklist, and repository health scoring. |
 | LICENSE.md | Added CC BY 4.0 license text with Oracle trademark clarification. |
 | MAINTAINER.md | Added repository operations handbook for maintainers and AI agents. |
 | REPOSITORY_HEALTH.md | Added repeatable repository health scorecard, scoring categories, review checklist, and update procedure. |
-| SESSION_REPORT.md | Updated this session report to reflect completed governance cleanup work and remove stale license blockers. |
+| docs/README.md | Refreshed documentation index, integration path, module status, and AI retrieval guidance. |
+| docs/integrations/README.md | Added central integration knowledge hub index. |
+| docs/integrations/BENCHMARKS.md | Linked Pacejet benchmark coverage and SPS Commerce foundation status. |
+| docs/integrations/pacejet/README.md | Refreshed Pacejet integration hub for AI retrieval and completed troubleshooting coverage. |
+| docs/integrations/sps-commerce/README.md | Added SPS Commerce knowledge hub as a public-safe EDI reasoning foundation. |
+| BACKLOG.md | Refreshed stale sprint statuses and added integration intelligence tracking. |
+| CHANGELOG.md | Refreshed Unreleased cleanup notes to match recent maintenance work. |
+| SESSION_REPORT.md | Updated this session report to reflect navigation, integration, and tracking cleanup work. |
 
 ## Branch
 
 | Branch | Purpose |
 |---|---|
-| maintenance/phase-1-repo-health | Isolated branch for Phase 1 tracking, governance, and navigation cleanup. |
+| sprint/avalara-exemption-certificates | Active branch for Avalara, Pacejet, SPS Commerce, and repository cleanup work. |
+| maintenance/phase-1-repo-health | Earlier isolated branch for Phase 1 tracking, governance, and navigation cleanup. |
 
 ## Findings
 
-1. Project tracking files drifted apart and no longer described the same state.
-2. docs/README.md has malformed module table rows and incorrect relative links.
+1. Project tracking files drifted apart and did not always describe the same repository state.
+2. docs/README.md needed to reflect the Intelligence Platform direction and the new integration hub structure.
 3. The repository now has a CC BY 4.0 `LICENSE.md` with Oracle trademark clarification.
 4. CI, Markdown linting, link checking, and metadata validation are not configured.
 5. The repository has moved beyond the original sprint model and now needs routine maintenance discipline.
 6. Repository health scoring should live in `REPOSITORY_HEALTH.md`, with `PROJECT_STATUS.md` retaining only a summary.
 7. Missing or weak documentation areas should be moved into a dedicated `KNOWN_GAPS.md` file instead of being scattered across status files.
+8. Integration intelligence now includes Avalara, Pacejet, and an SPS Commerce foundation.
+9. Small index, navigation, and tracking changes are safer and easier to review than large lifecycle article changes.
 
 ## Decisions
 
 1. Make cleanup incremental and verifiable.
-2. Keep all Phase 1 changes on the maintenance branch.
-3. Keep each tracking file focused:
+2. Keep each tracking file focused:
    - PROJECT_STATUS.md = current snapshot
    - ROADMAP.md = future direction
    - BACKLOG.md = actionable work queue
@@ -56,18 +70,19 @@ Bring repository tracking and navigation files back into alignment after multipl
    - CHANGELOG.md = release history
    - REPOSITORY_HEALTH.md = repository scoring and health review model
    - KNOWN_GAPS.md = incomplete content, weak areas, and future improvement gaps
-4. Use CC BY 4.0 for the public documentation repository.
-5. Keep company-specific Holland Bar Stool information, saved searches, workflows, SuiteScripts, screenshots, manufacturing logic, pricing, and SOPs out of the public repository.
-6. Treat this repository as the public knowledge engine, with private repositories acting as company overlays.
+3. Use CC BY 4.0 for the public documentation repository.
+4. Keep company-specific Holland Bar Stool information, saved searches, workflows, SuiteScripts, screenshots, manufacturing logic, pricing, and SOPs out of the public repository.
+5. Treat this repository as the public knowledge engine, with private repositories acting as company overlays.
+6. Continue integration work through small concept, index, retrieval, troubleshooting, and benchmark nodes.
 
 ## Technical Debt
 
 | Area | Issue | Priority |
 |---|---|---|
 | Automation | No link checker, Markdown linter, metadata validator, or CI workflow | High |
-| Tracking | Historical status files drifted apart | High |
-| Navigation | Module index has malformed rows and link issues | High |
+| Tracking | Historical status files still need periodic review for drift | High |
 | Governance | `KNOWN_GAPS.md` has not been created yet | High |
+| Integration Intelligence | SPS Commerce foundation needs future lifecycle, troubleshooting, and benchmark expansion | Medium |
 | Governance | Some contribution and template documents overlap or are deprecated | Medium |
 | Architecture | Some PR count language may be stale | Medium |
 
@@ -81,18 +96,22 @@ Bring repository tracking and navigation files back into alignment after multipl
 - [x] Decide license and add LICENSE.md
 - [x] Add maintainer governance guide
 - [x] Add repository health scorecard
-- [ ] Repair docs/README.md
+- [x] Repair docs/README.md
+- [x] Add integration hub index
+- [x] Refresh integration benchmark index links
+- [x] Refresh BACKLOG.md current statuses
+- [x] Refresh CHANGELOG.md Unreleased notes
 - [ ] Review PLATFORM_ARCHITECTURE.md stale PR language
 - [ ] Create KNOWN_GAPS.md
 
 ## Recommendations
 
-1. Finish Phase 1 by repairing docs navigation and confirming changelog consistency.
-2. Create `KNOWN_GAPS.md` before starting the full Phase 2 documentation quality audit.
-3. Add automated link and Markdown validation before the repository grows further.
-4. Create a recurring repository health audit process using `REPOSITORY_HEALTH.md`.
-5. Maintain this as a NetSuite Intelligence Platform, not only a static documentation library.
-6. Keep public and private repository responsibilities separate as the platform grows.
+1. Create `KNOWN_GAPS.md` before starting the full Phase 2 documentation quality audit.
+2. Add automated link and Markdown validation before the repository grows further.
+3. Create a recurring repository health audit process using `REPOSITORY_HEALTH.md`.
+4. Maintain this as a NetSuite Intelligence Platform, not only a static documentation library.
+5. Keep public and private repository responsibilities separate as the platform grows.
+6. Continue building integration intelligence through small, reviewable nodes.
 
 ## Blockers
 
@@ -101,7 +120,7 @@ Bring repository tracking and navigation files back into alignment after multipl
 
 ## Next Goals
 
-1. Review CHANGELOG.md for Unreleased consistency after the governance additions.
-2. Create KNOWN_GAPS.md to separate missing content and improvement areas from project status.
-3. Repair docs/README.md navigation formatting and links.
-4. Review PLATFORM_ARCHITECTURE.md stale PR language.
+1. Create KNOWN_GAPS.md to separate missing content and improvement areas from project status.
+2. Review PLATFORM_ARCHITECTURE.md stale PR language.
+3. Review ROADMAP.md for integration intelligence alignment.
+4. Continue expanding public-safe NetSuite and integration reasoning nodes where they add clear retrieval value.

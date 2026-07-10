@@ -25,7 +25,9 @@ Repository structure, governance, templates, project tracking, and cleanup of up
 - [x] Glossary
 - [x] Knowledge Engineering Framework (14 documents in knowledge-engine/)
 
-## Sprint 0.3 — Administration (Complete)
+## Sprint 0.3 — Administration
+
+**Status: Complete**
 
 - [x] Administration Overview
 - [x] Company Setup
@@ -46,7 +48,7 @@ Repository structure, governance, templates, project tracking, and cleanup of up
 - [x] Security Best Practices
 - [x] Administration Glossary
 
-### Release 2.2 — Repository Navigation & Architecture Cleanup
+## Release 2.2 — Repository Navigation & Architecture Cleanup
 
 **Status: Complete**
 
@@ -57,79 +59,90 @@ Repository structure, governance, templates, project tracking, and cleanup of up
 - [x] License recommendation documented (MIT or CC-BY-4.0)
 - [x] Updated CHANGELOG.md and SESSION_REPORT.md
 
-### Sprint 0.4 — Saved Searches
+## Sprint 0.4 — Saved Searches
 
 **Status: Complete**
 
-- Saved search criteria and results
-- Formulas in saved searches
-- Summary searches
-- Reports overview
-- SuiteAnalytics workbooks
-- KPIs and dashboards
-- CSV import and export
+- [x] Saved search criteria and results
+- [x] Formulas in saved searches
+- [x] Summary searches
+- [x] Reports overview
+- [x] SuiteAnalytics workbooks
+- [x] KPIs and dashboards
+- [x] CSV import and export
 
 ## Sprint 0.5 — Inventory and Operations
 
-**Status: Planned**
+**Status: Complete**
 
-- Item records and types
-- Locations and warehouses
-- Transfer orders
-- Inventory adjustments
-- Bin management
-- Cycle counts
-- Purchasing and receiving
-- Order fulfillment
+- [x] Item records and types
+- [x] Locations and warehouses
+- [x] Transfer orders
+- [x] Inventory adjustments
+- [x] Bin management
+- [x] Cycle counts
+- [x] Purchasing and receiving
+- [x] Order fulfillment
 
 ## Sprint 0.6 — Reporting and Analytics
 
 **Status: Planned**
 
-- Financial reports
-- Operational reports
-- Custom reporting
-- SuiteAnalytics basics
-- Dashboard customization
-- Search-based reporting
+- [ ] Financial reports
+- [ ] Operational reports
+- [ ] Custom reporting
+- [ ] SuiteAnalytics basics
+- [ ] Dashboard customization
+- [ ] Search-based reporting
 
 ## Sprint 0.7 — SuiteScript
 
 **Status: Planned**
 
-- SuiteScript 2.x fundamentals
-- Script types overview
-- Client scripts
-- User event scripts
-- Scheduled scripts
-- Map/reduce scripts
-- Suitelets and RESTlets
-- Governance and debugging
+- [ ] SuiteScript 2.x fundamentals
+- [ ] Script types overview
+- [ ] Client scripts
+- [ ] User event scripts
+- [ ] Scheduled scripts
+- [ ] Map/reduce scripts
+- [ ] Suitelets and RESTlets
+- [ ] Governance and debugging
 
 ## Sprint 0.8 — SuiteTalk
 
 **Status: Planned**
 
-- REST Web Services fundamentals
-- SOAP web services
-- Authentication patterns (TBA, OAuth 2.0)
-- REST API Browser usage
-- Error handling and logging
-- Integration patterns
-- Rate limits and best practices
+- [ ] REST Web Services fundamentals
+- [ ] SOAP web services
+- [ ] Authentication patterns (TBA, OAuth 2.0)
+- [ ] REST API Browser usage
+- [ ] Error handling and logging
+- [ ] Integration patterns
+- [ ] Rate limits and best practices
+
+## Integration Intelligence
+
+**Status: Active**
+
+- [x] Avalara foundation
+- [x] Pacejet foundation
+- [x] SPS Commerce foundation started
+- [ ] Celigo foundation
+- [ ] Shopify foundation
+- [ ] RF-SMART foundation
 
 ## Version 1.0 — Community Release
 
 **Status: Planned**
 
-- All core modules have at least 3 articles each
-- Getting-started learning path complete
-- Strong cross-linking between modules
-- AI-friendly metadata across all articles
-- Community contribution guidelines proven
-- MkDocs or similar static site generator evaluated
-- GitHub Pages or equivalent publishing evaluated
-- Public announcement and contribution call
+- [ ] All core modules have at least 3 articles each
+- [x] Getting-started learning path complete
+- [ ] Strong cross-linking between modules
+- [ ] AI-friendly metadata across all articles
+- [ ] Community contribution guidelines proven
+- [ ] MkDocs or similar static site generator evaluated
+- [ ] GitHub Pages or equivalent publishing evaluated
+- [ ] Public announcement and contribution call
 
 ## Future Considerations
 
