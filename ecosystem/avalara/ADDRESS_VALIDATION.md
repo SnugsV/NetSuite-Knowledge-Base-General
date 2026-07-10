@@ -144,7 +144,7 @@ This article does not define company-specific tax rules, address correction rule
 Those topics belong in private implementation documentation or should be reviewed by a tax/system administrator.
 
 ## Public-Safe Boundary
-Do not include Holland Bar Stool-specific address rules, custom fields, workflows, scripts, screenshots, tax setup, or private operating procedures.
+Do not include company-specific address rules, custom fields, workflows, scripts, screenshots, tax setup, or private operating procedures.
 
 Company-specific address validation behavior belongs in a private enterprise repository.
 
