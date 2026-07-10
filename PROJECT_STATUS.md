@@ -5,10 +5,10 @@
 | Field | Value |
 |---|---|
 | **Current Version** | 4.0.0 |
-| **Current Milestone** | Advanced Vendor Content Expansion |
-| **Current Sprint** | Advanced SPS Commerce Planning |
-| **Overall Completion** | Broad ERP curriculum, AI framework, advanced NetSuite, Avalara, and Pacejet troubleshooting foundations are established; next focus is SPS Commerce |
-| **Repository Health** | 8.6 / 10 |
+| **Current Milestone** | Cross-Vendor Advanced Maintenance |
+| **Current Sprint** | Advanced Documentation Link and Maintenance Pass |
+| **Overall Completion** | Broad ERP curriculum, AI framework, and advanced troubleshooting foundations for NetSuite, Avalara, Pacejet, and SPS Commerce are established |
+| **Repository Health** | 8.7 / 10 |
 | **Open Issues** | Review in GitHub before each maintenance session |
 | **Known Risks** | No CI/CD/link checking; tracking files need routine maintenance; documentation links need repeatable validation |
 
@@ -74,6 +74,16 @@
 - [x] Address validation and residential/commercial shipping diagnostics
 - [x] Tracking, void, reprint, and post-shipment issue guidance
 
+### Advanced SPS Commerce Content
+- [x] SPS Commerce integration module index
+- [x] Advanced SPS Commerce troubleshooting index
+- [x] EDI document lifecycle troubleshooting
+- [x] Purchase order acknowledgment and change-order diagnostics
+- [x] ASN and shipment notice troubleshooting
+- [x] Invoice/810 mismatch diagnostics
+- [x] NetSuite and SPS data-mapping diagnostics
+- [x] Connector or portal error triage guidance
+
 ### AI Knowledge Platform Layers
 - [x] Support Intelligence Framework
 - [x] Customer Context Intelligence Framework
@@ -120,20 +130,17 @@ Phase 1 cleanup is mostly complete, with link validation and release-order revie
 
 ## Next Milestone
 
-**Advanced SPS Commerce Content Expansion**
+**Cross-Vendor Advanced Maintenance**
 
-Build deeper advanced documentation for EDI document lifecycle troubleshooting, PO acknowledgments and change orders, ASN/shipment notice issues, invoice mismatch diagnostics, NetSuite/SPS mapping issues, and connector or portal error triage.
+Build support material that helps AI assistants handle multi-system incidents across NetSuite, Avalara, Pacejet, and SPS Commerce while keeping public examples safe and current.
 
 ## Upcoming Priorities
 
-1. Add SPS Commerce EDI document lifecycle troubleshooting.
-2. Add purchase order acknowledgment and change-order diagnostics.
-3. Add ASN and shipment notice troubleshooting.
-4. Add invoice/810 mismatch diagnostics.
-5. Add NetSuite and SPS data-mapping diagnostics.
-6. Add connector or portal error triage guidance.
-7. Validate remaining documentation links with a repeatable tool.
-8. Continue periodic public-safety audits.
+1. Add advanced release/update review workflow for NetSuite, Pacejet, SPS Commerce, and Avalara.
+2. Add cross-vendor integration incident intake checklist.
+3. Add public-safe screenshot/log redaction checklist for support examples.
+4. Validate remaining documentation links with a repeatable tool.
+5. Continue periodic public-safety audits.
 
 ## Recent Changes
 
@@ -159,11 +166,11 @@ Build deeper advanced documentation for EDI document lifecycle troubleshooting, 
 - Added Advanced Avalara content priorities to the backlog and project status.
 - Added advanced Avalara troubleshooting index and eight advanced Avalara articles.
 - Added Advanced Pacejet troubleshooting index and six advanced Pacejet articles.
-- Added Advanced SPS Commerce content priorities to the backlog and project status.
+- Added SPS Commerce integration module, advanced troubleshooting index, and six advanced SPS Commerce articles.
 
 ## Repository Health Score
 
-**8.6 / 10**
+**8.7 / 10**
 
 Detailed scoring now lives in `REPOSITORY_HEALTH.md`. The summary below is retained as a quick project status snapshot.
 
@@ -172,8 +179,8 @@ Detailed scoring now lives in `REPOSITORY_HEALTH.md`. The summary below is retai
 | Structure | 9 | Strong module and framework architecture |
 | Governance | 9 | Maintainer guide, license, tracking boundaries, known gaps, AI-agent guide, public-safe review guidance, and repository health scorecard are now defined |
 | Templates | 8.5 | Canonical article template exists; deprecated template is clearly marked |
-| Content | 9 | Multiple ERP learning paths, AI framework layers, advanced NetSuite, Avalara, and Pacejet troubleshooting content are present |
-| Project Tracking | 8.4 | Tracking files exist and are being realigned around clearer responsibilities |
+| Content | 9.2 | Multiple ERP learning paths, AI framework layers, and advanced troubleshooting content for NetSuite, Avalara, Pacejet, and SPS Commerce are present |
+| Project Tracking | 8.5 | Tracking files exist and are being realigned around clearer responsibilities |
 | Automation | 2 | No CI/CD, Pages, linting, or link checking yet |
 | Readability | 9 | Markdown style is generally clear and AI-friendly |
-| AI Readiness | 9.5 | Strong framework orientation, metadata standards, reasoning layers, and advanced diagnostic patterns |
+| AI Readiness | 9.6 | Strong framework orientation, metadata standards, reasoning layers, and advanced diagnostic patterns |
