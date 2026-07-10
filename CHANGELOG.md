@@ -15,6 +15,7 @@ This file records release history only. Current status belongs in `PROJECT_STATU
 - Added `history/` area for public-safe vendor update history across NetSuite, Pacejet, SPS Commerce, and Avalara.
 - Added `docs/advanced-troubleshooting/` module for advanced NetSuite diagnostics.
 - Added advanced articles for screenshot/error triage, NetSuite error diagnosis, SuiteScript/workflow triage, and integration error triage.
+- Added customer credit automation pattern covering saved search visibility, workflow review, payment-stage review, and scripted credit-application design considerations.
 
 ### Changed
 
