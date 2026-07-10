@@ -34,10 +34,17 @@ Recommended structure:
 - Use descriptive headings.
 - Keep paragraphs short.
 - Define acronyms before using them.
-- Prefer examples over abstract explanations.
+- Prefer generic examples over abstract explanations.
 - Do not assume every reader is an administrator or developer.
 - Avoid copying vendor documentation.
 - Use consistent file names: lowercase words separated by hyphens.
+- Keep public documentation free of private implementation details.
+
+## Public-Safe Examples
+
+Examples should teach a broadly applicable NetSuite concept without revealing how a specific organization operates.
+
+Do not include company-specific SOPs, customer examples, custom fields, saved searches, workflows, SuiteScripts, screenshots, pricing, credentials, proprietary processes, or private implementation details.
 
 ## Difficulty Levels
 
