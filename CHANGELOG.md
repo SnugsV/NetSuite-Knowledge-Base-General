@@ -13,16 +13,18 @@ This file records release history only. Current status belongs in `PROJECT_STATU
 - Added public-safe contribution guidance to contributor and documentation index files.
 - Added public-safe example and review guidance to core governance writing files.
 - Added `history/` area for public-safe vendor update history across NetSuite, Pacejet, SPS Commerce, and Avalara.
+- Added `docs/advanced-troubleshooting/` module for advanced NetSuite diagnostics.
+- Added advanced articles for screenshot/error triage, NetSuite error diagnosis, SuiteScript/workflow triage, and integration error triage.
 
 ### Changed
 
 - Replaced named company-specific private repository examples with neutral public/private overlay guidance.
 - Updated project tracking documents for Phase 1 repository health cleanup.
 - Aligned `PROJECT_STATUS.md`, `SESSION_REPORT.md`, `ROADMAP.md`, `BACKLOG.md`, and `REPOSITORY_HEALTH.md` around the current maintenance model.
-- Refreshed `docs/README.md` license, contribution, and public-safety guidance.
+- Refreshed `docs/README.md` license, contribution, public-safety guidance, and advanced troubleshooting navigation.
 - Reduced duplicate AI-agent startup guidance by pointing framework files to `AGENTS.md`.
 - Removed stale PR-status and repository-health claims from `PLATFORM_ARCHITECTURE.md`.
-- Reorganized `BACKLOG.md` around current maintenance priorities, completed releases, future content ideas, public-safety follow-up, and vendor update maintenance.
+- Reorganized `BACKLOG.md` around current maintenance priorities, completed releases, future content ideas, public-safety follow-up, vendor update maintenance, and advanced NetSuite content.
 - Generalized remaining named-company public-safety examples in Avalara and knowledge-acquisition docs.
 - Deprecated the environment-specific Hermes operating procedure in favor of neutral AI-agent guidance.
 - Fixed the most visible Pacejet documentation and support-intelligence relative links.
