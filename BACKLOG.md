@@ -30,9 +30,12 @@ This file tracks actionable work. Completed release history belongs in `CHANGELO
 - [x] Add cross-layer NetSuite error diagnostic framework.
 - [x] Add SuiteScript and workflow error triage guidance.
 - [x] Add integration error triage guidance.
+- [x] Add customer credit automation pattern for AR credit visibility, review, workflow, and scripted design options.
 - [ ] Add advanced saved search diagnostics.
 - [ ] Add advanced permissions and role-difference diagnostics.
 - [ ] Add transaction lifecycle troubleshooting for sales, purchasing, inventory, and accounting.
+- [ ] Add advanced SuiteFlow automation patterns.
+- [ ] Add SuiteTalk REST and SOAP troubleshooting patterns.
 - [ ] Add advanced SuiteAnalytics and reporting troubleshooting.
 - [ ] Add advanced release/update review workflow for NetSuite, Pacejet, SPS Commerce, and Avalara.
 
