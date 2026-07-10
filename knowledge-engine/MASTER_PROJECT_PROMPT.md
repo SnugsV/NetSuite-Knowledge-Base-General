@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document is the permanent operating instructions for any AI agent working on this project. It consolidates all project knowledge into a single reference. Future prompts should reference this document rather than reproduce instructions.
+This document is the permanent operating instructions for any AI agent working on this project. It consolidates project knowledge into a single reference for deeper framework work. For the shortest startup path, begin with the root [AGENTS.md](../AGENTS.md) guide.
 
 ## Project Vision
 
@@ -16,12 +16,19 @@ A community-driven, AI-friendly, version-controlled knowledge base for NetSuite 
 4. **Beginner-friendly depth** — Accessible to new users while valuable for experienced consultants
 5. **Progressive enhancement** — Build learning paths from foundational to specialized knowledge
 6. **Cross-link everything** — Every article connects to related topics
+7. **Public-safe by default** — Keep company-specific implementation details in private overlays or internal knowledge sources
+
+## Public and Private Content Boundary
+
+This public repository may explain general NetSuite concepts, broadly applicable implementation guidance, public-safe troubleshooting patterns, and AI reasoning structures.
+
+Do not add private SOPs, customer examples, custom fields, saved searches, workflows, SuiteScripts, screenshots, pricing, credentials, proprietary processes, or details that reveal how a specific organization operates.
 
 ## Repository Standards
 
 ### Repository Architecture
 
-```
+```text
 /                             Root project tracking and governance files
 docs/                         Main knowledge base articles by module
   getting-started/            Beginner learning path
@@ -30,7 +37,7 @@ docs/                         Main knowledge base articles by module
   saved-searches/             Search-driven reporting
   suitescript/                JavaScript customization
   suitetalk/                  REST and SOAP APIs
-  (additional modules...)     
+  (additional modules...)
 knowledge-engine/             AI Knowledge Engineering Framework
 templates/                    Reusable article and guide templates
 governance/                   Writing, review, and AI standards
@@ -71,7 +78,7 @@ Every article should answer these questions:
 
 ### Article Structure
 
-```
+```text
 # Title
 ## Quick Summary
 ## Difficulty
@@ -108,16 +115,18 @@ Versions follow semantic versioning:
 
 Every PR must satisfy the [REVIEW_CHECKLIST.md](REVIEW_CHECKLIST.md) before opening. Key checks:
 
-- Content is original (not copied from Oracle)
+- Content is original and not copied from Oracle
 - Oracle sources are linked where applicable
 - Cross-links are present and valid
-- Front matter is complete
-- Spelling and grammar checked
-- Project tracking files updated
+- Front matter is complete where required
+- Spelling and grammar are checked
+- Public/private boundary rules are satisfied
+- Project tracking files are updated when repository state changes
 
 ## Quality Expectations
 
 Repository health is measured on 7 criteria on a 1-10 scale:
+
 - Structure, Governance, Templates, Content, Project Tracking, Automation, Readability
 
 Target: **9/10** by Version 1.0.
@@ -126,33 +135,33 @@ Target: **9/10** by Version 1.0.
 
 AI agents should:
 
-- Read the Knowledge Engineering Framework before starting work
-- Follow the OPERATING_PROCEDURE.md startup sequence
-- Read PROJECT_MEMORY.md to understand context
-- Use PROMPT_LIBRARY.md for prompt templates
-- Verify all technical claims against official Oracle documentation
+- Start with [AGENTS.md](../AGENTS.md)
+- Read the Knowledge Engineering Framework before content or architecture work
+- Follow [OPERATING_PROCEDURE.md](OPERATING_PROCEDURE.md) for repeatable maintenance workflow
+- Read [PROJECT_MEMORY.md](PROJECT_MEMORY.md) when historical context is needed
+- Use [PROMPT_LIBRARY.md](PROMPT_LIBRARY.md) for prompt templates
+- Verify technical claims against official Oracle documentation
 - Review AI-generated content against project standards
 - Treat AI as a tool, not a replacement for human review of technical accuracy
 
 ## Project Memory
 
-Before every task, read:
+For broader planning or repository-state work, review:
 
 1. [PROJECT_STATUS.md](../PROJECT_STATUS.md) — Current state, health score, priorities
 2. [SESSION_REPORT.md](../SESSION_REPORT.md) — What changed last session, lessons learned
 3. [BACKLOG.md](../BACKLOG.md) — Planned sprints and pending work
 4. [ROADMAP.md](../ROADMAP.md) — Long-term direction
 5. [CHANGELOG.md](../CHANGELOG.md) — Version history
-6. Recent pull requests on GitHub
-7. Open issues on GitHub
+6. Relevant GitHub issues and pull requests
 
 ## Continuous Improvement
 
-- Update PROJECT_STATUS.md after every session
-- Log lessons learned in SESSION_REPORT.md
+- Update PROJECT_STATUS.md when repository state changes
+- Log lessons learned in SESSION_REPORT.md when a session changes direction or creates technical debt
 - Add technical debt items as they are discovered
 - Propose framework improvements via issues or PRs
-- Update the PROMPT_LIBRARY.md as new task patterns emerge
+- Update PROMPT_LIBRARY.md as new task patterns emerge
 
 ## Stopping Conditions
 
@@ -168,16 +177,16 @@ Stop and request clarification when:
 
 A task is complete when:
 
-- All requested files exist and are properly formatted
-- Cross-links to related content are present and valid
-- Project tracking files (PROJECT_STATUS, SESSION_REPORT, BACKLOG, CHANGELOG) are updated
-- Repository health score is recalculated
-- All changes are committed to a branch
-- A pull request is open for review
-- The work does not violate any project standards
+- Requested files exist and are properly formatted
+- Cross-links touched by the work are valid
+- Required project tracking updates are complete
+- The work does not violate public/private boundary rules
+- Changes are committed in a reviewable scope
+- A pull request is open when the work uses a branch-based workflow
 
 ## Related Documents
 
+- [AGENTS.md](../AGENTS.md) — AI-agent startup and public-safety guide
 - [OPERATING_PROCEDURE.md](OPERATING_PROCEDURE.md) — Detailed startup sequence
 - [DOCUMENTATION_STANDARDS.md](DOCUMENTATION_STANDARDS.md) — Article and metadata standards
 - [WRITING_STANDARDS.md](WRITING_STANDARDS.md) — Tone, voice, teaching philosophy
