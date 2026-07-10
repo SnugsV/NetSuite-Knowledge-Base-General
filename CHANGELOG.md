@@ -12,6 +12,7 @@ This file records release history only. Current status belongs in `PROJECT_STATU
 - Added `KNOWN_GAPS.md` to track missing, stale, weak, or incomplete areas without overstating current repository status.
 - Added public-safe contribution guidance to contributor and documentation index files.
 - Added public-safe example and review guidance to core governance writing files.
+- Added `history/` area for public-safe vendor update history across NetSuite, Pacejet, SPS Commerce, and Avalara.
 
 ### Changed
 
@@ -21,10 +22,11 @@ This file records release history only. Current status belongs in `PROJECT_STATU
 - Refreshed `docs/README.md` license, contribution, and public-safety guidance.
 - Reduced duplicate AI-agent startup guidance by pointing framework files to `AGENTS.md`.
 - Removed stale PR-status and repository-health claims from `PLATFORM_ARCHITECTURE.md`.
-- Reorganized `BACKLOG.md` around current maintenance priorities, completed releases, future content ideas, and public-safety follow-up.
+- Reorganized `BACKLOG.md` around current maintenance priorities, completed releases, future content ideas, public-safety follow-up, and vendor update maintenance.
 - Generalized remaining named-company public-safety examples in Avalara and knowledge-acquisition docs.
 - Deprecated the environment-specific Hermes operating procedure in favor of neutral AI-agent guidance.
 - Fixed the most visible Pacejet documentation and support-intelligence relative links.
+- Linked vendor update history from the main README.
 
 ### Pending
 
