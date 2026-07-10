@@ -25,6 +25,8 @@
 - [x] CC BY 4.0 license in `LICENSE.md`
 - [x] Maintainer operations handbook in `MAINTAINER.md`
 - [x] Repository health scorecard in `REPOSITORY_HEALTH.md`
+- [x] Known gaps tracker in `KNOWN_GAPS.md`
+- [x] AI-agent startup guide in `AGENTS.md`
 
 ### ERP Curriculum
 - [x] Getting Started learning path
@@ -57,32 +59,34 @@ Phase 1 is focused on repository health and alignment:
 - [x] Confirm license choice and add `LICENSE.md`
 - [x] Add maintainer governance guide
 - [x] Add repository health scorecard
+- [x] Add `KNOWN_GAPS.md`
+- [x] Add and link `AGENTS.md`
+- [x] Remove named company example from public/private overlay guidance
+- [x] Generalize stale AI-agent and platform guidance
 - [ ] Align roadmap with completed releases and future direction
 - [ ] Refresh session report for the current maintenance cycle
 - [ ] Repair documentation index formatting and links
 - [ ] Review changelog consistency
-- [ ] Add `KNOWN_GAPS.md`
 
 ## Known Issues
 
 - No CI/CD, Markdown linting, link checking, or metadata validation is configured.
 - Some historical tracking documents drifted out of sync as releases accelerated.
 - Some governance documents overlap and should be consolidated or clearly deprecated.
-- Historical PR notes in architecture/tracking files may need another pass for accuracy.
 - Documentation index formatting and links still need review.
-- `KNOWN_GAPS.md` has not been created yet.
+- Public/private boundary language should be audited periodically as new examples are added.
 
 ## Next Milestone
 
 **Phase 2 - Documentation Quality Audit**
 
-After Phase 1, perform a repository-wide audit for broken links, duplicate content, missing metadata, Oracle reference gaps, article completeness, and AI-readiness.
+After Phase 1, perform a repository-wide audit for broken links, duplicate content, missing metadata, Oracle reference gaps, article completeness, public-safety issues, and AI-readiness.
 
 ## Upcoming Priorities
 
 1. Finish Phase 1 tracking and navigation cleanup.
-2. Create `KNOWN_GAPS.md` to separate incomplete work from current repository status.
-3. Repair `docs/README.md` navigation formatting and links.
+2. Repair `docs/README.md` navigation formatting and links.
+3. Review changelog consistency.
 4. Add basic Markdown/link validation.
 5. Begin Phase 2 documentation quality scoring.
 
@@ -93,7 +97,10 @@ After Phase 1, perform a repository-wide audit for broken links, duplicate conte
 - Added `LICENSE.md` using CC BY 4.0 with Oracle trademark clarification.
 - Added `MAINTAINER.md` as the repository operations handbook.
 - Added `REPOSITORY_HEALTH.md` as the repeatable repository health scorecard.
-- Identified stale project status, malformed docs index rows, and outdated session report language.
+- Added `KNOWN_GAPS.md` for missing, stale, weak, or incomplete areas.
+- Added `AGENTS.md` as the first-stop AI-agent startup guide.
+- Removed a named company example from README public/private overlay guidance.
+- Generalized stale AI-agent and platform guidance.
 
 ## Repository Health Score
 
@@ -104,7 +111,7 @@ Detailed scoring now lives in `REPOSITORY_HEALTH.md`. The summary below is retai
 | Criterion | Score | Notes |
 |---|---:|---|
 | Structure | 9 | Strong module and framework architecture |
-| Governance | 9 | Maintainer guide, license, tracking boundaries, and repository health scorecard are now defined |
+| Governance | 9 | Maintainer guide, license, tracking boundaries, known gaps, AI-agent guide, and repository health scorecard are now defined |
 | Templates | 8.5 | Canonical article template exists; deprecated template is clearly marked |
 | Content | 8.5 | Multiple ERP learning paths and AI framework layers are complete |
 | Project Tracking | 8 | Tracking files exist and are being realigned around clearer responsibilities |
