@@ -22,10 +22,13 @@ This file records release history only. Current status belongs in `PROJECT_STATU
 - Reduced duplicate AI-agent startup guidance by pointing framework files to `AGENTS.md`.
 - Removed stale PR-status and repository-health claims from `PLATFORM_ARCHITECTURE.md`.
 - Reorganized `BACKLOG.md` around current maintenance priorities, completed releases, future content ideas, and public-safety follow-up.
+- Generalized remaining named-company public-safety examples in Avalara and knowledge-acquisition docs.
+- Deprecated the environment-specific Hermes operating procedure in favor of neutral AI-agent guidance.
+- Fixed the most visible Pacejet documentation and support-intelligence relative links.
 
 ### Pending
 
-- Validate documentation links with a repeatable tool.
+- Validate remaining documentation links with a repeatable tool.
 - Review changelog version ordering and release consistency before the next tagged release.
 - Continue reviewing guidance files for duplicate AI-agent startup instructions.
 
