@@ -17,6 +17,7 @@ This file tracks actionable work. Completed release history belongs in `CHANGELO
 - [x] Remove stale PR-status language from `PLATFORM_ARCHITECTURE.md`.
 - [x] Align `PROJECT_STATUS.md`, `SESSION_REPORT.md`, `ROADMAP.md`, `CHANGELOG.md`, and `REPOSITORY_HEALTH.md` with completed cleanup work.
 - [x] Review core governance writing files for public-safety guidance.
+- [x] Add `history/` area for public-safe vendor update history.
 - [ ] Review roadmap and changelog for release-order consistency before the next tag.
 - [ ] Validate documentation links with a repeatable tool.
 
@@ -43,6 +44,18 @@ This file tracks actionable work. Completed release history belongs in `CHANGELO
 - [ ] Add GitHub Actions for documentation checks.
 - [ ] Evaluate GitHub Pages, MkDocs, or another publishing path.
 - [ ] Consider automated repository health reporting.
+
+## Vendor Update Maintenance
+
+Use this queue to keep NetSuite, Pacejet, SPS Commerce, and Avalara guidance current without cluttering current articles.
+
+- [ ] Review public NetSuite release notes on a regular cadence.
+- [ ] Review Pacejet public release or support updates on a regular cadence.
+- [ ] Review SPS Commerce public release or support updates on a regular cadence.
+- [ ] Review Avalara public release or support updates on a regular cadence.
+- [ ] Update current articles when public behavior changes.
+- [ ] Add notes to `history/` only when superseded or version-specific behavior remains useful.
+- [ ] Link historical notes back to the current article they relate to.
 
 ## Completed Content Releases
 
