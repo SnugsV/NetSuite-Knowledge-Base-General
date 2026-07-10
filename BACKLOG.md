@@ -84,11 +84,12 @@ This file tracks actionable work. Completed release history belongs in `CHANGELO
 
 - [x] Add cross-vendor support section.
 - [x] Add NetSuite-centered integration map.
+- [x] Add self-service before escalation guide.
 - [x] Add advanced release/update review workflow for NetSuite, Pacejet, SPS Commerce, and Avalara.
 - [x] Add cross-vendor integration incident intake checklist.
 - [x] Add public-safe screenshot/log redaction checklist for support examples.
 - [ ] Validate documentation links with a repeatable tool.
-- [ ] Add cross-vendor escalation path matrix for NetSuite, vendor, connector, carrier, tax, and trading-partner ownership.
+- [ ] Add frontline quick-reference decision tree for common NetSuite/Avalara/Pacejet/SPS symptoms.
 
 ### Phase 2 - Documentation Quality Audit
 
