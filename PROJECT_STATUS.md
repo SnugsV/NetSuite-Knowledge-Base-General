@@ -7,7 +7,7 @@
 | **Current Version** | 4.0.0 |
 | **Current Milestone** | Cross-Vendor Advanced Maintenance |
 | **Current Sprint** | Link Validation and Quick Reference Planning |
-| **Overall Completion** | Broad ERP curriculum, AI framework, advanced troubleshooting foundations, cross-vendor support guidance, and self-service support checks are established |
+| **Overall Completion** | Broad ERP curriculum, AI framework, advanced troubleshooting foundations, SPS bulk EDI workflows, cross-vendor support guidance, and self-service support checks are established |
 | **Repository Health** | 8.8 / 10 |
 | **Open Issues** | Review in GitHub before each maintenance session |
 | **Known Risks** | No CI/CD/link checking; tracking files need routine maintenance; documentation links need repeatable validation |
@@ -79,7 +79,9 @@
 - [x] Advanced SPS Commerce troubleshooting index
 - [x] EDI document lifecycle troubleshooting
 - [x] Purchase order acknowledgment and change-order diagnostics
+- [x] Bulk purchase order acknowledgment workflow
 - [x] ASN and shipment notice troubleshooting
+- [x] Bulk ASN workflow
 - [x] Invoice/810 mismatch diagnostics
 - [x] NetSuite and SPS data-mapping diagnostics
 - [x] Connector or portal error triage guidance
@@ -123,8 +125,7 @@ Phase 1 cleanup is mostly complete, with link validation and release-order revie
 - [x] Review changelog consistency for current cleanup items
 - [x] Add public-safe guidance to core governance writing and review files
 - [x] Generalize remaining named-company references found in Avalara and knowledge-acquisition docs
-- [x] Deprecate environment-specific Hermes procedure and neutralize visible AI-agent references
-- [x] Fix the most visible Pacejet relative links
+- [x] Deprecate environment-specific Hermes procedure and fixed visible Pacejet link issues
 - [ ] Review changelog release ordering before the next tag
 - [ ] Validate remaining documentation links with a repeatable tool
 
@@ -173,7 +174,7 @@ Harden the support layer with link validation, quick-reference decision paths, a
 - Added Advanced Avalara content priorities to the backlog and project status.
 - Added advanced Avalara troubleshooting index and eight advanced Avalara articles.
 - Added Advanced Pacejet troubleshooting index and six advanced Pacejet articles.
-- Added SPS Commerce integration module, advanced troubleshooting index, and six advanced SPS Commerce articles.
+- Added SPS Commerce integration module, advanced troubleshooting index, six advanced SPS Commerce diagnostic articles, and generalized bulk 855/856 processing workflows.
 - Added Cross-Vendor Support with integration map, self-service guide, incident intake checklist, release/update review workflow, and screenshot/log redaction checklist.
 
 ## Repository Health Score
@@ -187,7 +188,7 @@ Detailed scoring now lives in `REPOSITORY_HEALTH.md`. The summary below is retai
 | Structure | 9 | Strong module and framework architecture |
 | Governance | 9 | Maintainer guide, license, tracking boundaries, known gaps, AI-agent guide, public-safe review guidance, and repository health scorecard are now defined |
 | Templates | 8.5 | Canonical article template exists; deprecated template is clearly marked |
-| Content | 9.3 | Multiple ERP learning paths, AI framework layers, vendor-specific advanced troubleshooting, and cross-vendor support guidance are present |
+| Content | 9.3 | Multiple ERP learning paths, AI framework layers, vendor-specific advanced troubleshooting, SPS bulk EDI workflows, and cross-vendor support guidance are present |
 | Project Tracking | 8.6 | Tracking files exist and are being realigned around clearer responsibilities |
 | Automation | 2 | No CI/CD, Pages, linting, or link checking yet |
 | Readability | 9 | Markdown style is generally clear and AI-friendly |
