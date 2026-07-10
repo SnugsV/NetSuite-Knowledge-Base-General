@@ -68,14 +68,25 @@ This file tracks actionable work. Completed release history belongs in `CHANGELO
 
 ### Advanced SPS Commerce Content
 
+**Status: Complete for current foundation batch**
+
+- [x] Add SPS Commerce integration module.
+- [x] Add SPS Commerce advanced troubleshooting index.
+- [x] Add EDI document lifecycle troubleshooting.
+- [x] Add purchase order acknowledgment and change-order diagnostics.
+- [x] Add ASN and shipment notice troubleshooting.
+- [x] Add invoice/810 mismatch diagnostics.
+- [x] Add NetSuite and SPS data-mapping diagnostics.
+- [x] Add connector or portal error triage guidance.
+
+### Cross-Vendor Advanced Maintenance
+
 **Status: Planned**
 
-- [ ] Add EDI document lifecycle troubleshooting.
-- [ ] Add purchase order acknowledgment and change-order diagnostics.
-- [ ] Add ASN and shipment notice troubleshooting.
-- [ ] Add invoice/810 mismatch diagnostics.
-- [ ] Add NetSuite and SPS data-mapping diagnostics.
-- [ ] Add connector or portal error triage guidance.
+- [ ] Add advanced release/update review workflow for NetSuite, Pacejet, SPS Commerce, and Avalara.
+- [ ] Add cross-vendor integration incident intake checklist.
+- [ ] Add public-safe screenshot/log redaction checklist for support examples.
+- [ ] Validate documentation links with a repeatable tool.
 
 ### Phase 2 - Documentation Quality Audit
 
