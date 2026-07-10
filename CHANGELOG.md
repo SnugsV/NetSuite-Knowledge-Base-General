@@ -24,6 +24,9 @@ This file records release history only. Current status belongs in `PROJECT_STATU
 - Added SuiteScript troubleshooting deep dive covering script types, deployments, execution context, permissions, governance, logs, and automation overlap.
 - Added SuiteAnalytics and reporting troubleshooting for reports, workbooks, datasets, dashboards, KPIs, calculations, permissions, and performance.
 - Added an Advanced Avalara content queue to the backlog.
+- Added `ecosystem/avalara/ADVANCED_TROUBLESHOOTING.md` as the advanced Avalara index.
+- Added advanced Avalara articles for tax calculation troubleshooting, address validation/geolocation edge cases, NetSuite transaction tax flow, exemption certificate troubleshooting, nexus/jurisdiction/taxability diagnostics, and connector sync/log review.
+- Added an Advanced SPS Commerce content queue to the backlog.
 
 ### Changed
 
