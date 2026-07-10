@@ -5,10 +5,10 @@
 | Field | Value |
 |---|---|
 | **Current Version** | 4.0.0 |
-| **Current Milestone** | Advanced NetSuite Content Expansion |
-| **Current Sprint** | Advanced Troubleshooting Foundation |
-| **Overall Completion** | Broad ERP curriculum and AI framework established; advanced diagnostic content is expanding into saved searches, permissions, workflows, integrations, and AR automation |
-| **Repository Health** | 8.2 / 10 |
+| **Current Milestone** | Advanced Vendor Content Expansion |
+| **Current Sprint** | Advanced Avalara Planning |
+| **Overall Completion** | Broad ERP curriculum, AI framework, and advanced NetSuite troubleshooting foundation are established; next focus is advanced Avalara content |
+| **Repository Health** | 8.3 / 10 |
 | **Open Issues** | Review in GitHub before each maintenance session |
 | **Known Risks** | No CI/CD/link checking; tracking files need routine maintenance; documentation links need repeatable validation |
 
@@ -48,6 +48,11 @@
 - [x] Customer credit automation pattern
 - [x] Advanced saved search diagnostics
 - [x] Permissions and role-difference diagnostics
+- [x] SuiteFlow automation patterns
+- [x] SuiteTalk REST and SOAP troubleshooting
+- [x] Transaction lifecycle troubleshooting
+- [x] SuiteScript troubleshooting deep dive
+- [x] SuiteAnalytics and reporting troubleshooting
 
 ### AI Knowledge Platform Layers
 - [x] Support Intelligence Framework
@@ -95,18 +100,20 @@ Phase 1 cleanup is mostly complete, with link validation and release-order revie
 
 ## Next Milestone
 
-**Advanced NetSuite Content Expansion**
+**Advanced Avalara Content Expansion**
 
-Build deeper advanced documentation for SuiteFlow automation, SuiteTalk REST and SOAP troubleshooting, transaction lifecycle troubleshooting, SuiteAnalytics, and vendor-connected workflows.
+Build deeper advanced documentation for Avalara tax calculation troubleshooting, address validation, NetSuite transaction tax flow, exemption certificates, nexus and jurisdiction diagnosis, connector sync failures, and log review.
 
 ## Upcoming Priorities
 
-1. Add advanced SuiteFlow automation patterns.
-2. Add SuiteTalk REST and SOAP troubleshooting patterns.
-3. Add transaction lifecycle troubleshooting for sales, purchasing, inventory, and accounting.
-4. Add advanced SuiteAnalytics and reporting troubleshooting.
-5. Validate remaining documentation links with a repeatable tool.
-6. Continue periodic public-safety audits.
+1. Add Avalara tax calculation troubleshooting.
+2. Add Avalara address validation and geolocation edge cases.
+3. Add NetSuite transaction tax flow with Avalara.
+4. Add exemption certificate troubleshooting.
+5. Add nexus, jurisdiction, and taxability diagnostic patterns.
+6. Add Avalara connector sync failure and log-review guidance.
+7. Validate remaining documentation links with a repeatable tool.
+8. Continue periodic public-safety audits.
 
 ## Recent Changes
 
@@ -128,10 +135,12 @@ Build deeper advanced documentation for SuiteFlow automation, SuiteTalk REST and
 - Added advanced troubleshooting module and first four advanced diagnostic articles.
 - Added customer credit automation pattern for AR credit visibility, review, workflow, payment-stage, and scripted design options.
 - Added advanced saved search diagnostics and permissions/role-difference diagnostics.
+- Added SuiteFlow automation patterns, SuiteTalk REST/SOAP troubleshooting, transaction lifecycle troubleshooting, SuiteScript troubleshooting deep dive, and SuiteAnalytics/reporting troubleshooting.
+- Added Advanced Avalara content priorities to the backlog and project status.
 
 ## Repository Health Score
 
-**8.2 / 10**
+**8.3 / 10**
 
 Detailed scoring now lives in `REPOSITORY_HEALTH.md`. The summary below is retained as a quick project status snapshot.
 
@@ -140,8 +149,8 @@ Detailed scoring now lives in `REPOSITORY_HEALTH.md`. The summary below is retai
 | Structure | 9 | Strong module and framework architecture |
 | Governance | 9 | Maintainer guide, license, tracking boundaries, known gaps, AI-agent guide, public-safe review guidance, and repository health scorecard are now defined |
 | Templates | 8.5 | Canonical article template exists; deprecated template is clearly marked |
-| Content | 8.5 | Multiple ERP learning paths, AI framework layers, and expanding advanced troubleshooting content are present |
+| Content | 8.7 | Multiple ERP learning paths, AI framework layers, and advanced NetSuite troubleshooting content are present |
 | Project Tracking | 8 | Tracking files exist and are being realigned around clearer responsibilities |
 | Automation | 2 | No CI/CD, Pages, linting, or link checking yet |
 | Readability | 9 | Markdown style is generally clear and AI-friendly |
-| AI Readiness | 9 | Strong framework orientation, metadata standards, reasoning layers, and advanced diagnostic patterns |
+| AI Readiness | 9.2 | Strong framework orientation, metadata standards, reasoning layers, and advanced diagnostic patterns |
