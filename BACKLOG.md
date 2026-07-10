@@ -21,6 +21,21 @@ This file tracks actionable work. Completed release history belongs in `CHANGELO
 - [ ] Review roadmap and changelog for release-order consistency before the next tag.
 - [ ] Validate documentation links with a repeatable tool.
 
+### Advanced NetSuite Content
+
+**Status: Started**
+
+- [x] Add advanced troubleshooting module.
+- [x] Add screenshot and error-message triage guidance.
+- [x] Add cross-layer NetSuite error diagnostic framework.
+- [x] Add SuiteScript and workflow error triage guidance.
+- [x] Add integration error triage guidance.
+- [ ] Add advanced saved search diagnostics.
+- [ ] Add advanced permissions and role-difference diagnostics.
+- [ ] Add transaction lifecycle troubleshooting for sales, purchasing, inventory, and accounting.
+- [ ] Add advanced SuiteAnalytics and reporting troubleshooting.
+- [ ] Add advanced release/update review workflow for NetSuite, Pacejet, SPS Commerce, and Avalara.
+
 ### Phase 2 - Documentation Quality Audit
 
 **Status: Planned**
