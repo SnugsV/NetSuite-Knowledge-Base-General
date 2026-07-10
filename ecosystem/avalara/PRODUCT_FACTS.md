@@ -78,7 +78,7 @@ Do not include:
 - Scripts
 - Internal screenshots
 - Implementation-specific behavior
-- Private Holland Bar Stool operating procedures
+- Private operating procedures
 
 ## Related Articles
 - `architecture/AVALARA_PLATFORM_OVERVIEW.md`
