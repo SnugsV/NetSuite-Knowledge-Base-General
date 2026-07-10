@@ -16,7 +16,7 @@ This file tracks actionable work. Completed release history belongs in `CHANGELO
 - [x] Generalize stale AI-agent startup guidance in framework files.
 - [x] Remove stale PR-status language from `PLATFORM_ARCHITECTURE.md`.
 - [x] Align `PROJECT_STATUS.md`, `SESSION_REPORT.md`, `ROADMAP.md`, `CHANGELOG.md`, and `REPOSITORY_HEALTH.md` with completed cleanup work.
-- [ ] Review remaining governance files for duplicate or stale guidance.
+- [x] Review core governance writing files for public-safety guidance.
 - [ ] Review roadmap and changelog for release-order consistency before the next tag.
 - [ ] Validate documentation links with a repeatable tool.
 
