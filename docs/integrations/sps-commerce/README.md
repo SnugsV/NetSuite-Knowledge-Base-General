@@ -7,7 +7,9 @@ This module covers SPS Commerce as an EDI and retail supply-chain integration pl
 | Step | Article | Est. Time | Topic |
 |---|---|---:|---|
 | 1 | [Advanced Troubleshooting](advanced-troubleshooting.md) | 20 min | EDI lifecycle, PO acknowledgments, ASNs, invoices, mappings, connector and portal errors |
-| - | **Estimated total time** | **20 min** | - |
+| 2 | [Bulk Purchase Order Acknowledgment Workflow](sps-bulk-po-acknowledgment-workflow.md) | 15 min | Bulk EDI 855 processing from eligible NetSuite sales orders |
+| 3 | [Bulk ASN Workflow](sps-bulk-asn-workflow.md) | 15 min | Bulk EDI 856 processing from shipped NetSuite item fulfillments |
+| - | **Estimated total time** | **50 min** | - |
 
 ## How SPS Commerce Connects
 
