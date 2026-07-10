@@ -1,147 +1,83 @@
 # Backlog
 
-## Sprint 0.1 — Foundation
+This file tracks actionable work. Completed release history belongs in `CHANGELOG.md`, future direction belongs in `ROADMAP.md`, and current status belongs in `PROJECT_STATUS.md`.
 
-**Status: Complete**
+## Current Maintenance Queue
 
-Repository structure, governance, templates, project tracking, and cleanup of upload artifacts.
+### Phase 1 - Repository Health Cleanup
 
-## Sprint 0.2 — Getting Started
+**Status: In progress**
 
-**Status: Complete**
+- [x] Add and link `AGENTS.md` as the first-stop AI-agent guide.
+- [x] Add `KNOWN_GAPS.md` for stale, weak, missing, or incomplete areas.
+- [x] Remove named company examples from public/private overlay guidance.
+- [x] Refresh README public/private overlay wording.
+- [x] Refresh `docs/README.md` contribution, license, and public-safety guidance.
+- [x] Generalize stale AI-agent startup guidance in framework files.
+- [x] Remove stale PR-status language from `PLATFORM_ARCHITECTURE.md`.
+- [x] Align `PROJECT_STATUS.md`, `SESSION_REPORT.md`, `ROADMAP.md`, `CHANGELOG.md`, and `REPOSITORY_HEALTH.md` with completed cleanup work.
+- [ ] Review remaining governance files for duplicate or stale guidance.
+- [ ] Review roadmap and changelog for release-order consistency before the next tag.
+- [ ] Validate documentation links with a repeatable tool.
 
-- [x] Foundation improvements (placeholder removal, project tracking upgrades)
-- [x] Documentation homepage (docs/README.md)
-- [x] What Is NetSuite? (improved)
-- [x] NetSuite Editions
-- [x] User interface overview
-- [x] Navigation
-- [x] Centers and roles
-- [x] Dashboards
-- [x] Global search
-- [x] Lists and records
-- [x] Personalization
-- [x] Keyboard shortcuts
-- [x] Glossary
-- [x] Knowledge Engineering Framework (14 documents in knowledge-engine/)
-
-## Sprint 0.3 — Administration (Complete)
-
-- [x] Administration Overview
-- [x] Company Setup
-- [x] Company Preferences
-- [x] Enabled Features
-- [x] Users
-- [x] Roles
-- [x] Permissions
-- [x] Centers
-- [x] Forms
-- [x] Custom Forms
-- [x] Authentication
-- [x] Two-Factor Authentication
-- [x] Single Sign-On
-- [x] System Notes
-- [x] Audit Trail
-- [x] Sandbox and Release Preview
-- [x] Security Best Practices
-- [x] Administration Glossary
-
-### Release 2.2 — Repository Navigation & Architecture Cleanup
-
-**Status: Complete**
-
-- [x] Updated PROJECT_STATUS.md to current platform state (v2.2.0)
-- [x] Updated docs/README.md — fixed module statuses and relative links
-- [x] Created PLATFORM_ARCHITECTURE.md — six-layer architecture overview
-- [x] Documented PR #18/#19 resolution (PR #19 supersedes PR #18)
-- [x] License recommendation documented (MIT or CC-BY-4.0)
-- [x] Updated CHANGELOG.md and SESSION_REPORT.md
-
-### Sprint 0.4 — Saved Searches
-
-**Status: Complete**
-
-- Saved search criteria and results
-- Formulas in saved searches
-- Summary searches
-- Reports overview
-- SuiteAnalytics workbooks
-- KPIs and dashboards
-- CSV import and export
-
-## Sprint 0.5 — Inventory and Operations
+### Phase 2 - Documentation Quality Audit
 
 **Status: Planned**
 
-- Item records and types
-- Locations and warehouses
-- Transfer orders
-- Inventory adjustments
-- Bin management
-- Cycle counts
-- Purchasing and receiving
-- Order fulfillment
+- [ ] Audit Markdown formatting across documentation.
+- [ ] Validate YAML front matter coverage.
+- [ ] Identify broken or questionable relative links.
+- [ ] Identify duplicate or overlapping articles.
+- [ ] Review Oracle reference coverage.
+- [ ] Score module completeness.
+- [ ] Score AI-readiness and retrieval quality.
+- [ ] Record findings in `KNOWN_GAPS.md` or a dedicated audit report.
 
-## Sprint 0.6 — Reporting and Analytics
-
-**Status: Planned**
-
-- Financial reports
-- Operational reports
-- Custom reporting
-- SuiteAnalytics basics
-- Dashboard customization
-- Search-based reporting
-
-## Sprint 0.7 — SuiteScript
+### Phase 3 - Automation
 
 **Status: Planned**
 
-- SuiteScript 2.x fundamentals
-- Script types overview
-- Client scripts
-- User event scripts
-- Scheduled scripts
-- Map/reduce scripts
-- Suitelets and RESTlets
-- Governance and debugging
+- [ ] Add Markdown linting.
+- [ ] Add broken-link checking.
+- [ ] Add front matter validation.
+- [ ] Add GitHub Actions for documentation checks.
+- [ ] Evaluate GitHub Pages, MkDocs, or another publishing path.
+- [ ] Consider automated repository health reporting.
 
-## Sprint 0.8 — SuiteTalk
+## Completed Content Releases
 
-**Status: Planned**
+| Release | Status | Notes |
+|---|---|---|
+| Foundation | Complete | Initial structure, README, roadmap, contribution guide, governance folder, templates, source tracking, and first articles. |
+| Getting Started | Complete | Beginner path, documentation homepage, glossary, navigation, roles, dashboards, search, lists, personalization, and keyboard shortcuts. |
+| Administration | Complete | Company setup, preferences, features, users, roles, permissions, forms, authentication, audit trail, sandbox, and security. |
+| Saved Searches and Reporting | Complete | Criteria, results, formulas, summaries, reports, SuiteAnalytics, KPIs, dashboards, and CSV import/export. |
+| Inventory and Operations | Complete | Items, locations, transfers, adjustments, bins, cycle counts, purchasing, receiving, and fulfillment. |
+| Purchasing | Complete | Vendor, procurement, purchasing, receiving, and procure-to-pay guidance. |
+| Sales | Complete | Customer, order, fulfillment, invoicing, and order-to-cash guidance. |
+| Manufacturing | Complete | Planning, production, assemblies, work orders, and plan-to-produce guidance. |
+| Accounting | Complete | Record-to-report concepts, transaction flow, and accounting process guidance. |
+| Pacejet Intelligence Pack | Complete | Integration intelligence across curriculum, support, context, skills, architecture, and metadata layers. |
+| AI Framework Layers | Complete | Support intelligence, customer context, AI skills, solution architect, customer metadata, runtime, experience, and validation frameworks. |
 
-- REST Web Services fundamentals
-- SOAP web services
-- Authentication patterns (TBA, OAuth 2.0)
-- REST API Browser usage
-- Error handling and logging
-- Integration patterns
-- Rate limits and best practices
+## Future Content Ideas
 
-## Version 1.0 — Community Release
+- Broader integration intelligence beyond Pacejet.
+- SuiteScript examples and troubleshooting patterns.
+- SuiteTalk REST and SOAP implementation guides.
+- SuiteAnalytics workbook guides.
+- CRM learning path.
+- Workflows and approvals learning path.
+- OneWorld and subsidiaries learning path.
+- SuiteCommerce guidance.
+- WMS guidance.
+- Fixed Assets guidance.
+- Revenue Recognition guidance.
+- SuiteCloud Developer Framework guidance.
 
-**Status: Planned**
+## Public-Safety Backlog
 
-- All core modules have at least 3 articles each
-- Getting-started learning path complete
-- Strong cross-linking between modules
-- AI-friendly metadata across all articles
-- Community contribution guidelines proven
-- MkDocs or similar static site generator evaluated
-- GitHub Pages or equivalent publishing evaluated
-- Public announcement and contribution call
-
-## Future Considerations
-
-- Accounting module
-- CRM module
-- Manufacturing module
-- Workflows and approvals
-- Order management
-- Multi-book accounting
-- OneWorld and subsidiaries
-- SuiteCommerce
-- WMS (Warehouse Management System)
-- Fixed assets
-- Revenue recognition
-- SuiteCloud Developer Framework (SDF)
+- [ ] Run periodic repository-wide searches for named company examples and private implementation details.
+- [ ] Review examples in articles to ensure they stay generic and public-safe.
+- [ ] Confirm private overlays or internal knowledge sources are referenced only generically.
+- [ ] Add automated checks if a repeatable term list becomes stable.
