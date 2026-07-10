@@ -69,7 +69,7 @@ Examples:
 ## Public-Safe Boundary
 Do not include:
 
-- Holland Bar Stool tax configuration
+- Company-specific tax configuration
 - Nexus decisions
 - Customer-specific tax data
 - Exemption approval procedures
