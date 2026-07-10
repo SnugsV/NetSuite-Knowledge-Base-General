@@ -16,6 +16,8 @@ This file records release history only. Current status belongs in `PROJECT_STATU
 - Added `docs/advanced-troubleshooting/` module for advanced NetSuite diagnostics.
 - Added advanced articles for screenshot/error triage, NetSuite error diagnosis, SuiteScript/workflow triage, and integration error triage.
 - Added customer credit automation pattern covering saved search visibility, workflow review, payment-stage review, and scripted credit-application design considerations.
+- Added advanced saved search diagnostics for missing rows, duplicates, wrong totals, formulas, joins, summaries, and role-specific search behavior.
+- Added permissions and role-difference diagnostics for access, visibility, forms, data restrictions, workflows, scripts, and integration roles.
 
 ### Changed
 
