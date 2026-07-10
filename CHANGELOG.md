@@ -6,16 +6,26 @@ This file records release history only. Current status belongs in `PROJECT_STATU
 
 ## [Unreleased]
 
+### Added
+
+- Added `AGENTS.md` as a first-stop guide for AI-agent startup and public-safety rules.
+- Added `KNOWN_GAPS.md` to track missing, stale, weak, or incomplete areas without overstating current repository status.
+- Added public-safe contribution guidance to contributor and documentation index files.
+
 ### Changed
 
+- Replaced named company-specific private repository examples with neutral public/private overlay guidance.
 - Updated project tracking documents for Phase 1 repository health cleanup.
-- Aligned `PROJECT_STATUS.md`, `SESSION_REPORT.md`, and `ROADMAP.md` around the current maintenance model.
+- Aligned `PROJECT_STATUS.md`, `SESSION_REPORT.md`, `ROADMAP.md`, and `REPOSITORY_HEALTH.md` around the current maintenance model.
+- Refreshed `docs/README.md` license, contribution, and public-safety guidance.
+- Reduced duplicate AI-agent startup guidance by pointing framework files to `AGENTS.md`.
+- Removed stale PR-status and repository-health claims from `PLATFORM_ARCHITECTURE.md`.
 
 ### Pending
 
-- Repair `docs/README.md` navigation and module index formatting.
-- Review stale architecture and PR-status language.
-- Select and add a repository license.
+- Review remaining guidance files for duplicate AI-agent startup instructions.
+- Validate documentation links with a repeatable tool.
+- Review changelog version ordering and release consistency before the next tagged release.
 
 ## [4.0.0] - 2026-07-01 - AI Validation & Benchmark Framework
 
