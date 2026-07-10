@@ -7,7 +7,7 @@
 | **Current Version** | 4.0.0 |
 | **Current Milestone** | Advanced NetSuite Content Expansion |
 | **Current Sprint** | Advanced Troubleshooting Foundation |
-| **Overall Completion** | Broad ERP curriculum and AI framework established; advanced diagnostic content now started |
+| **Overall Completion** | Broad ERP curriculum and AI framework established; advanced diagnostic content is expanding into saved searches, permissions, workflows, integrations, and AR automation |
 | **Repository Health** | 8.2 / 10 |
 | **Open Issues** | Review in GitHub before each maintenance session |
 | **Known Risks** | No CI/CD/link checking; tracking files need routine maintenance; documentation links need repeatable validation |
@@ -46,6 +46,8 @@
 - [x] SuiteScript and workflow error triage guidance
 - [x] Integration error triage guidance
 - [x] Customer credit automation pattern
+- [x] Advanced saved search diagnostics
+- [x] Permissions and role-difference diagnostics
 
 ### AI Knowledge Platform Layers
 - [x] Support Intelligence Framework
@@ -73,7 +75,7 @@ Phase 1 cleanup is mostly complete, with link validation and release-order revie
 - [x] Remove named company example from public/private overlay guidance
 - [x] Generalize stale AI-agent and platform guidance
 - [x] Refresh documentation index guidance
-- [x] Refresh session report for the current maintenance cycle
+- [x] Refresh session report for the current cleanup pass
 - [x] Align roadmap with completed releases and future direction
 - [x] Review changelog consistency for current cleanup items
 - [x] Add public-safe guidance to core governance writing and review files
@@ -95,17 +97,16 @@ Phase 1 cleanup is mostly complete, with link validation and release-order revie
 
 **Advanced NetSuite Content Expansion**
 
-Build deeper advanced documentation for saved searches, permissions, transaction lifecycle troubleshooting, SuiteScript, SuiteTalk, SuiteAnalytics, and vendor-connected workflows.
+Build deeper advanced documentation for SuiteFlow automation, SuiteTalk REST and SOAP troubleshooting, transaction lifecycle troubleshooting, SuiteAnalytics, and vendor-connected workflows.
 
 ## Upcoming Priorities
 
-1. Add advanced saved search diagnostics.
-2. Add advanced permissions and role-difference diagnostics.
-3. Add advanced SuiteFlow automation patterns.
-4. Add SuiteTalk REST and SOAP troubleshooting patterns.
-5. Add transaction lifecycle troubleshooting for sales, purchasing, inventory, and accounting.
-6. Validate remaining documentation links with a repeatable tool.
-7. Continue periodic public-safety audits.
+1. Add advanced SuiteFlow automation patterns.
+2. Add SuiteTalk REST and SOAP troubleshooting patterns.
+3. Add transaction lifecycle troubleshooting for sales, purchasing, inventory, and accounting.
+4. Add advanced SuiteAnalytics and reporting troubleshooting.
+5. Validate remaining documentation links with a repeatable tool.
+6. Continue periodic public-safety audits.
 
 ## Recent Changes
 
@@ -126,6 +127,7 @@ Build deeper advanced documentation for saved searches, permissions, transaction
 - Deprecated environment-specific Hermes procedure and fixed visible Pacejet link issues.
 - Added advanced troubleshooting module and first four advanced diagnostic articles.
 - Added customer credit automation pattern for AR credit visibility, review, workflow, payment-stage, and scripted design options.
+- Added advanced saved search diagnostics and permissions/role-difference diagnostics.
 
 ## Repository Health Score
 
@@ -138,7 +140,7 @@ Detailed scoring now lives in `REPOSITORY_HEALTH.md`. The summary below is retai
 | Structure | 9 | Strong module and framework architecture |
 | Governance | 9 | Maintainer guide, license, tracking boundaries, known gaps, AI-agent guide, public-safe review guidance, and repository health scorecard are now defined |
 | Templates | 8.5 | Canonical article template exists; deprecated template is clearly marked |
-| Content | 8.5 | Multiple ERP learning paths, AI framework layers, and initial advanced troubleshooting content are present |
+| Content | 8.5 | Multiple ERP learning paths, AI framework layers, and expanding advanced troubleshooting content are present |
 | Project Tracking | 8 | Tracking files exist and are being realigned around clearer responsibilities |
 | Automation | 2 | No CI/CD, Pages, linting, or link checking yet |
 | Readability | 9 | Markdown style is generally clear and AI-friendly |
