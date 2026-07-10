@@ -17,6 +17,10 @@ Keep examples generic. Do not publish partner names tied to private requirements
 5. Are carrier, service, routing, ship date, or delivery date values required?
 6. Did packing or shipment data change after ASN generation?
 
+## Bulk Processing Context
+
+When multiple shipped item fulfillments need EDI 856 ASNs, use the [Bulk ASN Workflow](sps-bulk-asn-workflow.md) for the processing path. Use this diagnostic article when a fulfillment is missing from the batch list, should not be processed yet, fails during processing, or appears shipped in one system but not ASN-ready in another.
+
 ## Diagnostic Layers
 
 ### Layer 1: Fulfillment State
@@ -136,6 +140,7 @@ When a user asks about an ASN issue, the assistant should:
 
 ## Related Articles
 
+- [Bulk ASN Workflow](sps-bulk-asn-workflow.md)
 - [EDI Document Lifecycle Troubleshooting](sps-edi-document-lifecycle-troubleshooting.md)
 - [NetSuite and SPS Data Mapping Diagnostics](sps-netsuite-data-mapping-diagnostics.md)
 - [Connector or Portal Error Triage](sps-connector-portal-error-triage.md)
