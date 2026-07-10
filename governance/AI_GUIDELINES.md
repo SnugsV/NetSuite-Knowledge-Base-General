@@ -17,6 +17,8 @@ AI systems retrieve information more accurately when documents are structured co
 - Avoid vague titles like `overview.md` unless the folder context is clear.
 - Include common mistakes and FAQs because these answer real user questions.
 - Separate official references from original explanation.
+- Keep examples generic and public-safe.
+- Do not include private SOPs, customer examples, custom fields, saved searches, workflows, SuiteScripts, screenshots, pricing, credentials, proprietary processes, or details that reveal how a specific organization operates.
 
 ## Good AI Retrieval Pattern
 
