@@ -71,7 +71,7 @@ Scripting, APIs, automation, integrations, and AI-assisted solution design.
 - [SuiteScript](suitescript/)
 - [SuiteTalk](suitetalk/)
 - [Integrations](integrations/)
-- Knowledge Engineering Framework: [../knowledge-engine/](../knowledge-engine/)
+- [Knowledge Engineering Framework](../knowledge-engine/)
 
 ---
 
@@ -114,7 +114,7 @@ Scripting, APIs, automation, integrations, and AI-assisted solution design.
 
 ## Contribution Notes
 
-This documentation is a community project. See [CONTRIBUTING.md](../CONTRIBUTING.md) and the [governance](../governance/) documents for writing standards, style guides, and review process.
+This documentation is a community project. See [CONTRIBUTING.md](../CONTRIBUTING.md), [AGENTS.md](../AGENTS.md), and the [governance](../governance/) documents for writing standards, style guides, public-safety rules, and review process.
 
 Before writing, review:
 
@@ -123,6 +123,8 @@ Before writing, review:
 - [AI Documentation Guidelines](../governance/AI_GUIDELINES.md)
 - [Review Process](../governance/REVIEW_PROCESS.md)
 - [Knowledge Engineering Framework](../knowledge-engine/README.md)
+
+Keep examples generic. Do not include company-specific SOPs, customer examples, custom fields, saved searches, workflows, SuiteScripts, screenshots, pricing, credentials, proprietary processes, or details that reveal how a specific organization operates.
 
 ---
 
@@ -144,4 +146,4 @@ Documentation is planned or expandable for these areas:
 
 ## License
 
-A repository license has not been selected yet. See `PROJECT_STATUS.md` and `SESSION_REPORT.md` for the current license decision status.
+This repository uses [CC BY 4.0](../LICENSE.md) for public documentation unless otherwise noted. Oracle, NetSuite, SuiteScript, SuiteTalk, and related trademarks belong to Oracle Corporation.
