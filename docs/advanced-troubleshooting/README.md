@@ -10,6 +10,7 @@ It is designed for situations where a user provides an error message, screenshot
 2. [Screenshot and Error Message Triage](screenshot-and-error-message-triage.md) - How to use screenshot context safely and effectively
 3. [SuiteScript and Workflow Error Triage](suitescript-and-workflow-error-triage.md) - How to separate script, workflow, deployment, and governance issues
 4. [Integration Error Triage](integration-error-triage.md) - How to reason through REST, SOAP, connector, CSV, and middleware failures
+5. [Customer Credit Automation Pattern](customer-credit-automation-pattern.md) - How to evaluate saved search, workflow, payment-stage, or scripted approaches for unapplied customer credits
 
 ## What This Module Is For
 
@@ -22,6 +23,7 @@ Examples:
 - A saved search, workflow, script, or integration behaves differently for different roles.
 - An external system cannot create or update a NetSuite record.
 - A process worked previously but began failing after a configuration, release, bundle, role, or data change.
+- An accounts receivable process needs safer visibility, review, or automation around unapplied customer credits.
 
 ## Troubleshooting Mindset
 
