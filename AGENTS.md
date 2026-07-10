@@ -1,14 +1,9 @@
 # AI Agent Guide
 
-## Purpose
-
 This is the first-stop guide for AI agents working in the NetSuite Intelligence Platform repository.
 
-## Core Rule
+## Required Behavior
 
-Treat this repository as a public-safe NetSuite reasoning system, not a private company SOP library.
-
-## Before Editing
-
-1. Read `README.md`.
-2. Read `PROJECT_STATUS.md` and `SESSION_REPORT.md`.
+- Treat this as a public-safe NetSuite reasoning system, not a private company SOP library.
+- Read `README.md`, `PROJECT_STATUS.md`, `SESSION_REPORT.md`, and `knowledge-engine/README.md` before changing files.
+- Read `knowledge-engine/MASTER_PROJECT_PROMPT.md` for
