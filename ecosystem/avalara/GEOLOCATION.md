@@ -116,7 +116,7 @@ This article does not define legal tax boundaries, nexus obligations, tax regist
 Those topics require tax expertise, system administration, or private implementation documentation.
 
 ## Public-Safe Boundary
-Do not include Holland Bar Stool-specific tax setup, address rules, custom fields, workflows, scripts, screenshots, nexus decisions, or private operating procedures.
+Do not include company-specific tax setup, address rules, custom fields, workflows, scripts, screenshots, nexus decisions, or private operating procedures.
 
 Company-specific geolocation behavior belongs in a private enterprise repository.
 
