@@ -38,7 +38,6 @@ This file tracks actionable work. Completed release history belongs in `CHANGELO
 - [x] Add SuiteTalk REST and SOAP troubleshooting patterns.
 - [x] Add SuiteScript troubleshooting deep dive.
 - [x] Add advanced SuiteAnalytics and reporting troubleshooting.
-- [ ] Add advanced release/update review workflow for NetSuite, Pacejet, SPS Commerce, and Avalara.
 
 ### Advanced Avalara Content
 
@@ -81,12 +80,15 @@ This file tracks actionable work. Completed release history belongs in `CHANGELO
 
 ### Cross-Vendor Advanced Maintenance
 
-**Status: Planned**
+**Status: Started**
 
-- [ ] Add advanced release/update review workflow for NetSuite, Pacejet, SPS Commerce, and Avalara.
-- [ ] Add cross-vendor integration incident intake checklist.
-- [ ] Add public-safe screenshot/log redaction checklist for support examples.
+- [x] Add cross-vendor support section.
+- [x] Add NetSuite-centered integration map.
+- [x] Add advanced release/update review workflow for NetSuite, Pacejet, SPS Commerce, and Avalara.
+- [x] Add cross-vendor integration incident intake checklist.
+- [x] Add public-safe screenshot/log redaction checklist for support examples.
 - [ ] Validate documentation links with a repeatable tool.
+- [ ] Add cross-vendor escalation path matrix for NetSuite, vendor, connector, carrier, tax, and trading-partner ownership.
 
 ### Phase 2 - Documentation Quality Audit
 
