@@ -30,8 +30,12 @@ This file records release history only. Current status belongs in `PROJECT_STATU
 - Added Avalara tax codes and item classification deep dive.
 - Added `docs/integrations/pacejet/advanced-troubleshooting.md` as the advanced Pacejet index.
 - Added advanced Pacejet articles for rate/carrier service troubleshooting, packing/weights/dimensions, label/carrier errors, NetSuite fulfillment status flow, address classification, and post-shipment tracking/void/reprint issues.
+- Added `docs/integrations/sps-commerce/README.md` as the SPS Commerce integration module index.
+- Added `docs/integrations/sps-commerce/advanced-troubleshooting.md` as the advanced SPS Commerce index.
+- Added advanced SPS Commerce articles for EDI document lifecycle, PO acknowledgments/change orders, ASNs, invoice/810 mismatches, NetSuite/SPS mapping, and connector/portal error triage.
 - Added an Advanced Pacejet content queue to the backlog.
 - Added an Advanced SPS Commerce content queue to the backlog.
+- Added a cross-vendor advanced maintenance queue to the backlog.
 
 ### Changed
 
