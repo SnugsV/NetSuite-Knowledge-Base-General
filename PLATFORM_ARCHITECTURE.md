@@ -82,15 +82,15 @@ Traditional NetSuite documentation answers "what." This repository teaches the "
 
 ## How a Customer Question Flows Through the System
 
-```
+```text
 Customer: "Our shipping labels stopped working."
 
-Layer 3 (Context) → Version? Bundle? Carriers? Changes?
-Layer 2 (Support) → Open pacejet-support.md → Diagnostic pattern
-Layer 4 (Skills) → Follow label-troubleshooter → 7-step skill
-Layer 6 (Metadata) → API log, error log, sample shipment
-Layer 1 (Curriculum) → Reference: fulfillment, carrier setup
-Layer 5 (Architect) → Config change? Bug? New requirement?
+Layer 3 (Context) -> Version? Bundle? Carriers? Changes?
+Layer 2 (Support) -> Open pacejet-support.md -> Diagnostic pattern
+Layer 4 (Skills) -> Follow label-troubleshooter -> 7-step skill
+Layer 6 (Metadata) -> API log, error log, sample shipment
+Layer 1 (Curriculum) -> Reference: fulfillment, carrier setup
+Layer 5 (Architect) -> Config change? Bug? New requirement?
 ```
 
 ## How Integration Packs Fit
@@ -122,25 +122,18 @@ Each integration spans all six layers using Pacejet as the template:
 ## What Does Not Belong
 
 - **Oracle documentation copy** — reference it, do not reproduce it
+- **Private implementation details** — company-specific SOPs, screenshots, custom fields, saved searches, workflows, scripts, pricing, customer examples, credentials, and proprietary processes belong in private overlays or internal knowledge sources
 - **AI system prompts** — prompts change with model versions
-- **Credentials or tokens** — use gh auth, not stored credentials
+- **Credentials or tokens** — use authenticated tools, not stored credentials
 - **Non-NetSuite ERP content** — keep focused on NetSuite
 - **Unrelated content** — the platform is NetSuite ERP specific
 
 ## How AI Agents Should Use the Repository
 
-**First time**: Read this file, then `knowledge-engine/MASTER_PROJECT_PROMPT.md`.
+Start with [AGENTS.md](AGENTS.md), then use the knowledge-engine documents for deeper framework guidance.
 
-**Before every task**: Pull latest, read PROJECT_STATUS.md and SESSION_REPORT.md, create a feature branch from main.
-
-**When solving a problem**: Start with Layer 3 (context), move to Layer 2 (support), execute Layer 4 (skill), use Layer 6 (metadata), reference Layer 1 (curriculum), use Layer 5 for architectural decisions.
-
-## PR #18 and PR #19
-
-PR #18 is the Pacejet architecture plan. PR #19 is the implementation. PR #19 fully supersedes PR #18. Recommendation: close PR #18 after PR #19 is merged. RELEASE_PLAN_2.1.md can be preserved as a planning artifact.
+When solving a problem, start with customer context, move to support intelligence, execute the relevant AI skill, collect required metadata, reference the curriculum, and use the solution architect layer for capability decisions.
 
 ## Repository Health
 
-Structure: 9/10 | Governance: 8/10 | Content: 8/10 | Extensibility: 9/10 | Automation: 2/10 | PR Hygiene: 4/10
-
-**Critical issue**: 16 of 19 PRs remain open. The platform cannot be considered live until framework extensions (PRs #13-#17) and ERP modules (PRs #4-#12) are merged.
+Repository health should be tracked in the active project status and health files rather than hard-coded here. This avoids stale PR counts, outdated readiness claims, and duplicated status reporting.
