@@ -42,14 +42,26 @@ This file tracks actionable work. Completed release history belongs in `CHANGELO
 
 ### Advanced Avalara Content
 
+**Status: Complete for current foundation batch**
+
+- [x] Add Avalara advanced troubleshooting index.
+- [x] Add Avalara tax calculation troubleshooting.
+- [x] Add Avalara address validation and geolocation edge cases.
+- [x] Add NetSuite transaction tax flow with Avalara.
+- [x] Add exemption certificate troubleshooting.
+- [x] Add nexus, jurisdiction, and taxability diagnostic patterns.
+- [x] Add Avalara connector sync failure and log-review guidance.
+
+### Advanced SPS Commerce Content
+
 **Status: Planned**
 
-- [ ] Add Avalara tax calculation troubleshooting.
-- [ ] Add Avalara address validation and geolocation edge cases.
-- [ ] Add NetSuite transaction tax flow with Avalara.
-- [ ] Add exemption certificate troubleshooting.
-- [ ] Add nexus, jurisdiction, and taxability diagnostic patterns.
-- [ ] Add Avalara connector sync failure and log-review guidance.
+- [ ] Add EDI document lifecycle troubleshooting.
+- [ ] Add purchase order acknowledgment and change-order diagnostics.
+- [ ] Add ASN and shipment notice troubleshooting.
+- [ ] Add invoice/810 mismatch diagnostics.
+- [ ] Add NetSuite and SPS data-mapping diagnostics.
+- [ ] Add connector or portal error triage guidance.
 
 ### Phase 2 - Documentation Quality Audit
 
