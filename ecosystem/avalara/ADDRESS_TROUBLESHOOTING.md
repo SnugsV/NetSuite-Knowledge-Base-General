@@ -212,7 +212,7 @@ Recommended pattern:
 The GPT should avoid saying which address Avalara definitely used unless private account documentation confirms the implementation behavior.
 
 ## Public-Safe Boundary
-Do not include Holland Bar Stool-specific address rules, tax setup, custom fields, connector configuration, scripts, workflows, screenshots, or private operating procedures.
+Do not include company-specific address rules, tax setup, custom fields, connector configuration, scripts, workflows, screenshots, or private operating procedures.
 
 Company-specific address troubleshooting belongs in a private enterprise repository.
 
