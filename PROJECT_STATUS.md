@@ -6,9 +6,9 @@
 |---|---|
 | **Current Version** | 4.0.0 |
 | **Current Milestone** | Advanced Vendor Content Expansion |
-| **Current Sprint** | Advanced Pacejet Planning |
-| **Overall Completion** | Broad ERP curriculum, AI framework, advanced NetSuite troubleshooting, and advanced Avalara troubleshooting foundations are established; next focus is Pacejet |
-| **Repository Health** | 8.5 / 10 |
+| **Current Sprint** | Advanced SPS Commerce Planning |
+| **Overall Completion** | Broad ERP curriculum, AI framework, advanced NetSuite, Avalara, and Pacejet troubleshooting foundations are established; next focus is SPS Commerce |
+| **Repository Health** | 8.6 / 10 |
 | **Open Issues** | Review in GitHub before each maintenance session |
 | **Known Risks** | No CI/CD/link checking; tracking files need routine maintenance; documentation links need repeatable validation |
 
@@ -65,6 +65,15 @@
 - [x] Connector sync failure and log review
 - [x] Returns and filing readiness troubleshooting
 
+### Advanced Pacejet Content
+- [x] Advanced Pacejet troubleshooting index
+- [x] Shipping rate and carrier-service troubleshooting
+- [x] Packing, weights, dimensions, and package-building diagnostics
+- [x] Label generation and carrier error troubleshooting
+- [x] NetSuite fulfillment and shipment status flow diagnostics
+- [x] Address validation and residential/commercial shipping diagnostics
+- [x] Tracking, void, reprint, and post-shipment issue guidance
+
 ### AI Knowledge Platform Layers
 - [x] Support Intelligence Framework
 - [x] Customer Context Intelligence Framework
@@ -111,18 +120,18 @@ Phase 1 cleanup is mostly complete, with link validation and release-order revie
 
 ## Next Milestone
 
-**Advanced Pacejet Content Expansion**
+**Advanced SPS Commerce Content Expansion**
 
-Build deeper advanced documentation for shipping rates, carrier services, packing, dimensions, label generation, NetSuite fulfillment status, address classification, tracking, voids, reprints, and post-shipment troubleshooting.
+Build deeper advanced documentation for EDI document lifecycle troubleshooting, PO acknowledgments and change orders, ASN/shipment notice issues, invoice mismatch diagnostics, NetSuite/SPS mapping issues, and connector or portal error triage.
 
 ## Upcoming Priorities
 
-1. Add Pacejet shipping rate and carrier-service troubleshooting.
-2. Add packing, weights, dimensions, and package-building diagnostics.
-3. Add label generation and carrier error troubleshooting.
-4. Add NetSuite fulfillment and shipment status flow diagnostics.
-5. Add address validation and residential/commercial shipping diagnostics.
-6. Add tracking, void, reprint, and post-shipment issue guidance.
+1. Add SPS Commerce EDI document lifecycle troubleshooting.
+2. Add purchase order acknowledgment and change-order diagnostics.
+3. Add ASN and shipment notice troubleshooting.
+4. Add invoice/810 mismatch diagnostics.
+5. Add NetSuite and SPS data-mapping diagnostics.
+6. Add connector or portal error triage guidance.
 7. Validate remaining documentation links with a repeatable tool.
 8. Continue periodic public-safety audits.
 
@@ -149,12 +158,12 @@ Build deeper advanced documentation for shipping rates, carrier services, packin
 - Added SuiteFlow automation patterns, SuiteTalk REST/SOAP troubleshooting, transaction lifecycle troubleshooting, SuiteScript troubleshooting deep dive, and SuiteAnalytics/reporting troubleshooting.
 - Added Advanced Avalara content priorities to the backlog and project status.
 - Added advanced Avalara troubleshooting index and eight advanced Avalara articles.
-- Added Advanced Pacejet content priorities to the backlog and project status.
+- Added Advanced Pacejet troubleshooting index and six advanced Pacejet articles.
 - Added Advanced SPS Commerce content priorities to the backlog and project status.
 
 ## Repository Health Score
 
-**8.5 / 10**
+**8.6 / 10**
 
 Detailed scoring now lives in `REPOSITORY_HEALTH.md`. The summary below is retained as a quick project status snapshot.
 
@@ -163,8 +172,8 @@ Detailed scoring now lives in `REPOSITORY_HEALTH.md`. The summary below is retai
 | Structure | 9 | Strong module and framework architecture |
 | Governance | 9 | Maintainer guide, license, tracking boundaries, known gaps, AI-agent guide, public-safe review guidance, and repository health scorecard are now defined |
 | Templates | 8.5 | Canonical article template exists; deprecated template is clearly marked |
-| Content | 8.9 | Multiple ERP learning paths, AI framework layers, advanced NetSuite troubleshooting, and advanced Avalara troubleshooting content are present |
-| Project Tracking | 8.3 | Tracking files exist and are being realigned around clearer responsibilities |
+| Content | 9 | Multiple ERP learning paths, AI framework layers, advanced NetSuite, Avalara, and Pacejet troubleshooting content are present |
+| Project Tracking | 8.4 | Tracking files exist and are being realigned around clearer responsibilities |
 | Automation | 2 | No CI/CD, Pages, linting, or link checking yet |
 | Readability | 9 | Markdown style is generally clear and AI-friendly |
-| AI Readiness | 9.4 | Strong framework orientation, metadata standards, reasoning layers, and advanced diagnostic patterns |
+| AI Readiness | 9.5 | Strong framework orientation, metadata standards, reasoning layers, and advanced diagnostic patterns |
