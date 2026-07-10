@@ -73,7 +73,9 @@ This file tracks actionable work. Completed release history belongs in `CHANGELO
 - [x] Add SPS Commerce advanced troubleshooting index.
 - [x] Add EDI document lifecycle troubleshooting.
 - [x] Add purchase order acknowledgment and change-order diagnostics.
+- [x] Add bulk purchase order acknowledgment workflow.
 - [x] Add ASN and shipment notice troubleshooting.
+- [x] Add bulk ASN workflow.
 - [x] Add invoice/810 mismatch diagnostics.
 - [x] Add NetSuite and SPS data-mapping diagnostics.
 - [x] Add connector or portal error triage guidance.
