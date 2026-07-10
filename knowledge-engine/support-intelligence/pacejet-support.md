@@ -70,7 +70,7 @@
 4. Scheduled script for status updates not running
 
 **Verification steps**:
-1. Check the shipment in the Pacejet portal — confirm it has a tracking number
+1. Check the shipment in the Pacejet portal and confirm it has a tracking number
 2. Check the Pacejet API log for callback errors
 3. Check NetSuite script execution logs for errors
 4. Verify ASD field configuration
@@ -96,9 +96,9 @@ Escalate when:
 
 ## Related Modules
 
-- [Sales](../sales/README.md)
-- [Inventory](../inventory/README.md)
-- [Administration](../administration/README.md)
+- [Sales](../../docs/sales/README.md)
+- [Inventory](../../docs/inventory/README.md)
+- [Administration](../../docs/administration/README.md)
 
 ## Oracle References
 
