@@ -44,6 +44,8 @@ assets/                   Diagrams, images, icons, and supporting files
 
 The [knowledge-engine/](knowledge-engine/README.md) directory contains the complete AI Knowledge Engineering Framework — the permanent operating system for all work on this repository. It eliminates the need for long prompts by moving all project knowledge into version-controlled documentation.
 
+For AI-agent startup guidance, see [AGENTS.md](AGENTS.md).
+
 **Key documents:**
 
 - [MASTER_PROJECT_PROMPT.md](knowledge-engine/MASTER_PROJECT_PROMPT.md) — Single reference for all future prompts
