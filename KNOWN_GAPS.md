@@ -12,3 +12,4 @@ Use this file to track missing, stale, weak, or incomplete areas without oversta
 - Remaining documentation links need a dedicated pass, especially older inventory related-article links and references to modules that do not yet exist, such as warehouse, quality, and warranty.
 - Some historical review/planning files still mention old PR numbers or superseded merge plans; keep them as historical notes or clearly mark them as archived.
 - Changelog release ordering should be reviewed before the next tagged release.
+- The new `history/` area has folder indexes but no archived vendor-update notes yet; add notes only when a public vendor update materially supersedes current guidance.
