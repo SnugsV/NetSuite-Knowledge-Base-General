@@ -34,6 +34,7 @@ This repository complements Oracle's official documentation by providing origina
 /                         Root project tracking and governance files
 knowledge-engine/         AI Knowledge Engineering Framework (permanent operating system)
 docs/                     Main knowledge base articles by module
+history/                  Public-safe historical notes for vendor update changes
 templates/                Reusable article and guide templates
 governance/               Writing, review, and AI documentation standards
 sources/                  Official Oracle documentation reference index
@@ -86,6 +87,12 @@ A strong article includes:
 - FAQs
 - Related articles
 - Oracle references
+
+## Vendor Update History
+
+Use [history/](history/README.md) for public-safe historical notes when NetSuite, Pacejet, SPS Commerce, Avalara, or another ecosystem platform changes in a way that materially affects repository guidance.
+
+Normal article edits should remain in Git history. The history folder is for superseded behavior, version-specific notes, or older troubleshooting patterns that may still matter later.
 
 ## Company-Specific Overlays
 
