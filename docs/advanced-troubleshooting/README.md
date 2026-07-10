@@ -13,6 +13,11 @@ It is designed for situations where a user provides an error message, screenshot
 5. [Customer Credit Automation Pattern](customer-credit-automation-pattern.md) - How to evaluate saved search, workflow, payment-stage, or scripted approaches for unapplied customer credits
 6. [Advanced Saved Search Diagnostics](advanced-saved-search-diagnostics.md) - How to diagnose missing rows, duplicates, formulas, joins, summaries, and role-specific search behavior
 7. [Permissions and Role Difference Diagnostics](permissions-and-role-difference-diagnostics.md) - How to troubleshoot access, visibility, forms, data restrictions, workflows, scripts, and integration roles
+8. [SuiteFlow Automation Patterns](suiteflow-automation-patterns.md) - How to design and troubleshoot workflow reminders, approvals, blocking, routing, and escalation
+9. [SuiteTalk REST and SOAP Troubleshooting](suitetalk-rest-soap-troubleshooting.md) - How to diagnose authentication, permissions, payload, transform, and response issues in integrations
+10. [Transaction Lifecycle Troubleshooting](transaction-lifecycle-troubleshooting.md) - How to diagnose sales, purchasing, inventory, accounting, AR, and AP transaction state issues
+11. [SuiteScript Troubleshooting Deep Dive](suitescript-troubleshooting-deep-dive.md) - How to troubleshoot script type, deployment, context, permissions, governance, logs, and automation overlap
+12. [SuiteAnalytics and Reporting Troubleshooting](suiteanalytics-reporting-troubleshooting.md) - How to troubleshoot reports, workbooks, datasets, dashboards, KPIs, summaries, and performance
 
 ## What This Module Is For
 
@@ -28,6 +33,7 @@ Examples:
 - An accounts receivable process needs safer visibility, review, or automation around unapplied customer credits.
 - A saved search has missing rows, duplicate rows, wrong totals, formula errors, or role-specific results.
 - One user can perform an action but another user cannot.
+- A workflow, script, SuiteTalk integration, report, workbook, dashboard, or transaction process behaves differently than expected.
 
 ## Troubleshooting Mindset
 
@@ -42,6 +48,7 @@ Common layers include:
 - SuiteScript execution and deployment context
 - Saved search criteria, joins, and formulas
 - SuiteTalk REST, SOAP, RESTlet, or connector integration behavior
+- Reporting source, workbook dataset, dashboard, and KPI behavior
 - Accounting period, posting, tax, inventory, or fulfillment constraints
 - Vendor platform behavior for integrations such as Pacejet, SPS Commerce, and Avalara
 
