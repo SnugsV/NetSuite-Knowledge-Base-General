@@ -16,7 +16,7 @@ Future prompts should be as simple as:
 |---|---|
 | [MASTER_PROJECT_PROMPT.md](MASTER_PROJECT_PROMPT.md) | Permanent operating instructions — the single document future prompts reference |
 | [PROJECT_CHARTER.md](PROJECT_CHARTER.md) | Project vision, mission, philosophy, and engineering mindset |
-| [OPERATING_PROCEDURE.md](OPERATING_PROCEDURE.md) | Hermes startup sequence for every task |
+| [OPERATING_PROCEDURE.md](OPERATING_PROCEDURE.md) | Repository maintenance procedure for recurring work |
 | [DOCUMENTATION_STANDARDS.md](DOCUMENTATION_STANDARDS.md) | Article structure, cross-linking, naming conventions |
 | [WRITING_STANDARDS.md](WRITING_STANDARDS.md) | Tone, audience, teaching philosophy, plain language |
 | [AI_STANDARDS.md](AI_STANDARDS.md) | AI optimization, RAG readiness, metadata, knowledge graphs |
@@ -31,7 +31,7 @@ Future prompts should be as simple as:
 
 ## How to Use
 
-1. **New AI agent** — Begin by reading this README, then [MASTER_PROJECT_PROMPT.md](MASTER_PROJECT_PROMPT.md)
+1. **New AI agent** — Begin with [../AGENTS.md](../AGENTS.md), then read this README and [MASTER_PROJECT_PROMPT.md](MASTER_PROJECT_PROMPT.md)
 2. **Before each task** — Read [PROJECT_MEMORY.md](PROJECT_MEMORY.md) and follow [OPERATING_PROCEDURE.md](OPERATING_PROCEDURE.md)
 3. **When writing documentation** — Reference [DOCUMENTATION_STANDARDS.md](DOCUMENTATION_STANDARDS.md) and [WRITING_STANDARDS.md](WRITING_STANDARDS.md)
 4. **When reviewing work** — Use [REVIEW_CHECKLIST.md](REVIEW_CHECKLIST.md)
