@@ -69,8 +69,11 @@ Phase 1 is focused on repository health and alignment:
 - [x] Align roadmap with completed releases and future direction
 - [x] Review changelog consistency for current cleanup items
 - [x] Add public-safe guidance to core governance writing and review files
+- [x] Generalize remaining named-company references found in Avalara and knowledge-acquisition docs
+- [x] Deprecate environment-specific Hermes procedure and neutralize visible AI-agent references
+- [x] Fix the most visible Pacejet relative links
 - [ ] Review changelog release ordering before the next tag
-- [ ] Validate documentation links with a repeatable tool
+- [ ] Validate remaining documentation links with a repeatable tool
 
 ## Known Issues
 
@@ -88,7 +91,7 @@ After Phase 1, perform a repository-wide audit for broken links, duplicate conte
 
 ## Upcoming Priorities
 
-1. Validate documentation links with a repeatable tool.
+1. Validate remaining documentation links with a repeatable tool.
 2. Review changelog release ordering before the next tag.
 3. Add basic Markdown/link validation.
 4. Begin Phase 2 documentation quality scoring.
@@ -109,6 +112,8 @@ After Phase 1, perform a repository-wide audit for broken links, duplicate conte
 - Refreshed `SESSION_REPORT.md` for the current cleanup pass.
 - Refreshed `ROADMAP.md`, `BACKLOG.md`, and `CHANGELOG.md` around current maintenance priorities.
 - Added public-safe writing and review guidance to governance files.
+- Generalized remaining named-company references found in Avalara and knowledge-acquisition docs.
+- Deprecated environment-specific Hermes procedure and fixed visible Pacejet link issues.
 
 ## Repository Health Score
 
