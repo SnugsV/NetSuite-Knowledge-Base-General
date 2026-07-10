@@ -121,7 +121,7 @@ This article does not define legal tax obligations, nexus decisions, registratio
 Those topics require tax expertise or private implementation documentation.
 
 ## Public-Safe Boundary
-Do not include Holland Bar Stool-specific nexus decisions, tax setup, tax registrations, customer-specific tax treatment, custom fields, workflows, scripts, screenshots, or private operating procedures.
+Do not include company-specific nexus decisions, tax setup, tax registrations, customer-specific tax treatment, custom fields, workflows, scripts, screenshots, or private operating procedures.
 
 Company-specific jurisdiction behavior belongs in a private enterprise repository.
 
