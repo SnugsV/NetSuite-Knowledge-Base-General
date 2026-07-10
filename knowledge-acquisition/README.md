@@ -60,7 +60,7 @@ This layer must not introduce company-specific operating details into the public
 
 Do not include:
 
-- Internal Holland Bar Stool procedures
+- Internal company procedures
 - Customer-specific documentation
 - Private screenshots
 - Saved searches
