@@ -56,14 +56,15 @@ This file tracks actionable work. Completed release history belongs in `CHANGELO
 
 ### Advanced Pacejet Content
 
-**Status: Planned**
+**Status: Complete for current foundation batch**
 
-- [ ] Add Pacejet shipping rate and carrier-service troubleshooting.
-- [ ] Add packing, weights, dimensions, and package-building diagnostics.
-- [ ] Add label generation and carrier error troubleshooting.
-- [ ] Add NetSuite fulfillment and shipment status flow diagnostics.
-- [ ] Add address validation and residential/commercial shipping diagnostics.
-- [ ] Add tracking, void, reprint, and post-shipment issue guidance.
+- [x] Add Pacejet advanced troubleshooting index.
+- [x] Add Pacejet shipping rate and carrier-service troubleshooting.
+- [x] Add packing, weights, dimensions, and package-building diagnostics.
+- [x] Add label generation and carrier error troubleshooting.
+- [x] Add NetSuite fulfillment and shipment status flow diagnostics.
+- [x] Add address validation and residential/commercial shipping diagnostics.
+- [x] Add tracking, void, reprint, and post-shipment issue guidance.
 
 ### Advanced SPS Commerce Content
 
