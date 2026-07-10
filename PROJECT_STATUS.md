@@ -10,7 +10,7 @@
 | **Overall Completion** | Broad ERP curriculum and AI framework established; governance alignment in progress |
 | **Repository Health** | 8.2 / 10 |
 | **Open Issues** | Review in GitHub before each maintenance session |
-| **Known Risks** | No CI/CD/link checking; tracking files need routine maintenance; documentation index still needs review |
+| **Known Risks** | No CI/CD/link checking; tracking files need routine maintenance; documentation index needs deeper link validation |
 
 ## Completed Work
 
@@ -63,9 +63,9 @@ Phase 1 is focused on repository health and alignment:
 - [x] Add and link `AGENTS.md`
 - [x] Remove named company example from public/private overlay guidance
 - [x] Generalize stale AI-agent and platform guidance
+- [x] Refresh documentation index guidance
 - [ ] Align roadmap with completed releases and future direction
 - [ ] Refresh session report for the current maintenance cycle
-- [ ] Repair documentation index formatting and links
 - [ ] Review changelog consistency
 
 ## Known Issues
@@ -73,7 +73,7 @@ Phase 1 is focused on repository health and alignment:
 - No CI/CD, Markdown linting, link checking, or metadata validation is configured.
 - Some historical tracking documents drifted out of sync as releases accelerated.
 - Some governance documents overlap and should be consolidated or clearly deprecated.
-- Documentation index formatting and links still need review.
+- Documentation index links still need automated or repo-wide validation.
 - Public/private boundary language should be audited periodically as new examples are added.
 
 ## Next Milestone
@@ -84,9 +84,9 @@ After Phase 1, perform a repository-wide audit for broken links, duplicate conte
 
 ## Upcoming Priorities
 
-1. Finish Phase 1 tracking and navigation cleanup.
-2. Repair `docs/README.md` navigation formatting and links.
-3. Review changelog consistency.
+1. Finish Phase 1 tracking cleanup.
+2. Review changelog consistency.
+3. Align roadmap with completed releases and future direction.
 4. Add basic Markdown/link validation.
 5. Begin Phase 2 documentation quality scoring.
 
@@ -101,6 +101,7 @@ After Phase 1, perform a repository-wide audit for broken links, duplicate conte
 - Added `AGENTS.md` as the first-stop AI-agent startup guide.
 - Removed a named company example from README public/private overlay guidance.
 - Generalized stale AI-agent and platform guidance.
+- Refreshed `docs/README.md` contribution and license guidance.
 
 ## Repository Health Score
 
