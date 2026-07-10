@@ -23,7 +23,7 @@ This file tracks actionable work. Completed release history belongs in `CHANGELO
 
 ### Advanced NetSuite Content
 
-**Status: Started**
+**Status: Complete for current foundation batch**
 
 - [x] Add advanced troubleshooting module.
 - [x] Add screenshot and error-message triage guidance.
@@ -33,11 +33,23 @@ This file tracks actionable work. Completed release history belongs in `CHANGELO
 - [x] Add customer credit automation pattern for AR credit visibility, review, workflow, and scripted design options.
 - [x] Add advanced saved search diagnostics.
 - [x] Add advanced permissions and role-difference diagnostics.
-- [ ] Add transaction lifecycle troubleshooting for sales, purchasing, inventory, and accounting.
-- [ ] Add advanced SuiteFlow automation patterns.
-- [ ] Add SuiteTalk REST and SOAP troubleshooting patterns.
-- [ ] Add advanced SuiteAnalytics and reporting troubleshooting.
+- [x] Add transaction lifecycle troubleshooting for sales, purchasing, inventory, and accounting.
+- [x] Add advanced SuiteFlow automation patterns.
+- [x] Add SuiteTalk REST and SOAP troubleshooting patterns.
+- [x] Add SuiteScript troubleshooting deep dive.
+- [x] Add advanced SuiteAnalytics and reporting troubleshooting.
 - [ ] Add advanced release/update review workflow for NetSuite, Pacejet, SPS Commerce, and Avalara.
+
+### Advanced Avalara Content
+
+**Status: Planned**
+
+- [ ] Add Avalara tax calculation troubleshooting.
+- [ ] Add Avalara address validation and geolocation edge cases.
+- [ ] Add NetSuite transaction tax flow with Avalara.
+- [ ] Add exemption certificate troubleshooting.
+- [ ] Add nexus, jurisdiction, and taxability diagnostic patterns.
+- [ ] Add Avalara connector sync failure and log-review guidance.
 
 ### Phase 2 - Documentation Quality Audit
 
