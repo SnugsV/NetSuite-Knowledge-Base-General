@@ -2,19 +2,24 @@
 
 This roadmap describes future direction only. Completed release history belongs in `CHANGELOG.md`, and active work items belong in `BACKLOG.md`.
 
-## Current Focus — Phase 1 Repository Health
+## Current Focus - Phase 1 Repository Health
 
 Goal: make the repository internally consistent after rapid growth across ERP curriculum, AI framework layers, and integration intelligence.
 
 - [x] Create maintenance branch
 - [x] Update `PROJECT_STATUS.md`
 - [x] Refresh `SESSION_REPORT.md`
-- [ ] Repair `docs/README.md` navigation and module index
+- [x] Repair `docs/README.md` guidance, license wording, and public-safety notes
+- [x] Review stale architecture and PR-status language
+- [x] Choose and add a repository license
+- [x] Add `KNOWN_GAPS.md` for weak, stale, or incomplete areas
+- [x] Add and link `AGENTS.md` for AI-agent startup guidance
+- [x] Remove named company examples from public/private overlay guidance
 - [ ] Review `CHANGELOG.md` version ordering and consistency
-- [ ] Review stale architecture and PR-status language
-- [ ] Choose and add a repository license
+- [ ] Review remaining guidance files for duplicate AI-agent startup instructions
+- [ ] Validate documentation links with a repeatable tool
 
-## Phase 2 — Documentation Quality Audit
+## Phase 2 - Documentation Quality Audit
 
 Goal: measure article quality and identify gaps before adding more content.
 
@@ -27,19 +32,20 @@ Goal: measure article quality and identify gaps before adding more content.
 - [ ] Score AI-readiness and retrieval quality
 - [ ] Produce a repository health report
 
-## Phase 3 — Governance and Stewardship
+## Phase 3 - Governance and Stewardship
 
 Goal: make long-term maintenance clear for humans and AI agents.
 
-- [ ] Add `LICENSE.md` after license selection
-- [ ] Create or update maintainer guidance
+- [x] Add `LICENSE.md` after license selection
+- [x] Create or update maintainer guidance
+- [x] Create a recurring maintenance checklist
+- [x] Add first-stop AI-agent guidance
 - [ ] Clarify release cadence
 - [ ] Consolidate duplicate governance guidance
-- [ ] Review contribution workflow
-- [ ] Create a recurring maintenance checklist
+- [ ] Review contribution workflow after public-safety updates
 - [ ] Define documentation quality gates
 
-## Phase 4 — Automation
+## Phase 4 - Automation
 
 Goal: reduce manual maintenance effort and prevent drift.
 
@@ -50,7 +56,7 @@ Goal: reduce manual maintenance effort and prevent drift.
 - [ ] Evaluate GitHub Pages or MkDocs publishing
 - [ ] Add automated repository health reporting
 
-## Phase 5 — Platform Expansion
+## Phase 5 - Platform Expansion
 
 Goal: continue evolving the project from a documentation repository into a NetSuite Intelligence Platform.
 
