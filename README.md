@@ -87,14 +87,11 @@ A strong article includes:
 
 ## Company-Specific Overlays
 
-This general repository can later be paired with private company-specific repositories. For example:
+This general repository can be paired with private company-specific repositories or internal knowledge sources.
 
-```text
-NetSuite-Knowledge-Base-General
-NetSuite-Knowledge-Base-HBS-Private
-```
+The general repository explains how NetSuite works. Private overlays explain how a specific organization uses NetSuite, including internal SOPs, custom fields, saved searches, screenshots, workflows, scripts, pricing, customer examples, or proprietary operating procedures.
 
-The general repository explains how NetSuite works. The private repository explains how a specific company uses NetSuite — including internal SOPs, custom fields, saved searches, and screenshots. This keeps general knowledge shareable while protecting proprietary information.
+This keeps general knowledge shareable while protecting private implementation details.
 
 ## Disclaimer
 
