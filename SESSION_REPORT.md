@@ -27,6 +27,7 @@ Bring repository tracking and navigation files back into alignment after multipl
 | README.md | Removed named private-repository example and linked `AGENTS.md`. |
 | AGENTS.md | Added first-stop AI-agent startup and public-safety guide. |
 | PROJECT_STATUS.md | Updated stale sprint and version language, current milestone, completed work, known risks, maintenance checklist, and repository health scoring. |
+| docs/README.md | Refreshed contribution notes, public-safety reminder, framework link, and license language. |
 | LICENSE.md | Added CC BY 4.0 license text with Oracle trademark clarification. |
 | MAINTAINER.md | Added repository operations handbook for maintainers and AI agents. |
 | PLATFORM_ARCHITECTURE.md | Removed stale PR-status language and pointed AI startup guidance to `AGENTS.md`. |
@@ -46,7 +47,7 @@ Bring repository tracking and navigation files back into alignment after multipl
 ## Findings
 
 1. Project tracking files drifted apart and no longer described the same state.
-2. docs/README.md has malformed module table rows and incorrect relative links.
+2. docs/README.md had stale license language and needed clearer public-safe contribution guidance.
 3. The repository now has a CC BY 4.0 `LICENSE.md` with Oracle trademark clarification.
 4. CI, Markdown linting, link checking, and metadata validation are not configured.
 5. The repository has moved beyond the original sprint model and now needs routine maintenance discipline.
@@ -75,7 +76,7 @@ Bring repository tracking and navigation files back into alignment after multipl
 |---|---|---|
 | Automation | No link checker, Markdown linter, metadata validator, or CI workflow | High |
 | Tracking | Historical status files need periodic review to stay aligned | High |
-| Navigation | Module index has malformed rows and link issues | High |
+| Navigation | Module index links need automated or repo-wide validation | High |
 | Governance | Some contribution and template documents overlap or are deprecated | Medium |
 | Architecture | Some framework files may still duplicate agent-startup guidance | Medium |
 
@@ -93,11 +94,11 @@ Bring repository tracking and navigation files back into alignment after multipl
 - [x] Add and link AGENTS.md
 - [x] Review PLATFORM_ARCHITECTURE.md stale PR language
 - [x] Remove named company example from README public/private overlay guidance
-- [ ] Repair docs/README.md
+- [x] Repair docs/README.md guidance
 
 ## Recommendations
 
-1. Finish Phase 1 by repairing docs navigation and confirming changelog consistency.
+1. Finish Phase 1 by confirming changelog consistency and roadmap alignment.
 2. Add automated link and Markdown validation before the repository grows further.
 3. Create a recurring repository health audit process using `REPOSITORY_HEALTH.md`.
 4. Maintain this as a NetSuite Intelligence Platform, not only a static documentation library.
@@ -111,5 +112,5 @@ Bring repository tracking and navigation files back into alignment after multipl
 ## Next Goals
 
 1. Review CHANGELOG.md for Unreleased consistency after the governance additions.
-2. Repair docs/README.md navigation formatting and links.
+2. Align ROADMAP.md with completed releases and future direction.
 3. Continue reviewing guidance files for duplicated AI-agent startup instructions.
