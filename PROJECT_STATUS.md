@@ -45,6 +45,7 @@
 - [x] Screenshot and error-message triage guidance
 - [x] SuiteScript and workflow error triage guidance
 - [x] Integration error triage guidance
+- [x] Customer credit automation pattern
 
 ### AI Knowledge Platform Layers
 - [x] Support Intelligence Framework
@@ -100,9 +101,11 @@ Build deeper advanced documentation for saved searches, permissions, transaction
 
 1. Add advanced saved search diagnostics.
 2. Add advanced permissions and role-difference diagnostics.
-3. Add transaction lifecycle troubleshooting for sales, purchasing, inventory, and accounting.
-4. Validate remaining documentation links with a repeatable tool.
-5. Continue periodic public-safety audits.
+3. Add advanced SuiteFlow automation patterns.
+4. Add SuiteTalk REST and SOAP troubleshooting patterns.
+5. Add transaction lifecycle troubleshooting for sales, purchasing, inventory, and accounting.
+6. Validate remaining documentation links with a repeatable tool.
+7. Continue periodic public-safety audits.
 
 ## Recent Changes
 
@@ -122,6 +125,7 @@ Build deeper advanced documentation for saved searches, permissions, transaction
 - Generalized remaining named-company references found in Avalara and knowledge-acquisition docs.
 - Deprecated environment-specific Hermes procedure and fixed visible Pacejet link issues.
 - Added advanced troubleshooting module and first four advanced diagnostic articles.
+- Added customer credit automation pattern for AR credit visibility, review, workflow, payment-stage, and scripted design options.
 
 ## Repository Health Score
 
