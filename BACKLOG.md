@@ -48,9 +48,22 @@ This file tracks actionable work. Completed release history belongs in `CHANGELO
 - [x] Add Avalara tax calculation troubleshooting.
 - [x] Add Avalara address validation and geolocation edge cases.
 - [x] Add NetSuite transaction tax flow with Avalara.
+- [x] Add Avalara tax codes and item classification deep dive.
 - [x] Add exemption certificate troubleshooting.
 - [x] Add nexus, jurisdiction, and taxability diagnostic patterns.
 - [x] Add Avalara connector sync failure and log-review guidance.
+- [x] Add Avalara returns and filing readiness troubleshooting.
+
+### Advanced Pacejet Content
+
+**Status: Planned**
+
+- [ ] Add Pacejet shipping rate and carrier-service troubleshooting.
+- [ ] Add packing, weights, dimensions, and package-building diagnostics.
+- [ ] Add label generation and carrier error troubleshooting.
+- [ ] Add NetSuite fulfillment and shipment status flow diagnostics.
+- [ ] Add address validation and residential/commercial shipping diagnostics.
+- [ ] Add tracking, void, reprint, and post-shipment issue guidance.
 
 ### Advanced SPS Commerce Content
 
