@@ -5,9 +5,9 @@
 | Field | Value |
 |---|---|
 | **Current Version** | 4.0.0 |
-| **Current Milestone** | Repository Health & Maintenance Alignment |
-| **Current Sprint** | Phase 1 - Repository Health Cleanup |
-| **Overall Completion** | Broad ERP curriculum and AI framework established; governance alignment in progress |
+| **Current Milestone** | Advanced NetSuite Content Expansion |
+| **Current Sprint** | Advanced Troubleshooting Foundation |
+| **Overall Completion** | Broad ERP curriculum and AI framework established; advanced diagnostic content now started |
 | **Repository Health** | 8.2 / 10 |
 | **Open Issues** | Review in GitHub before each maintenance session |
 | **Known Risks** | No CI/CD/link checking; tracking files need routine maintenance; documentation links need repeatable validation |
@@ -39,6 +39,13 @@
 - [x] Manufacturing learning path
 - [x] Accounting learning path
 
+### Advanced NetSuite Content
+- [x] Advanced troubleshooting module index
+- [x] NetSuite error diagnostic framework
+- [x] Screenshot and error-message triage guidance
+- [x] SuiteScript and workflow error triage guidance
+- [x] Integration error triage guidance
+
 ### AI Knowledge Platform Layers
 - [x] Support Intelligence Framework
 - [x] Customer Context Intelligence Framework
@@ -53,7 +60,7 @@
 
 ## Active Maintenance Work
 
-Phase 1 is focused on repository health and alignment:
+Phase 1 cleanup is mostly complete, with link validation and release-order review remaining:
 
 - [x] Create maintenance branch for cleanup work
 - [x] Update stale project status language
@@ -85,16 +92,16 @@ Phase 1 is focused on repository health and alignment:
 
 ## Next Milestone
 
-**Phase 2 - Documentation Quality Audit**
+**Advanced NetSuite Content Expansion**
 
-After Phase 1, perform a repository-wide audit for broken links, duplicate content, missing metadata, Oracle reference gaps, article completeness, public-safety issues, and AI-readiness.
+Build deeper advanced documentation for saved searches, permissions, transaction lifecycle troubleshooting, SuiteScript, SuiteTalk, SuiteAnalytics, and vendor-connected workflows.
 
 ## Upcoming Priorities
 
-1. Validate remaining documentation links with a repeatable tool.
-2. Review changelog release ordering before the next tag.
-3. Add basic Markdown/link validation.
-4. Begin Phase 2 documentation quality scoring.
+1. Add advanced saved search diagnostics.
+2. Add advanced permissions and role-difference diagnostics.
+3. Add transaction lifecycle troubleshooting for sales, purchasing, inventory, and accounting.
+4. Validate remaining documentation links with a repeatable tool.
 5. Continue periodic public-safety audits.
 
 ## Recent Changes
@@ -114,6 +121,7 @@ After Phase 1, perform a repository-wide audit for broken links, duplicate conte
 - Added public-safe writing and review guidance to governance files.
 - Generalized remaining named-company references found in Avalara and knowledge-acquisition docs.
 - Deprecated environment-specific Hermes procedure and fixed visible Pacejet link issues.
+- Added advanced troubleshooting module and first four advanced diagnostic articles.
 
 ## Repository Health Score
 
@@ -126,8 +134,8 @@ Detailed scoring now lives in `REPOSITORY_HEALTH.md`. The summary below is retai
 | Structure | 9 | Strong module and framework architecture |
 | Governance | 9 | Maintainer guide, license, tracking boundaries, known gaps, AI-agent guide, public-safe review guidance, and repository health scorecard are now defined |
 | Templates | 8.5 | Canonical article template exists; deprecated template is clearly marked |
-| Content | 8.5 | Multiple ERP learning paths and AI framework layers are complete |
+| Content | 8.5 | Multiple ERP learning paths, AI framework layers, and initial advanced troubleshooting content are present |
 | Project Tracking | 8 | Tracking files exist and are being realigned around clearer responsibilities |
 | Automation | 2 | No CI/CD, Pages, linting, or link checking yet |
 | Readability | 9 | Markdown style is generally clear and AI-friendly |
-| AI Readiness | 9 | Strong framework orientation, metadata standards, and reasoning layers |
+| AI Readiness | 9 | Strong framework orientation, metadata standards, reasoning layers, and advanced diagnostic patterns |
