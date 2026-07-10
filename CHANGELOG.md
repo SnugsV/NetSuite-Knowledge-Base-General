@@ -28,6 +28,8 @@ This file records release history only. Current status belongs in `PROJECT_STATU
 - Added advanced Avalara articles for tax calculation troubleshooting, address validation/geolocation edge cases, NetSuite transaction tax flow, exemption certificate troubleshooting, nexus/jurisdiction/taxability diagnostics, and connector sync/log review.
 - Added Avalara returns and filing readiness troubleshooting.
 - Added Avalara tax codes and item classification deep dive.
+- Added `docs/integrations/pacejet/advanced-troubleshooting.md` as the advanced Pacejet index.
+- Added advanced Pacejet articles for rate/carrier service troubleshooting, packing/weights/dimensions, label/carrier errors, NetSuite fulfillment status flow, address classification, and post-shipment tracking/void/reprint issues.
 - Added an Advanced Pacejet content queue to the backlog.
 - Added an Advanced SPS Commerce content queue to the backlog.
 
@@ -46,6 +48,7 @@ This file records release history only. Current status belongs in `PROJECT_STATU
 - Linked vendor update history from the main README.
 - Expanded the advanced troubleshooting index to include the full advanced NetSuite foundation batch.
 - Expanded the advanced Avalara index to include returns/filing readiness and item classification guidance.
+- Expanded the Pacejet README with an advanced troubleshooting path.
 
 ### Pending
 
