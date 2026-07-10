@@ -6,9 +6,9 @@
 |---|---|
 | **Current Version** | 4.0.0 |
 | **Current Milestone** | Cross-Vendor Advanced Maintenance |
-| **Current Sprint** | Advanced Documentation Link and Maintenance Pass |
-| **Overall Completion** | Broad ERP curriculum, AI framework, and advanced troubleshooting foundations for NetSuite, Avalara, Pacejet, and SPS Commerce are established |
-| **Repository Health** | 8.7 / 10 |
+| **Current Sprint** | Link Validation and Escalation Matrix Planning |
+| **Overall Completion** | Broad ERP curriculum, AI framework, advanced troubleshooting foundations, and cross-vendor support guidance are established |
+| **Repository Health** | 8.8 / 10 |
 | **Open Issues** | Review in GitHub before each maintenance session |
 | **Known Risks** | No CI/CD/link checking; tracking files need routine maintenance; documentation links need repeatable validation |
 
@@ -84,6 +84,13 @@
 - [x] NetSuite and SPS data-mapping diagnostics
 - [x] Connector or portal error triage guidance
 
+### Cross-Vendor Support
+- [x] Cross-vendor support index
+- [x] NetSuite-centered integration map
+- [x] Cross-vendor integration incident intake checklist
+- [x] Release and update review workflow
+- [x] Screenshot and log redaction checklist
+
 ### AI Knowledge Platform Layers
 - [x] Support Intelligence Framework
 - [x] Customer Context Intelligence Framework
@@ -132,15 +139,14 @@ Phase 1 cleanup is mostly complete, with link validation and release-order revie
 
 **Cross-Vendor Advanced Maintenance**
 
-Build support material that helps AI assistants handle multi-system incidents across NetSuite, Avalara, Pacejet, and SPS Commerce while keeping public examples safe and current.
+Build remaining support material that helps AI assistants handle ownership and escalation across NetSuite, Avalara, Pacejet, SPS Commerce, connectors, carriers, tax ownership, and trading partners.
 
 ## Upcoming Priorities
 
-1. Add advanced release/update review workflow for NetSuite, Pacejet, SPS Commerce, and Avalara.
-2. Add cross-vendor integration incident intake checklist.
-3. Add public-safe screenshot/log redaction checklist for support examples.
-4. Validate remaining documentation links with a repeatable tool.
-5. Continue periodic public-safety audits.
+1. Add cross-vendor escalation path matrix for NetSuite, vendor, connector, carrier, tax, and trading-partner ownership.
+2. Validate remaining documentation links with a repeatable tool.
+3. Review changelog release ordering before the next tag.
+4. Continue periodic public-safety audits.
 
 ## Recent Changes
 
@@ -167,10 +173,11 @@ Build support material that helps AI assistants handle multi-system incidents ac
 - Added advanced Avalara troubleshooting index and eight advanced Avalara articles.
 - Added Advanced Pacejet troubleshooting index and six advanced Pacejet articles.
 - Added SPS Commerce integration module, advanced troubleshooting index, and six advanced SPS Commerce articles.
+- Added Cross-Vendor Support with integration map, incident intake checklist, release/update review workflow, and screenshot/log redaction checklist.
 
 ## Repository Health Score
 
-**8.7 / 10**
+**8.8 / 10**
 
 Detailed scoring now lives in `REPOSITORY_HEALTH.md`. The summary below is retained as a quick project status snapshot.
 
@@ -179,8 +186,8 @@ Detailed scoring now lives in `REPOSITORY_HEALTH.md`. The summary below is retai
 | Structure | 9 | Strong module and framework architecture |
 | Governance | 9 | Maintainer guide, license, tracking boundaries, known gaps, AI-agent guide, public-safe review guidance, and repository health scorecard are now defined |
 | Templates | 8.5 | Canonical article template exists; deprecated template is clearly marked |
-| Content | 9.2 | Multiple ERP learning paths, AI framework layers, and advanced troubleshooting content for NetSuite, Avalara, Pacejet, and SPS Commerce are present |
-| Project Tracking | 8.5 | Tracking files exist and are being realigned around clearer responsibilities |
+| Content | 9.3 | Multiple ERP learning paths, AI framework layers, vendor-specific advanced troubleshooting, and cross-vendor support guidance are present |
+| Project Tracking | 8.6 | Tracking files exist and are being realigned around clearer responsibilities |
 | Automation | 2 | No CI/CD, Pages, linting, or link checking yet |
 | Readability | 9 | Markdown style is generally clear and AI-friendly |
-| AI Readiness | 9.6 | Strong framework orientation, metadata standards, reasoning layers, and advanced diagnostic patterns |
+| AI Readiness | 9.7 | Strong framework orientation, metadata standards, reasoning layers, advanced diagnostic patterns, and cross-system incident intake guidance |
