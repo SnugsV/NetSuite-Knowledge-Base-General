@@ -10,6 +10,13 @@ Thank you for helping improve NetSuite Knowledge Base General.
 4. Keep articles beginner-friendly unless clearly marked advanced.
 5. Use the article template and style guide.
 6. Prefer practical examples and common mistakes over generic descriptions.
+7. Keep public documentation generic and free of private implementation details.
+
+## Public-Safe Content
+
+This is a public knowledge base. Contributions should explain general NetSuite concepts, broadly applicable patterns, and public-safe troubleshooting guidance.
+
+Do not include company-specific SOPs, customer examples, custom fields, saved searches, workflows, SuiteScripts, screenshots, pricing, credentials, proprietary processes, or details that reveal how a specific organization operates.
 
 ## Suggested Workflow
 
