@@ -11,6 +11,8 @@ It is designed for situations where a user provides an error message, screenshot
 3. [SuiteScript and Workflow Error Triage](suitescript-and-workflow-error-triage.md) - How to separate script, workflow, deployment, and governance issues
 4. [Integration Error Triage](integration-error-triage.md) - How to reason through REST, SOAP, connector, CSV, and middleware failures
 5. [Customer Credit Automation Pattern](customer-credit-automation-pattern.md) - How to evaluate saved search, workflow, payment-stage, or scripted approaches for unapplied customer credits
+6. [Advanced Saved Search Diagnostics](advanced-saved-search-diagnostics.md) - How to diagnose missing rows, duplicates, formulas, joins, summaries, and role-specific search behavior
+7. [Permissions and Role Difference Diagnostics](permissions-and-role-difference-diagnostics.md) - How to troubleshoot access, visibility, forms, data restrictions, workflows, scripts, and integration roles
 
 ## What This Module Is For
 
@@ -24,6 +26,8 @@ Examples:
 - An external system cannot create or update a NetSuite record.
 - A process worked previously but began failing after a configuration, release, bundle, role, or data change.
 - An accounts receivable process needs safer visibility, review, or automation around unapplied customer credits.
+- A saved search has missing rows, duplicate rows, wrong totals, formula errors, or role-specific results.
+- One user can perform an action but another user cannot.
 
 ## Troubleshooting Mindset
 
